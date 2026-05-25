@@ -15,8 +15,7 @@ __pycache__/
 # Chroma database
 data/chroma_db/
 
-# Large raw data (optional)
-data/raw/
+
 
 # OS files
 .DS_Store
