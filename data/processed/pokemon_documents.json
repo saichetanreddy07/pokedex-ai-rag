@@ -1,0 +1,1881 @@
+[
+  {
+    "text": "\nPokémon Name: bulbasaur\n\nPokémon Types:\ngrass, poison\n\nAbilities:\novergrow, chlorophyll\n\nBase Stats:\nHP: 45\nAttack: 49\nDefense: 49\nSpecial Attack: 65\nSpecial Defense: 65\nSpeed: 45\n\nCommon Moves:\nrazor-wind, swords-dance, cut, bind, vine-whip, headbutt, tackle, body-slam, take-down, double-edge\n\nHabitat:\ngrassland\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nA strange seed was\nplanted on its\nback at birth.\fThe plant sprouts\nand grows with\nthis POKéMON.\n",
+    "metadata": {
+      "name": "bulbasaur",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "habitat": "grassland",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: ivysaur\n\nPokémon Types:\ngrass, poison\n\nAbilities:\novergrow, chlorophyll\n\nBase Stats:\nHP: 60\nAttack: 62\nDefense: 63\nSpecial Attack: 80\nSpecial Defense: 80\nSpeed: 60\n\nCommon Moves:\nswords-dance, cut, bind, vine-whip, headbutt, tackle, body-slam, take-down, double-edge, growl\n\nHabitat:\ngrassland\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nWhen the bulb on\nits back grows\nlarge, it appears\fto lose the\nability to stand\non its hind legs.\n",
+    "metadata": {
+      "name": "ivysaur",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "habitat": "grassland",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: venusaur\n\nPokémon Types:\ngrass, poison\n\nAbilities:\novergrow, chlorophyll\n\nBase Stats:\nHP: 80\nAttack: 82\nDefense: 83\nSpecial Attack: 100\nSpecial Defense: 100\nSpeed: 80\n\nCommon Moves:\nswords-dance, cut, bind, vine-whip, headbutt, tackle, body-slam, take-down, double-edge, growl\n\nHabitat:\ngrassland\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nThe plant blooms\nwhen it is\nabsorbing solar\fenergy. It stays\non the move to\nseek sunlight.\n",
+    "metadata": {
+      "name": "venusaur",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "habitat": "grassland",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: charmander\n\nPokémon Types:\nfire\n\nAbilities:\nblaze, solar-power\n\nBase Stats:\nHP: 39\nAttack: 52\nDefense: 43\nSpecial Attack: 60\nSpecial Defense: 50\nSpeed: 65\n\nCommon Moves:\nmega-punch, fire-punch, thunder-punch, scratch, swords-dance, cut, wing-attack, mega-kick, headbutt, body-slam\n\nHabitat:\nmountain\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nObviously prefers\nhot places. When\nit rains, steam\fis said to spout\nfrom the tip of\nits tail.\n",
+    "metadata": {
+      "name": "charmander",
+      "types": [
+        "fire"
+      ],
+      "habitat": "mountain",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: charmeleon\n\nPokémon Types:\nfire\n\nAbilities:\nblaze, solar-power\n\nBase Stats:\nHP: 58\nAttack: 64\nDefense: 58\nSpecial Attack: 80\nSpecial Defense: 65\nSpeed: 80\n\nCommon Moves:\nmega-punch, fire-punch, thunder-punch, scratch, swords-dance, cut, mega-kick, headbutt, body-slam, take-down\n\nHabitat:\nmountain\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nWhen it swings\nits burning tail,\nit elevates the\ftemperature to\nunbearably high\nlevels.\n",
+    "metadata": {
+      "name": "charmeleon",
+      "types": [
+        "fire"
+      ],
+      "habitat": "mountain",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: charizard\n\nPokémon Types:\nfire, flying\n\nAbilities:\nblaze, solar-power\n\nBase Stats:\nHP: 78\nAttack: 84\nDefense: 78\nSpecial Attack: 109\nSpecial Defense: 85\nSpeed: 100\n\nCommon Moves:\nmega-punch, fire-punch, thunder-punch, scratch, swords-dance, cut, wing-attack, fly, mega-kick, headbutt\n\nHabitat:\nmountain\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nSpits fire that\nis hot enough to\nmelt boulders.\fKnown to cause\nforest fires\nunintentionally.\n",
+    "metadata": {
+      "name": "charizard",
+      "types": [
+        "fire",
+        "flying"
+      ],
+      "habitat": "mountain",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: squirtle\n\nPokémon Types:\nwater\n\nAbilities:\ntorrent, rain-dish\n\nBase Stats:\nHP: 44\nAttack: 48\nDefense: 65\nSpecial Attack: 50\nSpecial Defense: 64\nSpeed: 43\n\nCommon Moves:\nmega-punch, ice-punch, mega-kick, headbutt, tackle, body-slam, take-down, double-edge, tail-whip, bite\n\nHabitat:\nwaters-edge\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nAfter birth, its\nback swells and\nhardens into a\fshell. Powerfully\nsprays foam from\nits mouth.\n",
+    "metadata": {
+      "name": "squirtle",
+      "types": [
+        "water"
+      ],
+      "habitat": "waters-edge",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: wartortle\n\nPokémon Types:\nwater\n\nAbilities:\ntorrent, rain-dish\n\nBase Stats:\nHP: 59\nAttack: 63\nDefense: 80\nSpecial Attack: 65\nSpecial Defense: 80\nSpeed: 58\n\nCommon Moves:\nmega-punch, ice-punch, mega-kick, headbutt, tackle, body-slam, take-down, double-edge, tail-whip, bite\n\nHabitat:\nwaters-edge\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nOften hides in\nwater to stalk\nunwary prey. For\fswimming fast, it\nmoves its ears to\nmaintain balance.\n",
+    "metadata": {
+      "name": "wartortle",
+      "types": [
+        "water"
+      ],
+      "habitat": "waters-edge",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: blastoise\n\nPokémon Types:\nwater\n\nAbilities:\ntorrent, rain-dish\n\nBase Stats:\nHP: 79\nAttack: 83\nDefense: 100\nSpecial Attack: 85\nSpecial Defense: 105\nSpeed: 78\n\nCommon Moves:\nmega-punch, ice-punch, mega-kick, headbutt, tackle, body-slam, take-down, double-edge, tail-whip, bite\n\nHabitat:\nwaters-edge\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nA brutal POKéMON\nwith pressurized\nwater jets on its\fshell. They are\nused for high\nspeed tackles.\n",
+    "metadata": {
+      "name": "blastoise",
+      "types": [
+        "water"
+      ],
+      "habitat": "waters-edge",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: caterpie\n\nPokémon Types:\nbug\n\nAbilities:\nshield-dust, run-away\n\nBase Stats:\nHP: 45\nAttack: 30\nDefense: 35\nSpecial Attack: 20\nSpecial Defense: 20\nSpeed: 45\n\nCommon Moves:\ntackle, string-shot, snore, bug-bite, electroweb\n\nHabitat:\nforest\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nIts short feet are tipped with suction\npads that enable it to tirelessly climb\nslopes and walls.\n",
+    "metadata": {
+      "name": "caterpie",
+      "types": [
+        "bug"
+      ],
+      "habitat": "forest",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: metapod\n\nPokémon Types:\nbug\n\nAbilities:\nshed-skin\n\nBase Stats:\nHP: 50\nAttack: 20\nDefense: 55\nSpecial Attack: 25\nSpecial Defense: 25\nSpeed: 30\n\nCommon Moves:\nstring-shot, harden, iron-defense, bug-bite, electroweb\n\nHabitat:\nforest\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nThis POKéMON is\nvulnerable to\nattack while its\fshell is soft,\nexposing its weak\nand tender body.\n",
+    "metadata": {
+      "name": "metapod",
+      "types": [
+        "bug"
+      ],
+      "habitat": "forest",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: butterfree\n\nPokémon Types:\nbug, flying\n\nAbilities:\ncompound-eyes, tinted-lens\n\nBase Stats:\nHP: 60\nAttack: 45\nDefense: 50\nSpecial Attack: 90\nSpecial Defense: 80\nSpeed: 70\n\nCommon Moves:\nrazor-wind, gust, whirlwind, headbutt, tackle, take-down, double-edge, supersonic, psybeam, hyper-beam\n\nHabitat:\nforest\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nIn battle, it\nflaps its wings\nat high speed to\frelease highly\ntoxic dust into\nthe air.\n",
+    "metadata": {
+      "name": "butterfree",
+      "types": [
+        "bug",
+        "flying"
+      ],
+      "habitat": "forest",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: weedle\n\nPokémon Types:\nbug, poison\n\nAbilities:\nshield-dust, run-away\n\nBase Stats:\nHP: 40\nAttack: 35\nDefense: 30\nSpecial Attack: 20\nSpecial Defense: 20\nSpeed: 50\n\nCommon Moves:\npoison-sting, string-shot, bug-bite, electroweb\n\nHabitat:\nforest\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nOften found in\nforests, eating\nleaves.\fIt has a sharp\nvenomous stinger\non its head.\n",
+    "metadata": {
+      "name": "weedle",
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "habitat": "forest",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: kakuna\n\nPokémon Types:\nbug, poison\n\nAbilities:\nshed-skin\n\nBase Stats:\nHP: 45\nAttack: 25\nDefense: 50\nSpecial Attack: 25\nSpecial Defense: 25\nSpeed: 35\n\nCommon Moves:\nstring-shot, harden, iron-defense, bug-bite, electroweb\n\nHabitat:\nforest\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nAlmost incapable\nof moving, this\nPOKéMON can only\fharden its shell\nto protect itself\nfrom predators.\n",
+    "metadata": {
+      "name": "kakuna",
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "habitat": "forest",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: beedrill\n\nPokémon Types:\nbug, poison\n\nAbilities:\nswarm, sniper\n\nBase Stats:\nHP: 65\nAttack: 90\nDefense: 40\nSpecial Attack: 45\nSpecial Defense: 80\nSpeed: 75\n\nCommon Moves:\nswords-dance, cut, headbutt, fury-attack, take-down, double-edge, poison-sting, twineedle, pin-missile, hyper-beam\n\nHabitat:\nforest\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nIt has three poisonous stingers on its forelegs and\nits tail. They are used to jab its enemy repeatedly.\n",
+    "metadata": {
+      "name": "beedrill",
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "habitat": "forest",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: pidgey\n\nPokémon Types:\nnormal, flying\n\nAbilities:\nkeen-eye, tangled-feet, big-pecks\n\nBase Stats:\nHP: 40\nAttack: 45\nDefense: 40\nSpecial Attack: 35\nSpecial Defense: 35\nSpeed: 56\n\nCommon Moves:\nrazor-wind, gust, wing-attack, whirlwind, fly, sand-attack, headbutt, tackle, take-down, double-edge\n\nHabitat:\nforest\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nA common sight in\nforests and woods.\nIt flaps its\fwings at ground\nlevel to kick up\nblinding sand.\n",
+    "metadata": {
+      "name": "pidgey",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "habitat": "forest",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: pidgeotto\n\nPokémon Types:\nnormal, flying\n\nAbilities:\nkeen-eye, tangled-feet, big-pecks\n\nBase Stats:\nHP: 63\nAttack: 60\nDefense: 55\nSpecial Attack: 50\nSpecial Defense: 50\nSpeed: 71\n\nCommon Moves:\nrazor-wind, gust, wing-attack, whirlwind, fly, sand-attack, headbutt, tackle, take-down, double-edge\n\nHabitat:\nforest\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nVery protective\nof its sprawling\nterritorial area,\fthis POKéMON will\nfiercely peck at\nany intruder.\n",
+    "metadata": {
+      "name": "pidgeotto",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "habitat": "forest",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: pidgeot\n\nPokémon Types:\nnormal, flying\n\nAbilities:\nkeen-eye, tangled-feet, big-pecks\n\nBase Stats:\nHP: 83\nAttack: 80\nDefense: 75\nSpecial Attack: 70\nSpecial Defense: 70\nSpeed: 101\n\nCommon Moves:\nrazor-wind, gust, wing-attack, whirlwind, fly, sand-attack, headbutt, tackle, take-down, double-edge\n\nHabitat:\nforest\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nWhen hunting, it\nskims the surface\nof water at high\fspeed to pick off\nunwary prey such\nas MAGIKARP.\n",
+    "metadata": {
+      "name": "pidgeot",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "habitat": "forest",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: rattata\n\nPokémon Types:\nnormal\n\nAbilities:\nrun-away, guts, hustle\n\nBase Stats:\nHP: 30\nAttack: 56\nDefense: 35\nSpecial Attack: 25\nSpecial Defense: 35\nSpeed: 72\n\nCommon Moves:\ncut, headbutt, tackle, body-slam, take-down, double-edge, tail-whip, bite, water-gun, ice-beam\n\nHabitat:\ngrassland\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nBites anything\nwhen it attacks.\nSmall and very\fquick, it is a\ncommon sight in\nmany places.\n",
+    "metadata": {
+      "name": "rattata",
+      "types": [
+        "normal"
+      ],
+      "habitat": "grassland",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: raticate\n\nPokémon Types:\nnormal\n\nAbilities:\nrun-away, guts, hustle\n\nBase Stats:\nHP: 55\nAttack: 81\nDefense: 60\nSpecial Attack: 50\nSpecial Defense: 70\nSpeed: 97\n\nCommon Moves:\nswords-dance, cut, headbutt, tackle, body-slam, take-down, double-edge, tail-whip, bite, roar\n\nHabitat:\ngrassland\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nIt uses its whis­\nkers to maintain\nits balance.\fIt apparently\nslows down if\nthey are cut off.\n",
+    "metadata": {
+      "name": "raticate",
+      "types": [
+        "normal"
+      ],
+      "habitat": "grassland",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: spearow\n\nPokémon Types:\nnormal, flying\n\nAbilities:\nkeen-eye, sniper\n\nBase Stats:\nHP: 40\nAttack: 60\nDefense: 30\nSpecial Attack: 31\nSpecial Defense: 31\nSpeed: 70\n\nCommon Moves:\nrazor-wind, wing-attack, whirlwind, fly, headbutt, fury-attack, take-down, double-edge, leer, growl\n\nHabitat:\nrough-terrain\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nIt flaps its small wings busily to\nfly. Using its beak, it searches\nin grass for prey.\n",
+    "metadata": {
+      "name": "spearow",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "habitat": "rough-terrain",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: fearow\n\nPokémon Types:\nnormal, flying\n\nAbilities:\nkeen-eye, sniper\n\nBase Stats:\nHP: 65\nAttack: 90\nDefense: 65\nSpecial Attack: 61\nSpecial Defense: 61\nSpeed: 100\n\nCommon Moves:\nrazor-wind, wing-attack, whirlwind, fly, headbutt, fury-attack, take-down, double-edge, leer, growl\n\nHabitat:\nrough-terrain\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nWith its huge and\nmagnificent wings,\nit can keep aloft\fwithout ever\nhaving to land\nfor rest.\n",
+    "metadata": {
+      "name": "fearow",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "habitat": "rough-terrain",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: ekans\n\nPokémon Types:\npoison\n\nAbilities:\nintimidate, shed-skin, unnerve\n\nBase Stats:\nHP: 35\nAttack: 60\nDefense: 44\nSpecial Attack: 40\nSpecial Defense: 54\nSpeed: 55\n\nCommon Moves:\nbind, slam, headbutt, body-slam, wrap, take-down, double-edge, poison-sting, leer, bite\n\nHabitat:\ngrassland\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nMoves silently\nand stealthily.\nEats the eggs of\fbirds, such as\nPIDGEY and\nSPEAROW, whole.\n",
+    "metadata": {
+      "name": "ekans",
+      "types": [
+        "poison"
+      ],
+      "habitat": "grassland",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: arbok\n\nPokémon Types:\npoison\n\nAbilities:\nintimidate, shed-skin, unnerve\n\nBase Stats:\nHP: 60\nAttack: 95\nDefense: 69\nSpecial Attack: 65\nSpecial Defense: 79\nSpeed: 80\n\nCommon Moves:\nbind, slam, headbutt, body-slam, wrap, take-down, double-edge, poison-sting, leer, bite\n\nHabitat:\ngrassland\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nIt is rumored that\nthe ferocious\nwarning markings\fon its belly\ndiffer from area\nto area.\n",
+    "metadata": {
+      "name": "arbok",
+      "types": [
+        "poison"
+      ],
+      "habitat": "grassland",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: pikachu\n\nPokémon Types:\nelectric\n\nAbilities:\nstatic, lightning-rod\n\nBase Stats:\nHP: 35\nAttack: 55\nDefense: 40\nSpecial Attack: 50\nSpecial Defense: 50\nSpeed: 90\n\nCommon Moves:\nmega-punch, pay-day, thunder-punch, slam, double-kick, mega-kick, headbutt, body-slam, take-down, double-edge\n\nHabitat:\nforest\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nWhen several of\nthese POKéMON\ngather, their\felectricity could\nbuild and cause\nlightning storms.\n",
+    "metadata": {
+      "name": "pikachu",
+      "types": [
+        "electric"
+      ],
+      "habitat": "forest",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: raichu\n\nPokémon Types:\nelectric\n\nAbilities:\nstatic, lightning-rod\n\nBase Stats:\nHP: 60\nAttack: 90\nDefense: 55\nSpecial Attack: 90\nSpecial Defense: 80\nSpeed: 110\n\nCommon Moves:\nmega-punch, pay-day, thunder-punch, slam, mega-kick, headbutt, body-slam, take-down, double-edge, tail-whip\n\nHabitat:\nforest\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nIts long tail serves as a ground to protect itself\nfrom its own high-voltage power.\n",
+    "metadata": {
+      "name": "raichu",
+      "types": [
+        "electric"
+      ],
+      "habitat": "forest",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: sandshrew\n\nPokémon Types:\nground\n\nAbilities:\nsand-veil, sand-rush\n\nBase Stats:\nHP: 50\nAttack: 75\nDefense: 85\nSpecial Attack: 20\nSpecial Defense: 30\nSpeed: 40\n\nCommon Moves:\nscratch, swords-dance, cut, sand-attack, headbutt, body-slam, take-down, double-edge, poison-sting, submission\n\nHabitat:\nrough-terrain\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nBurrows deep\nunderground in\narid locations\ffar from water.\nIt only emerges\nto hunt for food.\n",
+    "metadata": {
+      "name": "sandshrew",
+      "types": [
+        "ground"
+      ],
+      "habitat": "rough-terrain",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: sandslash\n\nPokémon Types:\nground\n\nAbilities:\nsand-veil, sand-rush\n\nBase Stats:\nHP: 75\nAttack: 100\nDefense: 110\nSpecial Attack: 45\nSpecial Defense: 55\nSpeed: 65\n\nCommon Moves:\nscratch, swords-dance, cut, sand-attack, headbutt, body-slam, take-down, double-edge, poison-sting, pin-missile\n\nHabitat:\nrough-terrain\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nCurls up into a\nspiny ball when\nthreatened. It\fcan roll while\ncurled up to\nattack or escape.\n",
+    "metadata": {
+      "name": "sandslash",
+      "types": [
+        "ground"
+      ],
+      "habitat": "rough-terrain",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: nidoran-f\n\nPokémon Types:\npoison\n\nAbilities:\npoison-point, rivalry, hustle\n\nBase Stats:\nHP: 55\nAttack: 47\nDefense: 52\nSpecial Attack: 40\nSpecial Defense: 40\nSpeed: 41\n\nCommon Moves:\nscratch, cut, double-kick, headbutt, tackle, body-slam, take-down, double-edge, tail-whip, poison-sting\n\nHabitat:\ngrassland\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nAlthough small,\nits venomous\nbarbs render this\fPOKéMON dangerous.\nThe female has\nsmaller horns.\n",
+    "metadata": {
+      "name": "nidoran-f",
+      "types": [
+        "poison"
+      ],
+      "habitat": "grassland",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: nidorina\n\nPokémon Types:\npoison\n\nAbilities:\npoison-point, rivalry, hustle\n\nBase Stats:\nHP: 70\nAttack: 62\nDefense: 67\nSpecial Attack: 55\nSpecial Defense: 55\nSpeed: 56\n\nCommon Moves:\nscratch, cut, double-kick, headbutt, horn-drill, tackle, body-slam, take-down, double-edge, tail-whip\n\nHabitat:\ngrassland\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nThe female's horn\ndevelops slowly.\nPrefers physical\fattacks such as\nclawing and\nbiting.\n",
+    "metadata": {
+      "name": "nidorina",
+      "types": [
+        "poison"
+      ],
+      "habitat": "grassland",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: nidoqueen\n\nPokémon Types:\npoison, ground\n\nAbilities:\npoison-point, rivalry, sheer-force\n\nBase Stats:\nHP: 90\nAttack: 92\nDefense: 87\nSpecial Attack: 75\nSpecial Defense: 85\nSpeed: 76\n\nCommon Moves:\nmega-punch, pay-day, fire-punch, ice-punch, thunder-punch, scratch, cut, double-kick, mega-kick, headbutt\n\nHabitat:\ngrassland\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nIts hard scales\nprovide strong\nprotection. It\fuses its hefty\nbulk to execute\npowerful moves.\n",
+    "metadata": {
+      "name": "nidoqueen",
+      "types": [
+        "poison",
+        "ground"
+      ],
+      "habitat": "grassland",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: nidoran-m\n\nPokémon Types:\npoison\n\nAbilities:\npoison-point, rivalry, hustle\n\nBase Stats:\nHP: 46\nAttack: 57\nDefense: 40\nSpecial Attack: 40\nSpecial Defense: 40\nSpeed: 50\n\nCommon Moves:\ncut, double-kick, headbutt, horn-attack, fury-attack, horn-drill, tackle, body-slam, take-down, thrash\n\nHabitat:\ngrassland\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nStiffens its ears\nto sense danger.\nThe larger its\fhorns, the more\npowerful its\nsecreted venom.\n",
+    "metadata": {
+      "name": "nidoran-m",
+      "types": [
+        "poison"
+      ],
+      "habitat": "grassland",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: nidorino\n\nPokémon Types:\npoison\n\nAbilities:\npoison-point, rivalry, hustle\n\nBase Stats:\nHP: 61\nAttack: 72\nDefense: 57\nSpecial Attack: 55\nSpecial Defense: 55\nSpeed: 65\n\nCommon Moves:\ncut, double-kick, headbutt, horn-attack, fury-attack, horn-drill, tackle, body-slam, take-down, double-edge\n\nHabitat:\ngrassland\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nAn aggressive\nPOKéMON that is\nquick to attack.\fThe horn on its\nhead secretes a\npowerful venom.\n",
+    "metadata": {
+      "name": "nidorino",
+      "types": [
+        "poison"
+      ],
+      "habitat": "grassland",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: nidoking\n\nPokémon Types:\npoison, ground\n\nAbilities:\npoison-point, rivalry, sheer-force\n\nBase Stats:\nHP: 81\nAttack: 102\nDefense: 77\nSpecial Attack: 85\nSpecial Defense: 75\nSpeed: 85\n\nCommon Moves:\nmega-punch, pay-day, fire-punch, ice-punch, thunder-punch, cut, double-kick, mega-kick, headbutt, horn-attack\n\nHabitat:\ngrassland\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nIt uses its\npowerful tail in\nbattle to smash,\fconstrict, then\nbreak the prey's\nbones.\n",
+    "metadata": {
+      "name": "nidoking",
+      "types": [
+        "poison",
+        "ground"
+      ],
+      "habitat": "grassland",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: clefairy\n\nPokémon Types:\nfairy\n\nAbilities:\ncute-charm, magic-guard, friend-guard\n\nBase Stats:\nHP: 70\nAttack: 45\nDefense: 48\nSpecial Attack: 60\nSpecial Defense: 65\nSpeed: 35\n\nCommon Moves:\npound, double-slap, mega-punch, fire-punch, ice-punch, thunder-punch, mega-kick, headbutt, tackle, body-slam\n\nHabitat:\nmountain\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nIts magical and\ncute appeal has\nmany admirers.\fIt is rare and\nfound only in\ncertain areas.\n",
+    "metadata": {
+      "name": "clefairy",
+      "types": [
+        "fairy"
+      ],
+      "habitat": "mountain",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: clefable\n\nPokémon Types:\nfairy\n\nAbilities:\ncute-charm, magic-guard, unaware\n\nBase Stats:\nHP: 95\nAttack: 70\nDefense: 73\nSpecial Attack: 95\nSpecial Defense: 90\nSpeed: 60\n\nCommon Moves:\npound, double-slap, mega-punch, fire-punch, ice-punch, thunder-punch, mega-kick, headbutt, tackle, body-slam\n\nHabitat:\nmountain\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nA timid fairy\nPOKéMON that is\nrarely seen. It\fwill run and hide\nthe moment it\nsenses people.\n",
+    "metadata": {
+      "name": "clefable",
+      "types": [
+        "fairy"
+      ],
+      "habitat": "mountain",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: vulpix\n\nPokémon Types:\nfire\n\nAbilities:\nflash-fire, drought\n\nBase Stats:\nHP: 38\nAttack: 41\nDefense: 40\nSpecial Attack: 50\nSpecial Defense: 65\nSpeed: 65\n\nCommon Moves:\nheadbutt, tackle, body-slam, take-down, double-edge, tail-whip, roar, disable, ember, flamethrower\n\nHabitat:\ngrassland\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nAt the time of\nbirth, it has\njust one tail.\fThe tail splits\nfrom its tip as\nit grows older.\n",
+    "metadata": {
+      "name": "vulpix",
+      "types": [
+        "fire"
+      ],
+      "habitat": "grassland",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: ninetales\n\nPokémon Types:\nfire\n\nAbilities:\nflash-fire, drought\n\nBase Stats:\nHP: 73\nAttack: 76\nDefense: 75\nSpecial Attack: 81\nSpecial Defense: 100\nSpeed: 100\n\nCommon Moves:\nheadbutt, tackle, body-slam, take-down, double-edge, tail-whip, roar, disable, ember, flamethrower\n\nHabitat:\ngrassland\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nVery smart and\nvery vengeful.\nGrabbing one of\fits many tails\ncould result in a\n1000-year curse.\n",
+    "metadata": {
+      "name": "ninetales",
+      "types": [
+        "fire"
+      ],
+      "habitat": "grassland",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: jigglypuff\n\nPokémon Types:\nnormal, fairy\n\nAbilities:\ncute-charm, competitive, friend-guard\n\nBase Stats:\nHP: 115\nAttack: 45\nDefense: 20\nSpecial Attack: 45\nSpecial Defense: 25\nSpeed: 20\n\nCommon Moves:\npound, double-slap, mega-punch, fire-punch, ice-punch, thunder-punch, mega-kick, headbutt, body-slam, take-down\n\nHabitat:\ngrassland\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nWhen its huge eyes\nlight up, it sings\na mysteriously\fsoothing melody\nthat lulls its\nenemies to sleep.\n",
+    "metadata": {
+      "name": "jigglypuff",
+      "types": [
+        "normal",
+        "fairy"
+      ],
+      "habitat": "grassland",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: wigglytuff\n\nPokémon Types:\nnormal, fairy\n\nAbilities:\ncute-charm, competitive, frisk\n\nBase Stats:\nHP: 140\nAttack: 70\nDefense: 45\nSpecial Attack: 85\nSpecial Defense: 50\nSpeed: 45\n\nCommon Moves:\npound, double-slap, mega-punch, fire-punch, ice-punch, thunder-punch, mega-kick, headbutt, body-slam, take-down\n\nHabitat:\ngrassland\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nThe body is soft\nand rubbery. When\nangered, it will\fsuck in air and\ninflate itself to\nan enormous size.\n",
+    "metadata": {
+      "name": "wigglytuff",
+      "types": [
+        "normal",
+        "fairy"
+      ],
+      "habitat": "grassland",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: zubat\n\nPokémon Types:\npoison, flying\n\nAbilities:\ninner-focus, infiltrator\n\nBase Stats:\nHP: 40\nAttack: 45\nDefense: 35\nSpecial Attack: 30\nSpecial Defense: 40\nSpeed: 55\n\nCommon Moves:\nrazor-wind, gust, wing-attack, whirlwind, fly, headbutt, take-down, double-edge, bite, supersonic\n\nHabitat:\ncave\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nForms colonies in\nperpetually dark\nplaces. Uses\fultrasonic waves\nto identify and\napproach targets.\n",
+    "metadata": {
+      "name": "zubat",
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "habitat": "cave",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: golbat\n\nPokémon Types:\npoison, flying\n\nAbilities:\ninner-focus, infiltrator\n\nBase Stats:\nHP: 75\nAttack: 80\nDefense: 70\nSpecial Attack: 65\nSpecial Defense: 75\nSpeed: 90\n\nCommon Moves:\nrazor-wind, gust, wing-attack, whirlwind, fly, headbutt, take-down, double-edge, bite, supersonic\n\nHabitat:\ncave\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nOnce it strikes,\nit will not stop\ndraining energy\ffrom the victim\neven if it gets\ntoo heavy to fly.\n",
+    "metadata": {
+      "name": "golbat",
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "habitat": "cave",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: oddish\n\nPokémon Types:\ngrass, poison\n\nAbilities:\nchlorophyll, run-away\n\nBase Stats:\nHP: 45\nAttack: 50\nDefense: 55\nSpecial Attack: 75\nSpecial Defense: 65\nSpeed: 30\n\nCommon Moves:\nswords-dance, cut, headbutt, take-down, double-edge, acid, absorb, mega-drain, leech-seed, growth\n\nHabitat:\ngrassland\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nDuring the day,\nit keeps its face\nburied in the\fground. At night,\nit wanders around\nsowing its seeds.\n",
+    "metadata": {
+      "name": "oddish",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "habitat": "grassland",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: gloom\n\nPokémon Types:\ngrass, poison\n\nAbilities:\nchlorophyll, stench\n\nBase Stats:\nHP: 60\nAttack: 65\nDefense: 70\nSpecial Attack: 85\nSpecial Defense: 75\nSpeed: 40\n\nCommon Moves:\nswords-dance, cut, headbutt, take-down, double-edge, acid, absorb, mega-drain, leech-seed, growth\n\nHabitat:\ngrassland\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nThe fluid that\noozes from its\nmouth isn't drool.\fIt is a nectar\nthat is used to\nattract prey.\n",
+    "metadata": {
+      "name": "gloom",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "habitat": "grassland",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: vileplume\n\nPokémon Types:\ngrass, poison\n\nAbilities:\nchlorophyll, effect-spore\n\nBase Stats:\nHP: 75\nAttack: 80\nDefense: 85\nSpecial Attack: 110\nSpecial Defense: 90\nSpeed: 50\n\nCommon Moves:\nswords-dance, cut, headbutt, body-slam, take-down, double-edge, acid, hyper-beam, absorb, mega-drain\n\nHabitat:\ngrassland\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nIt has the world’s largest petals. With every step,\nthe petals shake out heavy clouds of toxic pollen.\n",
+    "metadata": {
+      "name": "vileplume",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "habitat": "grassland",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: paras\n\nPokémon Types:\nbug, grass\n\nAbilities:\neffect-spore, dry-skin, damp\n\nBase Stats:\nHP: 35\nAttack: 70\nDefense: 55\nSpecial Attack: 45\nSpecial Defense: 55\nSpeed: 25\n\nCommon Moves:\nscratch, swords-dance, cut, headbutt, body-slam, take-down, double-edge, psybeam, counter, absorb\n\nHabitat:\nforest\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nBurrows to suck\ntree roots. The\nmushrooms on its\fback grow by draw­\ning nutrients from\nthe bug host.\n",
+    "metadata": {
+      "name": "paras",
+      "types": [
+        "bug",
+        "grass"
+      ],
+      "habitat": "forest",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: parasect\n\nPokémon Types:\nbug, grass\n\nAbilities:\neffect-spore, dry-skin, damp\n\nBase Stats:\nHP: 60\nAttack: 95\nDefense: 80\nSpecial Attack: 60\nSpecial Defense: 80\nSpeed: 30\n\nCommon Moves:\nscratch, swords-dance, cut, headbutt, body-slam, take-down, double-edge, hyper-beam, counter, absorb\n\nHabitat:\nforest\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nA host-parasite\npair in which the\nparasite mushroom\fhas taken over the\nhost bug. Prefers\ndamp places.\n",
+    "metadata": {
+      "name": "parasect",
+      "types": [
+        "bug",
+        "grass"
+      ],
+      "habitat": "forest",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: venonat\n\nPokémon Types:\nbug, poison\n\nAbilities:\ncompound-eyes, tinted-lens, run-away\n\nBase Stats:\nHP: 60\nAttack: 55\nDefense: 50\nSpecial Attack: 40\nSpecial Defense: 55\nSpeed: 45\n\nCommon Moves:\nheadbutt, tackle, take-down, double-edge, supersonic, disable, psybeam, mega-drain, solar-beam, poison-powder\n\nHabitat:\nforest\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nLives in the\nshadows of tall\ntrees where it\feats insects. It\nis attracted by\nlight at night.\n",
+    "metadata": {
+      "name": "venonat",
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "habitat": "forest",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: venomoth\n\nPokémon Types:\nbug, poison\n\nAbilities:\nshield-dust, tinted-lens, wonder-skin\n\nBase Stats:\nHP: 70\nAttack: 65\nDefense: 60\nSpecial Attack: 90\nSpecial Defense: 75\nSpeed: 90\n\nCommon Moves:\nrazor-wind, gust, whirlwind, headbutt, tackle, take-down, double-edge, supersonic, disable, psybeam\n\nHabitat:\nforest\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nThe dustlike scales covering its wings\nare color-coded to indicate the kinds of\npoison it has.\n",
+    "metadata": {
+      "name": "venomoth",
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "habitat": "forest",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: diglett\n\nPokémon Types:\nground\n\nAbilities:\nsand-veil, arena-trap, sand-force\n\nBase Stats:\nHP: 10\nAttack: 55\nDefense: 25\nSpecial Attack: 35\nSpecial Defense: 45\nSpeed: 95\n\nCommon Moves:\nscratch, swords-dance, cut, sand-attack, headbutt, body-slam, take-down, double-edge, growl, earthquake\n\nHabitat:\ncave\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nLives about one\nyard underground\nwhere it feeds on\fplant roots. It\nsometimes appears\nabove ground.\n",
+    "metadata": {
+      "name": "diglett",
+      "types": [
+        "ground"
+      ],
+      "habitat": "cave",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: dugtrio\n\nPokémon Types:\nground\n\nAbilities:\nsand-veil, arena-trap, sand-force\n\nBase Stats:\nHP: 35\nAttack: 100\nDefense: 50\nSpecial Attack: 50\nSpecial Defense: 70\nSpeed: 120\n\nCommon Moves:\nscratch, swords-dance, cut, sand-attack, headbutt, body-slam, take-down, double-edge, growl, hyper-beam\n\nHabitat:\ncave\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nA team of DIGLETT\ntriplets.\nIt triggers huge\fearthquakes by\nburrowing 60 miles\nunderground.\n",
+    "metadata": {
+      "name": "dugtrio",
+      "types": [
+        "ground"
+      ],
+      "habitat": "cave",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: meowth\n\nPokémon Types:\nnormal\n\nAbilities:\npickup, technician, unnerve\n\nBase Stats:\nHP: 40\nAttack: 45\nDefense: 35\nSpecial Attack: 40\nSpecial Defense: 40\nSpeed: 90\n\nCommon Moves:\npay-day, scratch, cut, headbutt, body-slam, take-down, double-edge, tail-whip, bite, growl\n\nHabitat:\nurban\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nIt washes its face regularly to keep the coin on\nits forehead spotless. It doesn’t get along with\nGalarian Meowth.\n",
+    "metadata": {
+      "name": "meowth",
+      "types": [
+        "normal"
+      ],
+      "habitat": "urban",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: persian\n\nPokémon Types:\nnormal\n\nAbilities:\nlimber, technician, unnerve\n\nBase Stats:\nHP: 65\nAttack: 70\nDefense: 60\nSpecial Attack: 65\nSpecial Defense: 65\nSpeed: 115\n\nCommon Moves:\npay-day, scratch, cut, headbutt, body-slam, take-down, double-edge, bite, growl, roar\n\nHabitat:\nurban\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nAlthough its fur\nhas many admirers,\nit is tough to\fraise as a pet\nbecause of its\nfickle meanness.\n",
+    "metadata": {
+      "name": "persian",
+      "types": [
+        "normal"
+      ],
+      "habitat": "urban",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: psyduck\n\nPokémon Types:\nwater\n\nAbilities:\ndamp, cloud-nine, swift-swim\n\nBase Stats:\nHP: 50\nAttack: 52\nDefense: 48\nSpecial Attack: 65\nSpecial Defense: 50\nSpeed: 55\n\nCommon Moves:\nmega-punch, pay-day, ice-punch, scratch, mega-kick, headbutt, body-slam, take-down, double-edge, tail-whip\n\nHabitat:\nwaters-edge\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nWhile lulling its\nenemies with its\nvacant look, this\fwily POKéMON will\nuse psychokinetic\npowers.\n",
+    "metadata": {
+      "name": "psyduck",
+      "types": [
+        "water"
+      ],
+      "habitat": "waters-edge",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: golduck\n\nPokémon Types:\nwater\n\nAbilities:\ndamp, cloud-nine, swift-swim\n\nBase Stats:\nHP: 80\nAttack: 82\nDefense: 78\nSpecial Attack: 95\nSpecial Defense: 80\nSpeed: 85\n\nCommon Moves:\nmega-punch, pay-day, ice-punch, scratch, mega-kick, headbutt, body-slam, take-down, double-edge, tail-whip\n\nHabitat:\nwaters-edge\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nOften seen swim­\nming elegantly by\nlake shores. It\fis often mistaken\nfor the Japanese\nmonster, Kappa.\n",
+    "metadata": {
+      "name": "golduck",
+      "types": [
+        "water"
+      ],
+      "habitat": "waters-edge",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: mankey\n\nPokémon Types:\nfighting\n\nAbilities:\nvital-spirit, anger-point, defiant\n\nBase Stats:\nHP: 40\nAttack: 80\nDefense: 35\nSpecial Attack: 35\nSpecial Defense: 45\nSpeed: 70\n\nCommon Moves:\nkarate-chop, mega-punch, pay-day, fire-punch, ice-punch, thunder-punch, scratch, mega-kick, headbutt, body-slam\n\nHabitat:\nmountain\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nExtremely quick to\nanger. It could\nbe docile one\fmoment then\nthrashing away\nthe next instant.\n",
+    "metadata": {
+      "name": "mankey",
+      "types": [
+        "fighting"
+      ],
+      "habitat": "mountain",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: primeape\n\nPokémon Types:\nfighting\n\nAbilities:\nvital-spirit, anger-point, defiant\n\nBase Stats:\nHP: 65\nAttack: 105\nDefense: 60\nSpecial Attack: 60\nSpecial Defense: 70\nSpeed: 95\n\nCommon Moves:\nkarate-chop, mega-punch, pay-day, fire-punch, ice-punch, thunder-punch, scratch, mega-kick, headbutt, body-slam\n\nHabitat:\nmountain\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nAlways furious\nand tenacious to\nboot. It will not\fabandon chasing\nits quarry until\nit is caught.\n",
+    "metadata": {
+      "name": "primeape",
+      "types": [
+        "fighting"
+      ],
+      "habitat": "mountain",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: growlithe\n\nPokémon Types:\nfire\n\nAbilities:\nintimidate, flash-fire, justified\n\nBase Stats:\nHP: 55\nAttack: 70\nDefense: 45\nSpecial Attack: 70\nSpecial Defense: 50\nSpeed: 60\n\nCommon Moves:\ndouble-kick, headbutt, body-slam, take-down, thrash, double-edge, leer, bite, roar, ember\n\nHabitat:\ngrassland\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nVery protective\nof its territory.\nIt will bark and\fbite to repel\nintruders from\nits space.\n",
+    "metadata": {
+      "name": "growlithe",
+      "types": [
+        "fire"
+      ],
+      "habitat": "grassland",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: arcanine\n\nPokémon Types:\nfire\n\nAbilities:\nintimidate, flash-fire, justified\n\nBase Stats:\nHP: 90\nAttack: 110\nDefense: 80\nSpecial Attack: 100\nSpecial Defense: 80\nSpeed: 95\n\nCommon Moves:\nheadbutt, body-slam, take-down, double-edge, leer, bite, roar, ember, flamethrower, hyper-beam\n\nHabitat:\ngrassland\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nA POKéMON that\nhas been admired\nsince the past\ffor its beauty.\nIt runs agilely\nas if on wings.\n",
+    "metadata": {
+      "name": "arcanine",
+      "types": [
+        "fire"
+      ],
+      "habitat": "grassland",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: poliwag\n\nPokémon Types:\nwater\n\nAbilities:\nwater-absorb, damp, swift-swim\n\nBase Stats:\nHP: 40\nAttack: 50\nDefense: 40\nSpecial Attack: 40\nSpecial Defense: 40\nSpeed: 90\n\nCommon Moves:\npound, double-slap, headbutt, body-slam, take-down, double-edge, mist, water-gun, hydro-pump, surf\n\nHabitat:\nwaters-edge\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nIts newly grown\nlegs prevent it\nfrom running. It\fappears to prefer\nswimming than\ntrying to stand.\n",
+    "metadata": {
+      "name": "poliwag",
+      "types": [
+        "water"
+      ],
+      "habitat": "waters-edge",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: poliwhirl\n\nPokémon Types:\nwater\n\nAbilities:\nwater-absorb, damp, swift-swim\n\nBase Stats:\nHP: 65\nAttack: 65\nDefense: 65\nSpecial Attack: 50\nSpecial Defense: 50\nSpeed: 90\n\nCommon Moves:\npound, double-slap, mega-punch, ice-punch, mega-kick, headbutt, body-slam, take-down, double-edge, mist\n\nHabitat:\nwaters-edge\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nCapable of living\nin or out of\nwater. When out\fof water, it\nsweats to keep\nits body slimy.\n",
+    "metadata": {
+      "name": "poliwhirl",
+      "types": [
+        "water"
+      ],
+      "habitat": "waters-edge",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: poliwrath\n\nPokémon Types:\nwater, fighting\n\nAbilities:\nwater-absorb, damp, swift-swim\n\nBase Stats:\nHP: 90\nAttack: 95\nDefense: 95\nSpecial Attack: 70\nSpecial Defense: 90\nSpeed: 70\n\nCommon Moves:\npound, double-slap, mega-punch, ice-punch, mega-kick, headbutt, body-slam, take-down, double-edge, mist\n\nHabitat:\nwaters-edge\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nAn adept swimmer\nat both the front\ncrawl and breast\fstroke. Easily\novertakes the best\nhuman swimmers.\n",
+    "metadata": {
+      "name": "poliwrath",
+      "types": [
+        "water",
+        "fighting"
+      ],
+      "habitat": "waters-edge",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: abra\n\nPokémon Types:\npsychic\n\nAbilities:\nsynchronize, inner-focus, magic-guard\n\nBase Stats:\nHP: 25\nAttack: 20\nDefense: 15\nSpecial Attack: 105\nSpecial Defense: 55\nSpeed: 90\n\nCommon Moves:\nmega-punch, fire-punch, ice-punch, thunder-punch, mega-kick, headbutt, body-slam, take-down, double-edge, submission\n\nHabitat:\nurban\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nUsing its ability\nto read minds, it\nwill identify\fimpending danger\nand TELEPORT to\nsafety.\n",
+    "metadata": {
+      "name": "abra",
+      "types": [
+        "psychic"
+      ],
+      "habitat": "urban",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: kadabra\n\nPokémon Types:\npsychic\n\nAbilities:\nsynchronize, inner-focus, magic-guard\n\nBase Stats:\nHP: 40\nAttack: 35\nDefense: 30\nSpecial Attack: 120\nSpecial Defense: 70\nSpeed: 105\n\nCommon Moves:\nmega-punch, fire-punch, ice-punch, thunder-punch, mega-kick, headbutt, body-slam, take-down, double-edge, disable\n\nHabitat:\nurban\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nIt emits special\nalpha waves from\nits body that\finduce headaches\njust by being\nclose by.\n",
+    "metadata": {
+      "name": "kadabra",
+      "types": [
+        "psychic"
+      ],
+      "habitat": "urban",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: alakazam\n\nPokémon Types:\npsychic\n\nAbilities:\nsynchronize, inner-focus, magic-guard\n\nBase Stats:\nHP: 55\nAttack: 50\nDefense: 45\nSpecial Attack: 135\nSpecial Defense: 95\nSpeed: 120\n\nCommon Moves:\nmega-punch, fire-punch, ice-punch, thunder-punch, mega-kick, headbutt, body-slam, take-down, double-edge, disable\n\nHabitat:\nurban\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nIts brain can out­\nperform a super­\ncomputer.\fIts intelligence\nquotient is said\nto be 5,000.\n",
+    "metadata": {
+      "name": "alakazam",
+      "types": [
+        "psychic"
+      ],
+      "habitat": "urban",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: machop\n\nPokémon Types:\nfighting\n\nAbilities:\nguts, no-guard, steadfast\n\nBase Stats:\nHP: 70\nAttack: 80\nDefense: 50\nSpecial Attack: 35\nSpecial Defense: 35\nSpeed: 35\n\nCommon Moves:\nkarate-chop, mega-punch, fire-punch, ice-punch, thunder-punch, mega-kick, rolling-kick, headbutt, tackle, body-slam\n\nHabitat:\nmountain\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nLoves to build\nits muscles.\nIt trains in all\fstyles of martial\narts to become\neven stronger.\n",
+    "metadata": {
+      "name": "machop",
+      "types": [
+        "fighting"
+      ],
+      "habitat": "mountain",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: machoke\n\nPokémon Types:\nfighting\n\nAbilities:\nguts, no-guard, steadfast\n\nBase Stats:\nHP: 80\nAttack: 100\nDefense: 70\nSpecial Attack: 50\nSpecial Defense: 60\nSpeed: 45\n\nCommon Moves:\nkarate-chop, mega-punch, fire-punch, ice-punch, thunder-punch, mega-kick, headbutt, tackle, body-slam, take-down\n\nHabitat:\nmountain\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nIts muscular body\nis so powerful, it\nmust wear a power\fsave belt to be\nable to regulate\nits motions.\n",
+    "metadata": {
+      "name": "machoke",
+      "types": [
+        "fighting"
+      ],
+      "habitat": "mountain",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: machamp\n\nPokémon Types:\nfighting\n\nAbilities:\nguts, no-guard, steadfast\n\nBase Stats:\nHP: 90\nAttack: 130\nDefense: 80\nSpecial Attack: 65\nSpecial Defense: 85\nSpeed: 55\n\nCommon Moves:\nkarate-chop, mega-punch, fire-punch, ice-punch, thunder-punch, mega-kick, headbutt, tackle, body-slam, take-down\n\nHabitat:\nmountain\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nUsing its heavy\nmuscles, it throws\npowerful punches\fthat can send the\nvictim clear over\nthe horizon.\n",
+    "metadata": {
+      "name": "machamp",
+      "types": [
+        "fighting"
+      ],
+      "habitat": "mountain",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: bellsprout\n\nPokémon Types:\ngrass, poison\n\nAbilities:\nchlorophyll, gluttony\n\nBase Stats:\nHP: 50\nAttack: 75\nDefense: 35\nSpecial Attack: 70\nSpecial Defense: 30\nSpeed: 40\n\nCommon Moves:\nswords-dance, cut, bind, slam, vine-whip, headbutt, wrap, take-down, double-edge, acid\n\nHabitat:\nforest\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nA carnivorous\nPOKéMON that traps\nand eats bugs.\fIt uses its root\nfeet to soak up\nneeded moisture.\n",
+    "metadata": {
+      "name": "bellsprout",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "habitat": "forest",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: weepinbell\n\nPokémon Types:\ngrass, poison\n\nAbilities:\nchlorophyll, gluttony\n\nBase Stats:\nHP: 65\nAttack: 90\nDefense: 50\nSpecial Attack: 85\nSpecial Defense: 45\nSpeed: 55\n\nCommon Moves:\nswords-dance, cut, bind, slam, vine-whip, headbutt, body-slam, wrap, take-down, double-edge\n\nHabitat:\nforest\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nIt spits out\nPOISONPOWDER to\nimmobilize the\fenemy and then\nfinishes it with\na spray of ACID.\n",
+    "metadata": {
+      "name": "weepinbell",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "habitat": "forest",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: victreebel\n\nPokémon Types:\ngrass, poison\n\nAbilities:\nchlorophyll, gluttony\n\nBase Stats:\nHP: 80\nAttack: 105\nDefense: 65\nSpecial Attack: 100\nSpecial Defense: 70\nSpeed: 70\n\nCommon Moves:\nswords-dance, cut, bind, slam, vine-whip, headbutt, body-slam, wrap, take-down, double-edge\n\nHabitat:\nforest\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nSaid to live in\nhuge colonies\ndeep in jungles,\falthough no one\nhas ever returned\nfrom there.\n",
+    "metadata": {
+      "name": "victreebel",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "habitat": "forest",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: tentacool\n\nPokémon Types:\nwater, poison\n\nAbilities:\nclear-body, liquid-ooze, rain-dish\n\nBase Stats:\nHP: 40\nAttack: 40\nDefense: 35\nSpecial Attack: 50\nSpecial Defense: 100\nSpeed: 70\n\nCommon Moves:\nswords-dance, cut, bind, headbutt, wrap, take-down, double-edge, poison-sting, supersonic, acid\n\nHabitat:\nsea\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nDrifts in shallow\nseas. Anglers who\nhook them by\faccident are\noften punished by\nits stinging acid.\n",
+    "metadata": {
+      "name": "tentacool",
+      "types": [
+        "water",
+        "poison"
+      ],
+      "habitat": "sea",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: tentacruel\n\nPokémon Types:\nwater, poison\n\nAbilities:\nclear-body, liquid-ooze, rain-dish\n\nBase Stats:\nHP: 80\nAttack: 70\nDefense: 65\nSpecial Attack: 80\nSpecial Defense: 120\nSpeed: 100\n\nCommon Moves:\nswords-dance, cut, bind, headbutt, wrap, take-down, double-edge, poison-sting, supersonic, acid\n\nHabitat:\nsea\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nThe tentacles are\nnormally kept\nshort. On hunts,\fthey are extended\nto ensnare and\nimmobilize prey.\n",
+    "metadata": {
+      "name": "tentacruel",
+      "types": [
+        "water",
+        "poison"
+      ],
+      "habitat": "sea",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: geodude\n\nPokémon Types:\nrock, ground\n\nAbilities:\nrock-head, sturdy, sand-veil\n\nBase Stats:\nHP: 40\nAttack: 80\nDefense: 100\nSpecial Attack: 30\nSpecial Defense: 30\nSpeed: 20\n\nCommon Moves:\nmega-punch, fire-punch, thunder-punch, sand-attack, headbutt, tackle, body-slam, take-down, double-edge, flamethrower\n\nHabitat:\nmountain\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nFound in fields\nand mountains.\nMistaking them\ffor boulders,\npeople often step\nor trip on them.\n",
+    "metadata": {
+      "name": "geodude",
+      "types": [
+        "rock",
+        "ground"
+      ],
+      "habitat": "mountain",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: graveler\n\nPokémon Types:\nrock, ground\n\nAbilities:\nrock-head, sturdy, sand-veil\n\nBase Stats:\nHP: 55\nAttack: 95\nDefense: 115\nSpecial Attack: 45\nSpecial Defense: 45\nSpeed: 35\n\nCommon Moves:\nmega-punch, fire-punch, thunder-punch, sand-attack, headbutt, tackle, body-slam, take-down, double-edge, flamethrower\n\nHabitat:\nmountain\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nRolls down slopes\nto move. It rolls\nover any obstacle\fwithout slowing\nor changing its\ndirection.\n",
+    "metadata": {
+      "name": "graveler",
+      "types": [
+        "rock",
+        "ground"
+      ],
+      "habitat": "mountain",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: golem\n\nPokémon Types:\nrock, ground\n\nAbilities:\nrock-head, sturdy, sand-veil\n\nBase Stats:\nHP: 80\nAttack: 120\nDefense: 130\nSpecial Attack: 55\nSpecial Defense: 65\nSpeed: 45\n\nCommon Moves:\nmega-punch, fire-punch, thunder-punch, mega-kick, sand-attack, headbutt, tackle, body-slam, take-down, double-edge\n\nHabitat:\nmountain\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nIts boulder-like\nbody is extremely\nhard. It can\feasily withstand\ndynamite blasts\nwithout damage.\n",
+    "metadata": {
+      "name": "golem",
+      "types": [
+        "rock",
+        "ground"
+      ],
+      "habitat": "mountain",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: ponyta\n\nPokémon Types:\nfire\n\nAbilities:\nrun-away, flash-fire, flame-body\n\nBase Stats:\nHP: 50\nAttack: 85\nDefense: 55\nSpecial Attack: 65\nSpecial Defense: 65\nSpeed: 90\n\nCommon Moves:\nstomp, double-kick, headbutt, horn-drill, tackle, body-slam, take-down, thrash, double-edge, tail-whip\n\nHabitat:\ngrassland\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nIts hooves are 10\ntimes harder than\ndiamonds. It can\ftrample anything\ncompletely flat\nin little time.\n",
+    "metadata": {
+      "name": "ponyta",
+      "types": [
+        "fire"
+      ],
+      "habitat": "grassland",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: rapidash\n\nPokémon Types:\nfire\n\nAbilities:\nrun-away, flash-fire, flame-body\n\nBase Stats:\nHP: 65\nAttack: 100\nDefense: 70\nSpecial Attack: 80\nSpecial Defense: 80\nSpeed: 105\n\nCommon Moves:\npay-day, swords-dance, stomp, double-kick, headbutt, fury-attack, horn-drill, tackle, body-slam, take-down\n\nHabitat:\ngrassland\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nVery competitive,\nthis POKéMON will\nchase anything\fthat moves fast\nin the hopes of\nracing it.\n",
+    "metadata": {
+      "name": "rapidash",
+      "types": [
+        "fire"
+      ],
+      "habitat": "grassland",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: slowpoke\n\nPokémon Types:\nwater, psychic\n\nAbilities:\noblivious, own-tempo, regenerator\n\nBase Stats:\nHP: 90\nAttack: 65\nDefense: 65\nSpecial Attack: 40\nSpecial Defense: 40\nSpeed: 15\n\nCommon Moves:\npay-day, stomp, headbutt, tackle, body-slam, take-down, double-edge, growl, disable, flamethrower\n\nHabitat:\nwaters-edge\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nIncredibly slow\nand dopey. It\ntakes 5 seconds\ffor it to feel\npain when under\nattack.\n",
+    "metadata": {
+      "name": "slowpoke",
+      "types": [
+        "water",
+        "psychic"
+      ],
+      "habitat": "waters-edge",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: slowbro\n\nPokémon Types:\nwater, psychic\n\nAbilities:\noblivious, own-tempo, regenerator\n\nBase Stats:\nHP: 95\nAttack: 75\nDefense: 110\nSpecial Attack: 100\nSpecial Defense: 80\nSpeed: 30\n\nCommon Moves:\nmega-punch, pay-day, ice-punch, stomp, mega-kick, headbutt, tackle, body-slam, take-down, double-edge\n\nHabitat:\nwaters-edge\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nThe SHELLDER that\nis latched onto\nSLOWPOKE's tail\fis said to feed\non the host's left\nover scraps.\n",
+    "metadata": {
+      "name": "slowbro",
+      "types": [
+        "water",
+        "psychic"
+      ],
+      "habitat": "waters-edge",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: magnemite\n\nPokémon Types:\nelectric, steel\n\nAbilities:\nmagnet-pull, sturdy, analytic\n\nBase Stats:\nHP: 25\nAttack: 35\nDefense: 70\nSpecial Attack: 95\nSpecial Defense: 55\nSpeed: 45\n\nCommon Moves:\nheadbutt, tackle, take-down, double-edge, supersonic, sonic-boom, thunder-shock, thunderbolt, thunder-wave, thunder\n\nHabitat:\nrough-terrain\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nUses anti-gravity\nto stay suspended.\nAppears without\fwarning and uses\nTHUNDER WAVE and\nsimilar moves.\n",
+    "metadata": {
+      "name": "magnemite",
+      "types": [
+        "electric",
+        "steel"
+      ],
+      "habitat": "rough-terrain",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: magneton\n\nPokémon Types:\nelectric, steel\n\nAbilities:\nmagnet-pull, sturdy, analytic\n\nBase Stats:\nHP: 50\nAttack: 60\nDefense: 95\nSpecial Attack: 120\nSpecial Defense: 70\nSpeed: 70\n\nCommon Moves:\nheadbutt, tackle, take-down, double-edge, supersonic, sonic-boom, hyper-beam, thunder-shock, thunderbolt, thunder-wave\n\nHabitat:\nrough-terrain\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nFormed by several\nMAGNEMITEs linked\ntogether. They\ffrequently appear\nwhen sunspots\nflare up.\n",
+    "metadata": {
+      "name": "magneton",
+      "types": [
+        "electric",
+        "steel"
+      ],
+      "habitat": "rough-terrain",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: farfetchd\n\nPokémon Types:\nnormal, flying\n\nAbilities:\nkeen-eye, inner-focus, defiant\n\nBase Stats:\nHP: 52\nAttack: 90\nDefense: 55\nSpecial Attack: 58\nSpecial Defense: 62\nSpeed: 60\n\nCommon Moves:\nrazor-wind, swords-dance, cut, gust, whirlwind, fly, sand-attack, headbutt, fury-attack, body-slam\n\nHabitat:\ngrassland\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nThe sprig of\ngreen onions it\nholds is its\fweapon. It is\nused much like a\nmetal sword.\n",
+    "metadata": {
+      "name": "farfetchd",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "habitat": "grassland",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: doduo\n\nPokémon Types:\nnormal, flying\n\nAbilities:\nrun-away, early-bird, tangled-feet\n\nBase Stats:\nHP: 35\nAttack: 85\nDefense: 45\nSpecial Attack: 35\nSpecial Defense: 35\nSpeed: 75\n\nCommon Moves:\nswords-dance, wing-attack, whirlwind, fly, jump-kick, headbutt, fury-attack, body-slam, take-down, thrash\n\nHabitat:\ngrassland\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nA bird that makes\nup for its poor\nflying with its\ffast foot speed.\nLeaves giant\nfootprints.\n",
+    "metadata": {
+      "name": "doduo",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "habitat": "grassland",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: dodrio\n\nPokémon Types:\nnormal, flying\n\nAbilities:\nrun-away, early-bird, tangled-feet\n\nBase Stats:\nHP: 60\nAttack: 110\nDefense: 70\nSpecial Attack: 60\nSpecial Defense: 60\nSpeed: 110\n\nCommon Moves:\nswords-dance, wing-attack, whirlwind, fly, jump-kick, headbutt, fury-attack, body-slam, take-down, thrash\n\nHabitat:\ngrassland\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nUses its three\nbrains to execute\ncomplex plans.\fWhile two heads\nsleep, one head\nstays awake.\n",
+    "metadata": {
+      "name": "dodrio",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "habitat": "grassland",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: seel\n\nPokémon Types:\nwater\n\nAbilities:\nthick-fat, hydration, ice-body\n\nBase Stats:\nHP: 65\nAttack: 45\nDefense: 55\nSpecial Attack: 45\nSpecial Defense: 70\nSpeed: 45\n\nCommon Moves:\npay-day, slam, headbutt, horn-drill, body-slam, take-down, double-edge, growl, disable, water-gun\n\nHabitat:\nsea\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nThe protruding\nhorn on its head\nis very hard.\fIt is used for\nbashing through\nthick ice.\n",
+    "metadata": {
+      "name": "seel",
+      "types": [
+        "water"
+      ],
+      "habitat": "sea",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: dewgong\n\nPokémon Types:\nwater, ice\n\nAbilities:\nthick-fat, hydration, ice-body\n\nBase Stats:\nHP: 90\nAttack: 70\nDefense: 80\nSpecial Attack: 70\nSpecial Defense: 95\nSpeed: 70\n\nCommon Moves:\npay-day, headbutt, horn-drill, body-slam, take-down, double-edge, growl, disable, water-gun, hydro-pump\n\nHabitat:\nsea\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nStores thermal\nenergy in its\nbody. Swims at a\fsteady 8 knots\neven in intensely\ncold waters.\n",
+    "metadata": {
+      "name": "dewgong",
+      "types": [
+        "water",
+        "ice"
+      ],
+      "habitat": "sea",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: grimer\n\nPokémon Types:\npoison\n\nAbilities:\nstench, sticky-hold, poison-touch\n\nBase Stats:\nHP: 80\nAttack: 80\nDefense: 50\nSpecial Attack: 40\nSpecial Defense: 50\nSpeed: 25\n\nCommon Moves:\npound, fire-punch, ice-punch, thunder-punch, headbutt, body-slam, take-down, disable, flamethrower, strength\n\nHabitat:\nurban\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nAppears in filthy\nareas. Thrives by\nsucking up\fpolluted sludge\nthat is pumped\nout of factories.\n",
+    "metadata": {
+      "name": "grimer",
+      "types": [
+        "poison"
+      ],
+      "habitat": "urban",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: muk\n\nPokémon Types:\npoison\n\nAbilities:\nstench, sticky-hold, poison-touch\n\nBase Stats:\nHP: 105\nAttack: 105\nDefense: 75\nSpecial Attack: 65\nSpecial Defense: 100\nSpeed: 50\n\nCommon Moves:\npound, fire-punch, ice-punch, thunder-punch, headbutt, body-slam, take-down, disable, flamethrower, hyper-beam\n\nHabitat:\nurban\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nThickly covered\nwith a filthy,\nvile sludge. It\fis so toxic, even\nits footprints\ncontain poison.\n",
+    "metadata": {
+      "name": "muk",
+      "types": [
+        "poison"
+      ],
+      "habitat": "urban",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: shellder\n\nPokémon Types:\nwater\n\nAbilities:\nshell-armor, skill-link, overcoat\n\nBase Stats:\nHP: 30\nAttack: 65\nDefense: 100\nSpecial Attack: 45\nSpecial Defense: 25\nSpeed: 40\n\nCommon Moves:\nheadbutt, tackle, take-down, double-edge, twineedle, leer, supersonic, water-gun, hydro-pump, surf\n\nHabitat:\nsea\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nIts hard shell\nrepels any kind\nof attack.\fIt is vulnerable\nonly when its\nshell is open.\n",
+    "metadata": {
+      "name": "shellder",
+      "types": [
+        "water"
+      ],
+      "habitat": "sea",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: cloyster\n\nPokémon Types:\nwater, ice\n\nAbilities:\nshell-armor, skill-link, overcoat\n\nBase Stats:\nHP: 50\nAttack: 95\nDefense: 180\nSpecial Attack: 85\nSpecial Defense: 45\nSpeed: 70\n\nCommon Moves:\nheadbutt, tackle, body-slam, take-down, double-edge, twineedle, pin-missile, leer, supersonic, water-gun\n\nHabitat:\nsea\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nWhen attacked, it\nlaunches its\nhorns in quick\fvolleys. Its\ninnards have\nnever been seen.\n",
+    "metadata": {
+      "name": "cloyster",
+      "types": [
+        "water",
+        "ice"
+      ],
+      "habitat": "sea",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: gastly\n\nPokémon Types:\nghost, poison\n\nAbilities:\nlevitate\n\nBase Stats:\nHP: 30\nAttack: 35\nDefense: 30\nSpecial Attack: 100\nSpecial Defense: 35\nSpeed: 80\n\nCommon Moves:\nfire-punch, ice-punch, thunder-punch, headbutt, disable, mega-drain, thunderbolt, thunder, toxic, psychic\n\nHabitat:\ncave\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nAlmost invisible,\nthis gaseous\nPOKéMON cloaks\fthe target and\nputs it to sleep\nwithout notice.\n",
+    "metadata": {
+      "name": "gastly",
+      "types": [
+        "ghost",
+        "poison"
+      ],
+      "habitat": "cave",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: haunter\n\nPokémon Types:\nghost, poison\n\nAbilities:\nlevitate\n\nBase Stats:\nHP: 45\nAttack: 50\nDefense: 45\nSpecial Attack: 115\nSpecial Defense: 55\nSpeed: 95\n\nCommon Moves:\nfire-punch, ice-punch, thunder-punch, headbutt, mega-drain, thunderbolt, thunder, toxic, psychic, hypnosis\n\nHabitat:\ncave\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nBecause of its\nability to slip\nthrough block\fwalls, it is said\nto be from an­\nother dimension.\n",
+    "metadata": {
+      "name": "haunter",
+      "types": [
+        "ghost",
+        "poison"
+      ],
+      "habitat": "cave",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: gengar\n\nPokémon Types:\nghost, poison\n\nAbilities:\ncursed-body\n\nBase Stats:\nHP: 60\nAttack: 65\nDefense: 60\nSpecial Attack: 130\nSpecial Defense: 75\nSpeed: 110\n\nCommon Moves:\nmega-punch, fire-punch, ice-punch, thunder-punch, mega-kick, headbutt, body-slam, take-down, double-edge, disable\n\nHabitat:\ncave\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nUnder a full moon,\nthis POKéMON\nlikes to mimic\fthe shadows of\npeople and laugh\nat their fright.\n",
+    "metadata": {
+      "name": "gengar",
+      "types": [
+        "ghost",
+        "poison"
+      ],
+      "habitat": "cave",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: onix\n\nPokémon Types:\nrock, ground\n\nAbilities:\nrock-head, sturdy, weak-armor\n\nBase Stats:\nHP: 35\nAttack: 45\nDefense: 160\nSpecial Attack: 30\nSpecial Defense: 45\nSpeed: 70\n\nCommon Moves:\nbind, slam, headbutt, tackle, body-slam, take-down, double-edge, roar, strength, rock-throw\n\nHabitat:\ncave\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nAs it grows, the\nstone portions of\nits body harden\fto become similar\nto a diamond, but\ncolored black.\n",
+    "metadata": {
+      "name": "onix",
+      "types": [
+        "rock",
+        "ground"
+      ],
+      "habitat": "cave",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: drowzee\n\nPokémon Types:\npsychic\n\nAbilities:\ninsomnia, forewarn, inner-focus\n\nBase Stats:\nHP: 60\nAttack: 48\nDefense: 45\nSpecial Attack: 43\nSpecial Defense: 90\nSpeed: 42\n\nCommon Moves:\npound, mega-punch, fire-punch, ice-punch, thunder-punch, mega-kick, headbutt, body-slam, take-down, double-edge\n\nHabitat:\ngrassland\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nPuts enemies to\nsleep then eats\ntheir dreams.\fOccasionally gets\nsick from eating\nbad dreams.\n",
+    "metadata": {
+      "name": "drowzee",
+      "types": [
+        "psychic"
+      ],
+      "habitat": "grassland",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: hypno\n\nPokémon Types:\npsychic\n\nAbilities:\ninsomnia, forewarn, inner-focus\n\nBase Stats:\nHP: 85\nAttack: 73\nDefense: 70\nSpecial Attack: 73\nSpecial Defense: 115\nSpeed: 67\n\nCommon Moves:\npound, mega-punch, fire-punch, ice-punch, thunder-punch, mega-kick, headbutt, body-slam, take-down, double-edge\n\nHabitat:\ngrassland\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nWhen it locks eyes\nwith an enemy, it\nwill use a mix of\fPSI moves such as\nHYPNOSIS and\nCONFUSION.\n",
+    "metadata": {
+      "name": "hypno",
+      "types": [
+        "psychic"
+      ],
+      "habitat": "grassland",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: krabby\n\nPokémon Types:\nwater\n\nAbilities:\nhyper-cutter, shell-armor, sheer-force\n\nBase Stats:\nHP: 30\nAttack: 105\nDefense: 90\nSpecial Attack: 25\nSpecial Defense: 25\nSpeed: 50\n\nCommon Moves:\nvice-grip, guillotine, swords-dance, cut, slam, stomp, headbutt, body-slam, take-down, double-edge\n\nHabitat:\nwaters-edge\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nIts pincers are\nnot only powerful\nweapons, they are\fused for balance\nwhen walking\nsideways.\n",
+    "metadata": {
+      "name": "krabby",
+      "types": [
+        "water"
+      ],
+      "habitat": "waters-edge",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: kingler\n\nPokémon Types:\nwater\n\nAbilities:\nhyper-cutter, shell-armor, sheer-force\n\nBase Stats:\nHP: 55\nAttack: 130\nDefense: 115\nSpecial Attack: 50\nSpecial Defense: 50\nSpeed: 75\n\nCommon Moves:\nvice-grip, guillotine, swords-dance, cut, slam, stomp, headbutt, body-slam, take-down, double-edge\n\nHabitat:\nwaters-edge\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nThe large pincer\nhas 10000 hp of\ncrushing power.\fHowever, its huge\nsize makes it\nunwieldy to use.\n",
+    "metadata": {
+      "name": "kingler",
+      "types": [
+        "water"
+      ],
+      "habitat": "waters-edge",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: voltorb\n\nPokémon Types:\nelectric\n\nAbilities:\nsoundproof, static, aftermath\n\nBase Stats:\nHP: 40\nAttack: 30\nDefense: 50\nSpecial Attack: 55\nSpecial Defense: 55\nSpeed: 100\n\nCommon Moves:\nheadbutt, tackle, take-down, double-edge, sonic-boom, thunder-shock, thunderbolt, thunder-wave, thunder, toxic\n\nHabitat:\nurban\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nUsually found in\npower plants.\nEasily mistaken\ffor a POKé BALL,\nthey have zapped\nmany people.\n",
+    "metadata": {
+      "name": "voltorb",
+      "types": [
+        "electric"
+      ],
+      "habitat": "urban",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: electrode\n\nPokémon Types:\nelectric\n\nAbilities:\nsoundproof, static, aftermath\n\nBase Stats:\nHP: 60\nAttack: 50\nDefense: 70\nSpecial Attack: 80\nSpecial Defense: 80\nSpeed: 150\n\nCommon Moves:\nheadbutt, tackle, take-down, double-edge, sonic-boom, hyper-beam, thunder-shock, thunderbolt, thunder-wave, thunder\n\nHabitat:\nurban\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nIt stores electric\nenergy under very\nhigh pressure.\fIt often explodes\nwith little or no\nprovocation.\n",
+    "metadata": {
+      "name": "electrode",
+      "types": [
+        "electric"
+      ],
+      "habitat": "urban",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: exeggcute\n\nPokémon Types:\ngrass, psychic\n\nAbilities:\nchlorophyll, harvest\n\nBase Stats:\nHP: 60\nAttack: 40\nDefense: 80\nSpecial Attack: 60\nSpecial Defense: 45\nSpeed: 40\n\nCommon Moves:\nswords-dance, headbutt, take-down, double-edge, psybeam, strength, absorb, mega-drain, leech-seed, solar-beam\n\nHabitat:\nforest\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nOften mistaken\nfor eggs.\nWhen disturbed,\fthey quickly\ngather and attack\nin swarms.\n",
+    "metadata": {
+      "name": "exeggcute",
+      "types": [
+        "grass",
+        "psychic"
+      ],
+      "habitat": "forest",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: exeggutor\n\nPokémon Types:\ngrass, psychic\n\nAbilities:\nchlorophyll, harvest\n\nBase Stats:\nHP: 95\nAttack: 95\nDefense: 85\nSpecial Attack: 125\nSpecial Defense: 75\nSpeed: 55\n\nCommon Moves:\nswords-dance, stomp, headbutt, body-slam, take-down, double-edge, psybeam, hyper-beam, low-kick, strength\n\nHabitat:\nforest\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nLegend has it that\non rare occasions,\none of its heads\fwill drop off and\ncontinue on as an\nEXEGGCUTE.\n",
+    "metadata": {
+      "name": "exeggutor",
+      "types": [
+        "grass",
+        "psychic"
+      ],
+      "habitat": "forest",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: cubone\n\nPokémon Types:\nground\n\nAbilities:\nrock-head, lightning-rod, battle-armor\n\nBase Stats:\nHP: 50\nAttack: 50\nDefense: 95\nSpecial Attack: 40\nSpecial Defense: 50\nSpeed: 35\n\nCommon Moves:\nmega-punch, fire-punch, thunder-punch, swords-dance, double-kick, mega-kick, headbutt, body-slam, take-down, thrash\n\nHabitat:\nmountain\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nBecause it never\nremoves its skull\nhelmet, no one\fhas ever seen\nthis POKéMON's\nreal face.\n",
+    "metadata": {
+      "name": "cubone",
+      "types": [
+        "ground"
+      ],
+      "habitat": "mountain",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: marowak\n\nPokémon Types:\nground\n\nAbilities:\nrock-head, lightning-rod, battle-armor\n\nBase Stats:\nHP: 60\nAttack: 80\nDefense: 110\nSpecial Attack: 50\nSpecial Defense: 80\nSpeed: 45\n\nCommon Moves:\nmega-punch, fire-punch, thunder-punch, swords-dance, mega-kick, headbutt, body-slam, take-down, thrash, double-edge\n\nHabitat:\nmountain\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nThe bone it holds\nis its key weapon.\nIt throws the\fbone skillfully\nlike a boomerang\nto KO targets.\n",
+    "metadata": {
+      "name": "marowak",
+      "types": [
+        "ground"
+      ],
+      "habitat": "mountain",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: hitmonlee\n\nPokémon Types:\nfighting\n\nAbilities:\nlimber, reckless, unburden\n\nBase Stats:\nHP: 50\nAttack: 120\nDefense: 53\nSpecial Attack: 35\nSpecial Defense: 110\nSpeed: 87\n\nCommon Moves:\nmega-punch, swords-dance, double-kick, mega-kick, jump-kick, rolling-kick, headbutt, tackle, body-slam, take-down\n\nHabitat:\nurban\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nWhen in a hurry,\nits legs lengthen\nprogressively.\fIt runs smoothly\nwith extra long,\nloping strides.\n",
+    "metadata": {
+      "name": "hitmonlee",
+      "types": [
+        "fighting"
+      ],
+      "habitat": "urban",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: hitmonchan\n\nPokémon Types:\nfighting\n\nAbilities:\nkeen-eye, iron-fist, inner-focus\n\nBase Stats:\nHP: 50\nAttack: 105\nDefense: 79\nSpecial Attack: 35\nSpecial Defense: 110\nSpeed: 76\n\nCommon Moves:\ncomet-punch, mega-punch, fire-punch, ice-punch, thunder-punch, swords-dance, mega-kick, headbutt, tackle, body-slam\n\nHabitat:\nurban\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nWhile apparently\ndoing nothing, it\nfires punches in\flightning fast\nvolleys that are\nimpossible to see.\n",
+    "metadata": {
+      "name": "hitmonchan",
+      "types": [
+        "fighting"
+      ],
+      "habitat": "urban",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: lickitung\n\nPokémon Types:\nnormal\n\nAbilities:\nown-tempo, oblivious, cloud-nine\n\nBase Stats:\nHP: 90\nAttack: 55\nDefense: 75\nSpecial Attack: 60\nSpecial Defense: 75\nSpeed: 30\n\nCommon Moves:\nmega-punch, fire-punch, ice-punch, thunder-punch, swords-dance, cut, bind, slam, stomp, mega-kick\n\nHabitat:\ngrassland\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nIts tongue can be\nextended like a\nchameleon's. It\fleaves a tingling\nsensation when it\nlicks enemies.\n",
+    "metadata": {
+      "name": "lickitung",
+      "types": [
+        "normal"
+      ],
+      "habitat": "grassland",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: koffing\n\nPokémon Types:\npoison\n\nAbilities:\nlevitate, neutralizing-gas, stench\n\nBase Stats:\nHP: 40\nAttack: 65\nDefense: 95\nSpecial Attack: 60\nSpecial Defense: 45\nSpeed: 35\n\nCommon Moves:\nheadbutt, tackle, body-slam, take-down, flamethrower, psybeam, thunderbolt, thunder, toxic, rage\n\nHabitat:\nurban\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nBecause it stores\nseveral kinds of\ntoxic gases in\fits body, it is\nprone to exploding\nwithout warning.\n",
+    "metadata": {
+      "name": "koffing",
+      "types": [
+        "poison"
+      ],
+      "habitat": "urban",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: weezing\n\nPokémon Types:\npoison\n\nAbilities:\nlevitate, neutralizing-gas, stench\n\nBase Stats:\nHP: 65\nAttack: 90\nDefense: 120\nSpecial Attack: 85\nSpecial Defense: 70\nSpeed: 60\n\nCommon Moves:\nheadbutt, tackle, body-slam, take-down, flamethrower, psybeam, hyper-beam, thunderbolt, thunder, toxic\n\nHabitat:\nurban\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nWhere two kinds\nof poison gases\nmeet, 2 KOFFINGs\fcan fuse into a\nWEEZING over many\nyears.\n",
+    "metadata": {
+      "name": "weezing",
+      "types": [
+        "poison"
+      ],
+      "habitat": "urban",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: rhyhorn\n\nPokémon Types:\nground, rock\n\nAbilities:\nlightning-rod, rock-head, reckless\n\nBase Stats:\nHP: 80\nAttack: 85\nDefense: 95\nSpecial Attack: 30\nSpecial Defense: 30\nSpeed: 25\n\nCommon Moves:\nswords-dance, stomp, sand-attack, headbutt, horn-attack, fury-attack, horn-drill, tackle, body-slam, take-down\n\nHabitat:\nrough-terrain\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nA POKéMON with a\none-track mind.\nOnce it charges, \fit won't stop\nrunning until it\nfalls asleep.\n",
+    "metadata": {
+      "name": "rhyhorn",
+      "types": [
+        "ground",
+        "rock"
+      ],
+      "habitat": "rough-terrain",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: rhydon\n\nPokémon Types:\nground, rock\n\nAbilities:\nlightning-rod, rock-head, reckless\n\nBase Stats:\nHP: 105\nAttack: 130\nDefense: 120\nSpecial Attack: 45\nSpecial Defense: 45\nSpeed: 40\n\nCommon Moves:\nmega-punch, pay-day, fire-punch, ice-punch, thunder-punch, swords-dance, cut, stomp, mega-kick, sand-attack\n\nHabitat:\nrough-terrain\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nProtected by an\narmor-like hide,\nit is capable of\fliving in molten\nlava of 3,600\ndegrees.\n",
+    "metadata": {
+      "name": "rhydon",
+      "types": [
+        "ground",
+        "rock"
+      ],
+      "habitat": "rough-terrain",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: chansey\n\nPokémon Types:\nnormal\n\nAbilities:\nnatural-cure, serene-grace, healer\n\nBase Stats:\nHP: 250\nAttack: 5\nDefense: 5\nSpecial Attack: 35\nSpecial Defense: 105\nSpeed: 50\n\nCommon Moves:\npound, double-slap, mega-punch, fire-punch, ice-punch, thunder-punch, mega-kick, headbutt, tackle, body-slam\n\nHabitat:\nurban\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nA rare and elusive\nPOKéMON that is\nsaid to bring\fhappiness to those\nwho manage to get\nit.\n",
+    "metadata": {
+      "name": "chansey",
+      "types": [
+        "normal"
+      ],
+      "habitat": "urban",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: tangela\n\nPokémon Types:\ngrass\n\nAbilities:\nchlorophyll, leaf-guard, regenerator\n\nBase Stats:\nHP: 65\nAttack: 55\nDefense: 115\nSpecial Attack: 100\nSpecial Defense: 40\nSpeed: 60\n\nCommon Moves:\nswords-dance, cut, bind, slam, vine-whip, headbutt, body-slam, take-down, double-edge, hyper-beam\n\nHabitat:\ngrassland\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nThe whole body is\nswathed with wide\nvines that are\fsimilar to sea­\nweed. Its vines\nshake as it walks.\n",
+    "metadata": {
+      "name": "tangela",
+      "types": [
+        "grass"
+      ],
+      "habitat": "grassland",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: kangaskhan\n\nPokémon Types:\nnormal\n\nAbilities:\nearly-bird, scrappy, inner-focus\n\nBase Stats:\nHP: 105\nAttack: 95\nDefense: 80\nSpecial Attack: 40\nSpecial Defense: 80\nSpeed: 90\n\nCommon Moves:\npound, comet-punch, mega-punch, fire-punch, ice-punch, thunder-punch, cut, stomp, mega-kick, headbutt\n\nHabitat:\ngrassland\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nThe infant rarely\nventures out of\nits mother's\fprotective pouch\nuntil it is 3\nyears old.\n",
+    "metadata": {
+      "name": "kangaskhan",
+      "types": [
+        "normal"
+      ],
+      "habitat": "grassland",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: horsea\n\nPokémon Types:\nwater\n\nAbilities:\nswift-swim, sniper, damp\n\nBase Stats:\nHP: 30\nAttack: 40\nDefense: 70\nSpecial Attack: 70\nSpecial Defense: 25\nSpeed: 60\n\nCommon Moves:\nrazor-wind, headbutt, take-down, double-edge, leer, disable, water-gun, hydro-pump, surf, ice-beam\n\nHabitat:\nsea\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nKnown to shoot\ndown flying bugs\nwith precision\fblasts of ink\nfrom the surface\nof the water.\n",
+    "metadata": {
+      "name": "horsea",
+      "types": [
+        "water"
+      ],
+      "habitat": "sea",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: seadra\n\nPokémon Types:\nwater\n\nAbilities:\npoison-point, sniper, damp\n\nBase Stats:\nHP: 55\nAttack: 65\nDefense: 95\nSpecial Attack: 95\nSpecial Defense: 45\nSpeed: 85\n\nCommon Moves:\nheadbutt, take-down, double-edge, leer, disable, water-gun, hydro-pump, surf, ice-beam, blizzard\n\nHabitat:\nsea\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nCapable of swim­\nming backwards by\nrapidly flapping\fits wing-like\npectoral fins and\nstout tail.\n",
+    "metadata": {
+      "name": "seadra",
+      "types": [
+        "water"
+      ],
+      "habitat": "sea",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: goldeen\n\nPokémon Types:\nwater\n\nAbilities:\nswift-swim, water-veil, lightning-rod\n\nBase Stats:\nHP: 45\nAttack: 67\nDefense: 60\nSpecial Attack: 35\nSpecial Defense: 50\nSpeed: 63\n\nCommon Moves:\nswords-dance, headbutt, horn-attack, fury-attack, horn-drill, body-slam, take-down, double-edge, tail-whip, supersonic\n\nHabitat:\nwaters-edge\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nIts tail fin\nbillows like an\nelegant ballroom\fdress, giving it\nthe nickname of\nthe Water Queen.\n",
+    "metadata": {
+      "name": "goldeen",
+      "types": [
+        "water"
+      ],
+      "habitat": "waters-edge",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: seaking\n\nPokémon Types:\nwater\n\nAbilities:\nswift-swim, water-veil, lightning-rod\n\nBase Stats:\nHP: 80\nAttack: 92\nDefense: 65\nSpecial Attack: 65\nSpecial Defense: 80\nSpeed: 68\n\nCommon Moves:\nswords-dance, headbutt, horn-attack, fury-attack, horn-drill, body-slam, take-down, double-edge, tail-whip, supersonic\n\nHabitat:\nwaters-edge\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nIn the autumn spawning season, they can\nbe seen swimming powerfully up rivers and\ncreeks.\n",
+    "metadata": {
+      "name": "seaking",
+      "types": [
+        "water"
+      ],
+      "habitat": "waters-edge",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: staryu\n\nPokémon Types:\nwater\n\nAbilities:\nilluminate, natural-cure, analytic\n\nBase Stats:\nHP: 30\nAttack: 45\nDefense: 55\nSpecial Attack: 70\nSpecial Defense: 55\nSpeed: 85\n\nCommon Moves:\nheadbutt, tackle, take-down, double-edge, supersonic, water-gun, hydro-pump, surf, ice-beam, blizzard\n\nHabitat:\nsea\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nIf its body is torn, it can grow\nback if the red core remains.\nThe core flashes at midnight.\n",
+    "metadata": {
+      "name": "staryu",
+      "types": [
+        "water"
+      ],
+      "habitat": "sea",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: starmie\n\nPokémon Types:\nwater, psychic\n\nAbilities:\nilluminate, natural-cure, analytic\n\nBase Stats:\nHP: 60\nAttack: 75\nDefense: 85\nSpecial Attack: 100\nSpecial Defense: 85\nSpeed: 115\n\nCommon Moves:\nheadbutt, tackle, take-down, double-edge, water-gun, hydro-pump, surf, ice-beam, blizzard, psybeam\n\nHabitat:\nsea\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nIts central core\nglows with the\nseven colors of\fthe rainbow. Some\npeople value the\ncore as a gem.\n",
+    "metadata": {
+      "name": "starmie",
+      "types": [
+        "water",
+        "psychic"
+      ],
+      "habitat": "sea",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: mr-mime\n\nPokémon Types:\npsychic, fairy\n\nAbilities:\nsoundproof, filter, technician\n\nBase Stats:\nHP: 40\nAttack: 45\nDefense: 65\nSpecial Attack: 100\nSpecial Defense: 120\nSpeed: 90\n\nCommon Moves:\npound, double-slap, mega-punch, fire-punch, ice-punch, thunder-punch, mega-kick, headbutt, body-slam, take-down\n\nHabitat:\nurban\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nIf interrupted\nwhile it is\nmiming, it will\fslap around the\noffender with its\nbroad hands.\n",
+    "metadata": {
+      "name": "mr-mime",
+      "types": [
+        "psychic",
+        "fairy"
+      ],
+      "habitat": "urban",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: scyther\n\nPokémon Types:\nbug, flying\n\nAbilities:\nswarm, technician, steadfast\n\nBase Stats:\nHP: 70\nAttack: 110\nDefense: 80\nSpecial Attack: 55\nSpecial Defense: 80\nSpeed: 105\n\nCommon Moves:\nrazor-wind, swords-dance, cut, wing-attack, headbutt, take-down, double-edge, leer, hyper-beam, counter\n\nHabitat:\ngrassland\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nWith ninja-like\nagility and speed,\nit can create the\fillusion that\nthere is more\nthan one.\n",
+    "metadata": {
+      "name": "scyther",
+      "types": [
+        "bug",
+        "flying"
+      ],
+      "habitat": "grassland",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: jynx\n\nPokémon Types:\nice, psychic\n\nAbilities:\noblivious, forewarn, dry-skin\n\nBase Stats:\nHP: 65\nAttack: 50\nDefense: 35\nSpecial Attack: 115\nSpecial Defense: 95\nSpeed: 95\n\nCommon Moves:\npound, double-slap, mega-punch, ice-punch, mega-kick, headbutt, body-slam, take-down, thrash, double-edge\n\nHabitat:\nurban\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nIt seductively\nwiggles its hips\nas it walks. It\fcan cause people\nto dance in\nunison with it.\n",
+    "metadata": {
+      "name": "jynx",
+      "types": [
+        "ice",
+        "psychic"
+      ],
+      "habitat": "urban",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: electabuzz\n\nPokémon Types:\nelectric\n\nAbilities:\nstatic, vital-spirit\n\nBase Stats:\nHP: 65\nAttack: 83\nDefense: 57\nSpecial Attack: 95\nSpecial Defense: 85\nSpeed: 105\n\nCommon Moves:\nmega-punch, fire-punch, ice-punch, thunder-punch, mega-kick, headbutt, body-slam, take-down, double-edge, leer\n\nHabitat:\ngrassland\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nNormally found\nnear power plants,\nthey can wander\faway and cause\nmajor blackouts\nin cities.\n",
+    "metadata": {
+      "name": "electabuzz",
+      "types": [
+        "electric"
+      ],
+      "habitat": "grassland",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: magmar\n\nPokémon Types:\nfire\n\nAbilities:\nflame-body, vital-spirit\n\nBase Stats:\nHP: 65\nAttack: 95\nDefense: 57\nSpecial Attack: 100\nSpecial Defense: 85\nSpeed: 93\n\nCommon Moves:\nmega-punch, fire-punch, thunder-punch, mega-kick, headbutt, tackle, body-slam, take-down, double-edge, leer\n\nHabitat:\nmountain\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nIts body always\nburns with an\norange glow that\fenables it to\nhide perfectly\namong flames.\n",
+    "metadata": {
+      "name": "magmar",
+      "types": [
+        "fire"
+      ],
+      "habitat": "mountain",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: pinsir\n\nPokémon Types:\nbug\n\nAbilities:\nhyper-cutter, mold-breaker, moxie\n\nBase Stats:\nHP: 65\nAttack: 125\nDefense: 100\nSpecial Attack: 55\nSpecial Defense: 70\nSpeed: 85\n\nCommon Moves:\nvice-grip, guillotine, swords-dance, cut, bind, headbutt, fury-attack, body-slam, take-down, thrash\n\nHabitat:\nforest\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nIf it fails to\ncrush the victim\nin its pincers,\fit will swing it\naround and toss\nit hard.\n",
+    "metadata": {
+      "name": "pinsir",
+      "types": [
+        "bug"
+      ],
+      "habitat": "forest",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: tauros\n\nPokémon Types:\nnormal\n\nAbilities:\nintimidate, anger-point, sheer-force\n\nBase Stats:\nHP: 75\nAttack: 100\nDefense: 95\nSpecial Attack: 40\nSpecial Defense: 70\nSpeed: 110\n\nCommon Moves:\nstomp, headbutt, horn-attack, horn-drill, tackle, body-slam, take-down, thrash, double-edge, tail-whip\n\nHabitat:\ngrassland\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nWhen it targets\nan enemy, it\ncharges furiously\fwhile whipping its\nbody with its\nlong tails.\n",
+    "metadata": {
+      "name": "tauros",
+      "types": [
+        "normal"
+      ],
+      "habitat": "grassland",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: magikarp\n\nPokémon Types:\nwater\n\nAbilities:\nswift-swim, rattled\n\nBase Stats:\nHP: 20\nAttack: 10\nDefense: 55\nSpecial Attack: 15\nSpecial Defense: 20\nSpeed: 80\n\nCommon Moves:\ntackle, hydro-pump, splash, flail, bounce\n\nHabitat:\nwaters-edge\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nIn the distant\npast, it was\nsomewhat stronger\fthan the horribly\nweak descendants\nthat exist today.\n",
+    "metadata": {
+      "name": "magikarp",
+      "types": [
+        "water"
+      ],
+      "habitat": "waters-edge",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: gyarados\n\nPokémon Types:\nwater, flying\n\nAbilities:\nintimidate, moxie\n\nBase Stats:\nHP: 95\nAttack: 125\nDefense: 79\nSpecial Attack: 60\nSpecial Defense: 100\nSpeed: 81\n\nCommon Moves:\nbind, headbutt, tackle, body-slam, take-down, thrash, double-edge, leer, bite, roar\n\nHabitat:\nwaters-edge\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nOnce it begins to rampage, a\nGYARADOS will burn everything\ndown, even in a harsh storm.\n",
+    "metadata": {
+      "name": "gyarados",
+      "types": [
+        "water",
+        "flying"
+      ],
+      "habitat": "waters-edge",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: lapras\n\nPokémon Types:\nwater, ice\n\nAbilities:\nwater-absorb, shell-armor, hydration\n\nBase Stats:\nHP: 130\nAttack: 85\nDefense: 80\nSpecial Attack: 85\nSpecial Defense: 95\nSpeed: 60\n\nCommon Moves:\nheadbutt, horn-drill, body-slam, take-down, double-edge, growl, roar, sing, mist, water-gun\n\nHabitat:\nsea\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nA POKéMON that\nhas been over­\nhunted almost to\fextinction. It\ncan ferry people\nacross the water.\n",
+    "metadata": {
+      "name": "lapras",
+      "types": [
+        "water",
+        "ice"
+      ],
+      "habitat": "sea",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: ditto\n\nPokémon Types:\nnormal\n\nAbilities:\nlimber, imposter\n\nBase Stats:\nHP: 48\nAttack: 48\nDefense: 48\nSpecial Attack: 48\nSpecial Defense: 48\nSpeed: 48\n\nCommon Moves:\ntransform\n\nHabitat:\nurban\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nCapable of copying\nan enemy's genetic\ncode to instantly\ftransform itself\ninto a duplicate\nof the enemy.\n",
+    "metadata": {
+      "name": "ditto",
+      "types": [
+        "normal"
+      ],
+      "habitat": "urban",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: eevee\n\nPokémon Types:\nnormal\n\nAbilities:\nrun-away, adaptability, anticipation\n\nBase Stats:\nHP: 55\nAttack: 55\nDefense: 50\nSpecial Attack: 45\nSpecial Defense: 65\nSpeed: 55\n\nCommon Moves:\npay-day, double-kick, sand-attack, headbutt, tackle, body-slam, take-down, double-edge, tail-whip, bite\n\nHabitat:\nurban\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nIts genetic code\nis irregular.\nIt may mutate if\fit is exposed to\nradiation from\nelement STONEs.\n",
+    "metadata": {
+      "name": "eevee",
+      "types": [
+        "normal"
+      ],
+      "habitat": "urban",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: vaporeon\n\nPokémon Types:\nwater\n\nAbilities:\nwater-absorb, hydration\n\nBase Stats:\nHP: 130\nAttack: 65\nDefense: 60\nSpecial Attack: 110\nSpecial Defense: 95\nSpeed: 65\n\nCommon Moves:\npay-day, double-kick, sand-attack, headbutt, tackle, body-slam, take-down, double-edge, tail-whip, bite\n\nHabitat:\nurban\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nLives close to\nwater. Its long\ntail is ridged\fwith a fin which\nis often mistaken\nfor a mermaid's.\n",
+    "metadata": {
+      "name": "vaporeon",
+      "types": [
+        "water"
+      ],
+      "habitat": "urban",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: jolteon\n\nPokémon Types:\nelectric\n\nAbilities:\nvolt-absorb, quick-feet\n\nBase Stats:\nHP: 65\nAttack: 65\nDefense: 60\nSpecial Attack: 110\nSpecial Defense: 95\nSpeed: 130\n\nCommon Moves:\npay-day, double-kick, sand-attack, headbutt, tackle, body-slam, take-down, double-edge, tail-whip, pin-missile\n\nHabitat:\nurban\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nIt accumulates\nnegative ions in\nthe atmosphere to\fblast out 10000-\nvolt lightning\nbolts.\n",
+    "metadata": {
+      "name": "jolteon",
+      "types": [
+        "electric"
+      ],
+      "habitat": "urban",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: flareon\n\nPokémon Types:\nfire\n\nAbilities:\nflash-fire, guts\n\nBase Stats:\nHP: 65\nAttack: 130\nDefense: 60\nSpecial Attack: 95\nSpecial Defense: 110\nSpeed: 65\n\nCommon Moves:\npay-day, double-kick, sand-attack, headbutt, tackle, body-slam, take-down, double-edge, tail-whip, leer\n\nHabitat:\nurban\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nWhen storing\nthermal energy in\nits body, its\ftemperature could\nsoar to over 1600\ndegrees.\n",
+    "metadata": {
+      "name": "flareon",
+      "types": [
+        "fire"
+      ],
+      "habitat": "urban",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: porygon\n\nPokémon Types:\nnormal\n\nAbilities:\ntrace, download, analytic\n\nBase Stats:\nHP: 65\nAttack: 60\nDefense: 70\nSpecial Attack: 85\nSpecial Defense: 75\nSpeed: 40\n\nCommon Moves:\nheadbutt, tackle, take-down, double-edge, ice-beam, blizzard, psybeam, hyper-beam, solar-beam, thunder-shock\n\nHabitat:\nurban\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nA POKéMON that\nconsists entirely\nof programming\fcode. Capable of\nmoving freely in\ncyberspace.\n",
+    "metadata": {
+      "name": "porygon",
+      "types": [
+        "normal"
+      ],
+      "habitat": "urban",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: omanyte\n\nPokémon Types:\nrock, water\n\nAbilities:\nswift-swim, shell-armor, weak-armor\n\nBase Stats:\nHP: 35\nAttack: 40\nDefense: 100\nSpecial Attack: 90\nSpecial Defense: 55\nSpeed: 35\n\nCommon Moves:\nbind, slam, sand-attack, headbutt, horn-attack, body-slam, take-down, double-edge, leer, bite\n\nHabitat:\nsea\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nAlthough long\nextinct, in rare\ncases, it can be\fgenetically\nresurrected from\nfossils.\n",
+    "metadata": {
+      "name": "omanyte",
+      "types": [
+        "rock",
+        "water"
+      ],
+      "habitat": "sea",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: omastar\n\nPokémon Types:\nrock, water\n\nAbilities:\nswift-swim, shell-armor, weak-armor\n\nBase Stats:\nHP: 70\nAttack: 60\nDefense: 125\nSpecial Attack: 115\nSpecial Defense: 70\nSpeed: 55\n\nCommon Moves:\nbind, sand-attack, headbutt, horn-attack, horn-drill, body-slam, take-down, double-edge, pin-missile, leer\n\nHabitat:\nsea\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nA prehistoric\nPOKéMON that died\nout when its\fheavy shell made\nit impossible to\ncatch prey.\n",
+    "metadata": {
+      "name": "omastar",
+      "types": [
+        "rock",
+        "water"
+      ],
+      "habitat": "sea",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: kabuto\n\nPokémon Types:\nrock, water\n\nAbilities:\nswift-swim, battle-armor, weak-armor\n\nBase Stats:\nHP: 30\nAttack: 80\nDefense: 90\nSpecial Attack: 55\nSpecial Defense: 45\nSpeed: 55\n\nCommon Moves:\nscratch, sand-attack, headbutt, body-slam, take-down, double-edge, leer, water-gun, hydro-pump, surf\n\nHabitat:\nsea\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nA POKéMON that\nwas resurrected\nfrom a fossil\ffound in what was\nonce the ocean\nfloor eons ago.\n",
+    "metadata": {
+      "name": "kabuto",
+      "types": [
+        "rock",
+        "water"
+      ],
+      "habitat": "sea",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: kabutops\n\nPokémon Types:\nrock, water\n\nAbilities:\nswift-swim, battle-armor, weak-armor\n\nBase Stats:\nHP: 60\nAttack: 115\nDefense: 105\nSpecial Attack: 65\nSpecial Defense: 70\nSpeed: 80\n\nCommon Moves:\nscratch, razor-wind, swords-dance, cut, mega-kick, sand-attack, headbutt, body-slam, take-down, double-edge\n\nHabitat:\nsea\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nIts sleek shape is\nperfect for swim­\nming. It slashes\fprey with its\nclaws and drains\nthe body fluids.\n",
+    "metadata": {
+      "name": "kabutops",
+      "types": [
+        "rock",
+        "water"
+      ],
+      "habitat": "sea",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: aerodactyl\n\nPokémon Types:\nrock, flying\n\nAbilities:\nrock-head, pressure, unnerve\n\nBase Stats:\nHP: 80\nAttack: 105\nDefense: 65\nSpecial Attack: 60\nSpecial Defense: 75\nSpeed: 130\n\nCommon Moves:\nrazor-wind, wing-attack, whirlwind, fly, headbutt, take-down, double-edge, bite, roar, supersonic\n\nHabitat:\nmountain\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nA Pokémon that roamed the skies\nin the dinosaur era. Its teeth are\nlike saw blades.\n",
+    "metadata": {
+      "name": "aerodactyl",
+      "types": [
+        "rock",
+        "flying"
+      ],
+      "habitat": "mountain",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: snorlax\n\nPokémon Types:\nnormal\n\nAbilities:\nimmunity, thick-fat, gluttony\n\nBase Stats:\nHP: 160\nAttack: 110\nDefense: 65\nSpecial Attack: 65\nSpecial Defense: 110\nSpeed: 30\n\nCommon Moves:\nmega-punch, pay-day, fire-punch, ice-punch, thunder-punch, whirlwind, mega-kick, headbutt, tackle, body-slam\n\nHabitat:\nmountain\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nVery lazy. Just\neats and sleeps.\nAs its rotund\fbulk builds, it\nbecomes steadily\nmore slothful.\n",
+    "metadata": {
+      "name": "snorlax",
+      "types": [
+        "normal"
+      ],
+      "habitat": "mountain",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: articuno\n\nPokémon Types:\nice, flying\n\nAbilities:\npressure, snow-cloak\n\nBase Stats:\nHP: 90\nAttack: 85\nDefense: 100\nSpecial Attack: 95\nSpecial Defense: 125\nSpeed: 85\n\nCommon Moves:\nrazor-wind, gust, whirlwind, fly, headbutt, take-down, double-edge, leer, roar, mist\n\nHabitat:\nrare\n\nLegendary Status:\nTrue\n\nMythical Status:\nFalse\n\nPokédex Lore:\nA legendary bird\nPOKéMON that is\nsaid to appear to\fdoomed people who\nare lost in icy\nmountains.\n",
+    "metadata": {
+      "name": "articuno",
+      "types": [
+        "ice",
+        "flying"
+      ],
+      "habitat": "rare",
+      "legendary": true,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: zapdos\n\nPokémon Types:\nelectric, flying\n\nAbilities:\npressure, static\n\nBase Stats:\nHP: 90\nAttack: 90\nDefense: 85\nSpecial Attack: 125\nSpecial Defense: 90\nSpeed: 100\n\nCommon Moves:\nrazor-wind, whirlwind, fly, headbutt, take-down, double-edge, leer, roar, hyper-beam, peck\n\nHabitat:\nrare\n\nLegendary Status:\nTrue\n\nMythical Status:\nFalse\n\nPokédex Lore:\nA legendary bird\nPOKéMON that is\nsaid to appear\ffrom clouds while\ndropping enormous\nlightning bolts.\n",
+    "metadata": {
+      "name": "zapdos",
+      "types": [
+        "electric",
+        "flying"
+      ],
+      "habitat": "rare",
+      "legendary": true,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: moltres\n\nPokémon Types:\nfire, flying\n\nAbilities:\npressure, flame-body\n\nBase Stats:\nHP: 90\nAttack: 100\nDefense: 90\nSpecial Attack: 125\nSpecial Defense: 85\nSpeed: 90\n\nCommon Moves:\nrazor-wind, gust, wing-attack, whirlwind, fly, headbutt, take-down, double-edge, leer, roar\n\nHabitat:\nrare\n\nLegendary Status:\nTrue\n\nMythical Status:\nFalse\n\nPokédex Lore:\nKnown as the\nlegendary bird of\nfire. Every flap\fof its wings\ncreates a dazzling\nflash of flames.\n",
+    "metadata": {
+      "name": "moltres",
+      "types": [
+        "fire",
+        "flying"
+      ],
+      "habitat": "rare",
+      "legendary": true,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: dratini\n\nPokémon Types:\ndragon\n\nAbilities:\nshed-skin, marvel-scale\n\nBase Stats:\nHP: 41\nAttack: 64\nDefense: 45\nSpecial Attack: 50\nSpecial Defense: 50\nSpeed: 50\n\nCommon Moves:\nbind, slam, headbutt, body-slam, wrap, take-down, double-edge, leer, supersonic, flamethrower\n\nHabitat:\nwaters-edge\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nLong considered a\nmythical POKéMON\nuntil recently\fwhen a small\ncolony was found\nliving underwater.\n",
+    "metadata": {
+      "name": "dratini",
+      "types": [
+        "dragon"
+      ],
+      "habitat": "waters-edge",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: dragonair\n\nPokémon Types:\ndragon\n\nAbilities:\nshed-skin, marvel-scale\n\nBase Stats:\nHP: 61\nAttack: 84\nDefense: 65\nSpecial Attack: 70\nSpecial Defense: 70\nSpeed: 70\n\nCommon Moves:\nbind, slam, headbutt, horn-drill, body-slam, wrap, take-down, double-edge, leer, flamethrower\n\nHabitat:\nwaters-edge\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nA mystical POKéMON\nthat exudes a\ngentle aura.\fHas the ability\nto change climate\nconditions.\n",
+    "metadata": {
+      "name": "dragonair",
+      "types": [
+        "dragon"
+      ],
+      "habitat": "waters-edge",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: dragonite\n\nPokémon Types:\ndragon, flying\n\nAbilities:\ninner-focus, multiscale\n\nBase Stats:\nHP: 91\nAttack: 134\nDefense: 95\nSpecial Attack: 100\nSpecial Defense: 100\nSpeed: 80\n\nCommon Moves:\nmega-punch, fire-punch, ice-punch, thunder-punch, razor-wind, cut, wing-attack, fly, bind, slam\n\nHabitat:\nwaters-edge\n\nLegendary Status:\nFalse\n\nMythical Status:\nFalse\n\nPokédex Lore:\nAn extremely\nrarely seen\nmarine POKéMON.\fIts intelligence\nis said to match\nthat of humans.\n",
+    "metadata": {
+      "name": "dragonite",
+      "types": [
+        "dragon",
+        "flying"
+      ],
+      "habitat": "waters-edge",
+      "legendary": false,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: mewtwo\n\nPokémon Types:\npsychic\n\nAbilities:\npressure, unnerve\n\nBase Stats:\nHP: 106\nAttack: 110\nDefense: 90\nSpecial Attack: 154\nSpecial Defense: 90\nSpeed: 130\n\nCommon Moves:\nmega-punch, pay-day, fire-punch, ice-punch, thunder-punch, mega-kick, headbutt, body-slam, take-down, double-edge\n\nHabitat:\nrare\n\nLegendary Status:\nTrue\n\nMythical Status:\nFalse\n\nPokédex Lore:\nIt was created by\na scientist after\nyears of horrific\fgene splicing and\nDNA engineering\nexperiments.\n",
+    "metadata": {
+      "name": "mewtwo",
+      "types": [
+        "psychic"
+      ],
+      "habitat": "rare",
+      "legendary": true,
+      "mythical": false
+    }
+  },
+  {
+    "text": "\nPokémon Name: mew\n\nPokémon Types:\npsychic\n\nAbilities:\nsynchronize\n\nBase Stats:\nHP: 100\nAttack: 100\nDefense: 100\nSpecial Attack: 100\nSpecial Defense: 100\nSpeed: 100\n\nCommon Moves:\npound, mega-punch, pay-day, fire-punch, ice-punch, thunder-punch, razor-wind, swords-dance, cut, whirlwind\n\nHabitat:\nrare\n\nLegendary Status:\nFalse\n\nMythical Status:\nTrue\n\nPokédex Lore:\nSo rare that it\nis still said to\nbe a mirage by\fmany experts. Only\na few people have\nseen it worldwide.\n",
+    "metadata": {
+      "name": "mew",
+      "types": [
+        "psychic"
+      ],
+      "habitat": "rare",
+      "legendary": false,
+      "mythical": true
+    }
+  }
+]
