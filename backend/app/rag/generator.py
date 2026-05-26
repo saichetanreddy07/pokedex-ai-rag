@@ -2,7 +2,7 @@ from langchain_ollama import OllamaLLM
 
 # Load local Llama 3 model using Ollama
 llm = OllamaLLM(
-    model="llama3",
+    model="phi3",
     temperature=0.2
 )
 
