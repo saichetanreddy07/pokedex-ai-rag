@@ -1,25 +1,22 @@
-fastapi==0.115.0
-uvicorn==0.30.6
+fastapi
+uvicorn
 
-langchain==0.2.16
-langchain-community==0.2.16
-langchain-ollama==0.1.3
+gradio
 
-chromadb==0.5.5
+chromadb
 
-sentence-transformers==2.7.0
-transformers==4.41.2
-torch==2.4.1
+sentence-transformers
 
-gradio==4.44.0
+langchain
+langchain-ollama
 
-requests==2.32.3
-pandas==2.2.2
-numpy==1.26.4
-tqdm==4.66.5
+pandas
+numpy
 
-ollama==0.3.3
+requests
 
-python-dotenv==1.0.1
+pydantic
 
-pydantic==2.8.2
+python-dotenv
+
+tqdm
