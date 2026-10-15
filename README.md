@@ -15,6 +15,7 @@ The current implementation covers data preparation, persistent vector indexing, 
 - Persistent ChromaDB collection with duplicate-ID protection.
 - Top-K semantic retrieval from a user query against the persistent collection.
 - Concise answers generated with LangChain `ChatOllama` using retrieved context only.
+- FastAPI endpoints for health checks and RAG questions.
 
 ## Tech Stack
 
@@ -25,6 +26,7 @@ The current implementation covers data preparation, persistent vector indexing, 
 - ChromaDB
 - LangChain `ChatOllama`
 - Ollama
+- FastAPI
 - python-dotenv
 
 ## Project Architecture
@@ -76,7 +78,9 @@ pokedex-ai-rag/
 ├── requirements.txt
 ├── backend/
 │   ├── app.py
+│   ├── api.py
 │   ├── config.py
+│   ├── schemas.py
 │   ├── data_loader.py
 │   ├── preprocessor.py
 │   ├── document_generator.py
@@ -216,6 +220,37 @@ User → Retriever → Prompt → LangChain → Ollama → Answer
 
 Run the interactive pipeline from the project root with `python -m backend.rag`. Retrieval scores and document details are hidden unless `DEBUG` is enabled in `backend/rag.py`.
 
+## API
+
+Start the FastAPI server from the project root:
+
+```powershell
+uvicorn backend.api:app --reload
+```
+
+| Method | Endpoint | Purpose |
+| --- | --- | --- |
+| `GET` | `/` | Welcome message. |
+| `GET` | `/health` | API service status. |
+| `POST` | `/ask` | Return a context-grounded answer to a question. |
+
+`POST /ask` accepts and returns:
+
+```json
+{
+	"question": "What type is Pikachu?"
+}
+```
+
+```json
+{
+	"question": "What type is Pikachu?",
+	"answer": "Pikachu is an Electric type Pokémon."
+}
+```
+
+Blank questions receive HTTP `422`. The interactive Swagger UI is available at `http://127.0.0.1:8000/docs`.
+
 ## Current Project Workflow
 
 1. Collect Generation I resources from PokéAPI.
@@ -225,6 +260,7 @@ Run the interactive pipeline from the project root with `python -m backend.rag`.
 5. Store the vectors and associated records in the persistent collection.
 6. Embed a user query, search the collection, and return the top-k documents.
 7. Build a context-only prompt, send it to Ollama through LangChain, and return the answer.
+8. Expose the RAG pipeline through the FastAPI `/ask` endpoint.
 
 ## Example Project Output
 
@@ -260,10 +296,10 @@ The following snapshot was calculated from the current local raw files, CSVs, kn
 | Embeddings | Dimension | 384 |
 | Vector store | Collection | `pokemon_knowledge` |
 | Vector store | Current local indexed documents | 1,576 |
-| Repository | Python source files | 13 |
-| Repository | Backend modules | 12 |
-| Repository | Approximate Python source lines | 1,574 |
-| Repository | Implemented project phases | 8 |
+| Repository | Python source files | 15 |
+| Repository | Backend modules | 14 |
+| Repository | Approximate Python source lines | 1,635 |
+| Repository | Implemented project phases | 9 |
 
 ## Future Improvements
 
