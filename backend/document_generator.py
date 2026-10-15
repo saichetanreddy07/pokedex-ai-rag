@@ -6,6 +6,7 @@ from pathlib import Path
 import pandas as pd
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
+RAW_POKEMON_DIR = PROJECT_ROOT / "data" / "raw" / "pokemon"
 PROCESSED_DATA_DIR = PROJECT_ROOT / "data" / "processed"
 DOCUMENTS_DIR = PROJECT_ROOT / "data" / "documents"
 
@@ -49,10 +50,12 @@ def _build_document(
 	document_id: str,
 	resource: str,
 	title: str,
+	document_type: str,
 	content: str,
 	metadata: dict[str, object],
 ) -> dict[str, object]:
 	"""Build a document with a consistent shape and nonempty metadata."""
+	metadata["document_type"] = document_type
 	clean_metadata = {
 		key: value
 		for key, value in metadata.items()
@@ -62,41 +65,208 @@ def _build_document(
 		"id": document_id,
 		"resource": resource,
 		"title": title,
-		"content": " ".join(content.split()),
+		"document_type": document_type,
+		"content": "\n".join(
+			" ".join(line.split()) for line in content.splitlines()
+		).strip(),
 		"metadata": clean_metadata,
 	}
 
 
-def _pokemon_document(row: pd.Series) -> dict[str, object] | None:
-	"""Build one Pokémon document from a merged CSV row."""
+def _read_abilities(
+	pokemon_id: str,
+	pokemon_name: str,
+	fallback_abilities: object,
+) -> tuple[list[str], list[str]]:
+	"""Separate normal and hidden abilities using raw Pokémon data."""
+	file_path = RAW_POKEMON_DIR / f"{pokemon_id}_{pokemon_name}.json"
+	if file_path.is_file():
+		try:
+			with file_path.open(encoding="utf-8") as json_file:
+				pokemon_data = json.load(json_file)
+		except (OSError, json.JSONDecodeError) as error:
+			print(f"Could not read abilities from {file_path}: {error}")
+		else:
+			entries = pokemon_data.get("abilities")
+			if isinstance(entries, list):
+				normal_abilities = []
+				hidden_abilities = []
+				for entry in entries:
+					if not isinstance(entry, dict):
+						continue
+					ability = entry.get("ability")
+					ability_name = (
+						_clean_value(ability.get("name"))
+						if isinstance(ability, dict)
+						else ""
+					)
+					if not ability_name:
+						continue
+					if entry.get("is_hidden") is True:
+						hidden_abilities.append(ability_name)
+					else:
+						normal_abilities.append(ability_name)
+				return list(dict.fromkeys(normal_abilities)), list(
+					dict.fromkeys(hidden_abilities)
+				)
+	return _split_values(fallback_abilities), []
+
+
+def _pokemon_slug(name: str) -> str:
+	"""Return a stable lowercase Pokémon name for descriptive document IDs."""
+	return "-".join(name.lower().split())
+
+
+def _make_pokemon_document(
+	pokemon_id: str,
+	pokemon_name: str,
+	generation: str,
+	document_type: str,
+	content: str,
+	metadata: dict[str, object] | None = None,
+) -> dict[str, object]:
+	"""Build one focused Pokémon document with shared metadata."""
+	display_name = pokemon_name.replace("-", " ").title()
+	document_metadata: dict[str, object] = {
+		"pokemon": pokemon_name,
+		"pokemon_id": pokemon_id,
+	}
+	if generation:
+		document_metadata["generation"] = generation
+	if metadata:
+		document_metadata.update(metadata)
+	return _build_document(
+		f"pokemon_{_pokemon_slug(pokemon_name)}_{document_type}",
+		"pokemon",
+		f"Pokemon: {display_name} - {document_type.title()}",
+		document_type,
+		content,
+		document_metadata,
+	)
+
+
+def _boolean_value(value: object) -> bool | None:
+	"""Parse a boolean-like CSV value when it is present."""
+	cleaned_value = _clean_value(value).lower()
+	if cleaned_value == "true":
+		return True
+	if cleaned_value == "false":
+		return False
+	return None
+
+
+def _pokemon_section_content(
+	pokemon_name: str,
+	section_title: str,
+	items: list[str],
+	use_bullets: bool = True,
+) -> str:
+	"""Format a Pokémon knowledge section with a consistent leading name."""
+	lines = [f"Pokemon: {pokemon_name}", "", f"{section_title}:"]
+	if items:
+		if use_bullets:
+			lines.extend(f"- {item}" for item in items)
+		else:
+			lines.extend(items)
+	else:
+		lines.append("Information unavailable.")
+	return "\n".join(lines)
+
+
+def _pokemon_documents(row: pd.Series) -> list[dict[str, object]]:
+	"""Build six focused documents from one merged Pokémon CSV row."""
 	pokemon_id = _clean_value(row.get("id"))
 	if not pokemon_id:
-		return None
+		return []
 
 	name = _clean_value(row.get("name_pokemon"))
 	if not name:
 		name = _clean_value(row.get("name_species")) or f"Pokemon {pokemon_id}"
-	title = name.replace("-", " ").title()
+	display_name = name.replace("-", " ").title()
 	types = _split_values(row.get("types"))
-	abilities = _split_values(row.get("abilities"))
-	moves = _split_values(row.get("moves"))
 	description = _clean_value(row.get("description"))
 	generation = _clean_value(row.get("generation"))
+	documents: list[dict[str, object]] = []
 
-	if types:
-		content_parts = [
-			f"{title} is a {', '.join(types)} type Pokémon."
-		]
-	else:
-		content_parts = [f"{title} is a Pokémon."]
+	overview_items = []
 	if description:
-		content_parts.append(description)
+		overview_items.append(f"Pokédex Description: {description}")
 	if generation:
-		content_parts.append(f"It belongs to {generation}.")
-	if abilities:
-		content_parts.append(f"Its abilities include {', '.join(abilities)}.")
+		overview_items.append(f"Generation: {generation}")
+	legendary = _boolean_value(row.get("is_legendary"))
+	mythical = _boolean_value(row.get("is_mythical"))
+	if legendary is not None and mythical is not None:
+		if legendary and mythical:
+			status = "Legendary and mythical"
+		elif legendary:
+			status = "Legendary, not mythical"
+		elif mythical:
+			status = "Mythical, not legendary"
+		else:
+			status = "Neither legendary nor mythical"
+		overview_items.append(f"Status: {status}")
+	elif legendary is not None:
+		overview_items.append(
+			"Status: Legendary" if legendary else "Status: Not legendary"
+		)
+	elif mythical is not None:
+		overview_items.append("Status: Mythical" if mythical else "Status: Not mythical")
+	documents.append(
+		_make_pokemon_document(
+			pokemon_id,
+			name,
+			generation,
+			"overview",
+			_pokemon_section_content(display_name, "Overview", overview_items),
+			{
+				key: value
+				for key, value in (
+					("is_legendary", legendary),
+					("is_mythical", mythical),
+				)
+				if value is not None
+			},
+		)
+	)
+
+	type_items = [type_name.replace("-", " ").title() for type_name in types]
+	documents.append(
+		_make_pokemon_document(
+			pokemon_id,
+			name,
+			generation,
+			"types",
+			_pokemon_section_content(display_name, "Types", type_items),
+			{"types": types} if types else None,
+		)
+	)
+
+	normal_abilities, hidden_abilities = _read_abilities(
+		pokemon_id, name, row.get("abilities")
+	)
+	ability_items = [
+		ability.replace("-", " ").title() for ability in normal_abilities
+	]
+	ability_items.extend(
+		f"{ability.replace('-', ' ').title()} (Hidden Ability)"
+		for ability in hidden_abilities
+	)
+	documents.append(
+		_make_pokemon_document(
+			pokemon_id,
+			name,
+			generation,
+			"abilities",
+			_pokemon_section_content(display_name, "Abilities", ability_items),
+			{
+				"normal_abilities": normal_abilities,
+				"hidden_ability": hidden_abilities,
+			},
+		)
+	)
 
 	stats = []
+	stat_metadata = {}
 	for column, label in (
 		("hp", "HP"),
 		("attack", "Attack"),
@@ -107,49 +277,59 @@ def _pokemon_document(row: pd.Series) -> dict[str, object] | None:
 	):
 		value = _clean_value(row.get(column))
 		if value:
-			stats.append(f"{label} {value}")
-	if stats:
-		content_parts.append(f"Its base stats are {', '.join(stats)}.")
+			stats.append(f"{label}: {value}")
+			stat_metadata[column] = value
+	documents.append(
+		_make_pokemon_document(
+			pokemon_id,
+			name,
+			generation,
+			"stats",
+			_pokemon_section_content(
+				display_name, "Base Stats", stats, use_bullets=False
+			),
+			stat_metadata or None,
+		)
+	)
 
+	physical_parts = []
+	physical_metadata = {}
 	for column, label, suffix in (
 		("height", "Height", " decimeters"),
 		("weight", "Weight", " hectograms"),
 		("base_experience", "Base experience", " points"),
 	):
-		_append_detail(content_parts, label, row.get(column), suffix)
-	if moves:
-		content_parts.append(f"It can learn moves such as {', '.join(moves)}.")
-
-	legendary = _clean_value(row.get("is_legendary")).lower()
-	mythical = _clean_value(row.get("is_mythical")).lower()
-	if legendary in {"true", "false"}:
-		content_parts.append(
-			"It is legendary." if legendary == "true" else "It is not legendary."
+		value = _clean_value(row.get(column))
+		if value:
+			physical_label = label.replace("base experience", "Base Experience")
+			physical_parts.append(f"{physical_label}: {value}{suffix}")
+			physical_metadata[column] = value
+	documents.append(
+		_make_pokemon_document(
+			pokemon_id,
+			name,
+			generation,
+			"physical",
+			_pokemon_section_content(
+				display_name, "Physical", physical_parts, use_bullets=False
+			),
+			physical_metadata or None,
 		)
-	if mythical in {"true", "false"}:
-		content_parts.append(
-			"It is mythical." if mythical == "true" else "It is not mythical."
-		)
-
-	metadata: dict[str, object] = {"pokemon_id": pokemon_id}
-	if generation:
-		metadata["generation"] = generation
-	if types:
-		metadata["types"] = types
-	if abilities:
-		metadata["abilities"] = abilities
-	if legendary in {"true", "false"}:
-		metadata["is_legendary"] = legendary == "true"
-	if mythical in {"true", "false"}:
-		metadata["is_mythical"] = mythical == "true"
-
-	return _build_document(
-		f"pokemon-{pokemon_id}",
-		"pokemon",
-		title,
-		" ".join(content_parts),
-		metadata,
 	)
+
+	moves = _split_values(row.get("moves"))
+	move_items = [move.replace("-", " ").title() for move in moves]
+	documents.append(
+		_make_pokemon_document(
+			pokemon_id,
+			name,
+			generation,
+			"moves",
+			_pokemon_section_content(display_name, "Learnable Moves", move_items),
+			{"moves": moves} if moves else None,
+		)
+	)
+	return documents
 
 
 def _move_document(row: pd.Series) -> dict[str, object] | None:
@@ -187,6 +367,7 @@ def _move_document(row: pd.Series) -> dict[str, object] | None:
 		f"move-{move_id}",
 		"move",
 		title,
+		"move",
 		" ".join(content_parts),
 		metadata,
 	)
@@ -221,6 +402,7 @@ def _evolution_document(row: pd.Series) -> dict[str, object] | None:
 		f"evolution-chain-{chain_id}",
 		"evolution_chain",
 		f"Evolution Chain {chain_id}",
+		"evolution_chain",
 		" ".join(content_parts),
 		{"chain_id": chain_id},
 	)
@@ -245,11 +427,9 @@ def generate_pokemon_documents() -> list[dict[str, object]]:
 		how="left",
 		suffixes=("_pokemon", "_species"),
 	)
-	documents = []
+	documents: list[dict[str, object]] = []
 	for _, row in merged.iterrows():
-		document = _pokemon_document(row)
-		if document is not None:
-			documents.append(document)
+		documents.extend(_pokemon_documents(row))
 	return documents
 
 
