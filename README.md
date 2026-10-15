@@ -63,6 +63,16 @@ Run it from the project root with `python -m backend.document_generator`.
 The generated JSON files in `data/documents/` are ready for the later
 embedding phase.
 
+## Embedding Generation
+
+Knowledge documents are converted into vector embeddings with
+`all-MiniLM-L6-v2`. The generated embeddings are ready for storage in the
+vector database. Run the embedding pipeline from the project root with:
+
+```powershell
+python -m backend.embedder
+```
+
 ## Tech Stack
 
 - Python 3.12
@@ -83,7 +93,8 @@ pokedex-ai-rag/
 │   ├── config.py
 │   ├── data_loader.py
 │   ├── preprocessor.py
-    │   ├── document_generator.py
+│   ├── document_generator.py
+│   ├── embedder.py
 │   ├── embeddings.py
 │   ├── retriever.py
 │   ├── llm.py
