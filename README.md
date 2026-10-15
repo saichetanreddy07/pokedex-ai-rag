@@ -4,15 +4,17 @@
 
 Pokedex AI is a local Pokémon knowledge-data pipeline. It collects generation-scoped data from PokéAPI, converts raw JSON into structured CSV files and knowledge documents, generates vector embeddings, and stores those vectors in a persistent ChromaDB collection.
 
-The current implementation covers data preparation and vector indexing. It does not yet provide an end-user question-answering workflow.
+The current implementation covers data preparation, persistent vector indexing, semantic retrieval, and context-grounded question answering. The language model is instructed to use retrieved knowledge only.
 
 ## Features
 
 - Generation-scoped PokéAPI downloads with retries and resume support.
 - CSV preprocessing for Pokémon, species, moves, and evolution chains.
-- Natural-language knowledge documents for Pokémon, moves, and evolution chains.
+- Six focused knowledge documents per Pokémon, plus move and evolution-chain documents.
 - Batched embeddings generated with `all-MiniLM-L6-v2`.
 - Persistent ChromaDB collection with duplicate-ID protection.
+- Top-K semantic retrieval from a user query against the persistent collection.
+- Concise answers generated with LangChain `ChatOllama` using retrieved context only.
 
 ## Tech Stack
 
@@ -21,6 +23,8 @@ The current implementation covers data preparation and vector indexing. It does 
 - pandas
 - Sentence Transformers
 - ChromaDB
+- LangChain `ChatOllama`
+- Ollama
 - python-dotenv
 
 ## Project Architecture
@@ -30,8 +34,11 @@ flowchart TD
 	API[PokéAPI] --> RAW[Raw JSON]
 	RAW --> CSV[Processed CSV]
 	CSV --> DOCS[Knowledge Documents]
-	DOCS --> EMBEDDINGS[Sentence Transformer Embeddings]
+	DOCS --> EMBEDDINGS[Sentence Transformer Document Embeddings]
 	EMBEDDINGS --> DB[(Persistent ChromaDB Collection)]
+	QUERY[User Query] --> QUERY_EMBEDDING[Sentence Transformer Query Embedding]
+	QUERY_EMBEDDING --> DB
+	DB --> RESULTS[Top-K Relevant Documents]
 ```
 
 ### Module Interaction
@@ -47,6 +54,15 @@ flowchart LR
 	DOCS --> EMBED[embedder.py]
 	EMBED -->|Embedding records in memory| STORE[vector_store.py]
 	STORE --> DB[(data/chroma_db)]
+	USER[User query] --> RETRIEVE[retriever.py]
+	RETRIEVE -->|Query embedding| MODEL[Cached Sentence Transformer]
+	MODEL --> RETRIEVE
+	RETRIEVE --> DB
+	DB -->|Top-K documents| RETRIEVE
+	RETRIEVE --> RAG[rag.py]
+	RAG --> PROMPT[prompts.py]
+	PROMPT --> LLM[ChatOllama via llm.py]
+	LLM --> ANSWER[Grounded answer]
 ```
 
 ## Folder Structure
@@ -67,6 +83,7 @@ pokedex-ai-rag/
 │   ├── embedder.py
 │   ├── vector_store.py
 │   ├── llm.py
+│   ├── prompts.py
 │   ├── rag.py
 │   ├── recommender.py
 │   └── retriever.py
@@ -90,10 +107,9 @@ pokedex-ai-rag/
 	└── chroma_db/
 ```
 
-The files `llm.py`, `rag.py`, `recommender.py`, `retriever.py`, and
-`frontend/app.py` are present as placeholders. `backend/app.py` currently
-exposes only welcome and health endpoints. These modules are not part of the
-data pipeline shown above.
+The files `recommender.py` and `frontend/app.py` are present as placeholders.
+`backend/app.py` currently exposes only welcome and health endpoints; it is
+separate from the command-line RAG workflow.
 
 ## Data Pipeline
 
@@ -121,6 +137,8 @@ Copy-Item .env.example .env
 
 Edit `TARGET_GENERATION` to select the generation for data collection. The other environment settings and their current usage are listed below.
 
+Ollama must be running with the model named by `OLLAMA_MODEL` available locally. With the default setting, download it with `ollama pull llama3`.
+
 ## Environment Variables
 
 | Variable | Example | Current use |
@@ -131,8 +149,8 @@ Edit `TARGET_GENERATION` to select the generation for data collection. The other
 | `POKEAPI_MAX_RETRIES` | `3` | Maximum attempts for a failed API request. |
 | `EMBEDDING_MODEL` | `all-MiniLM-L6-v2` | Defined in config; the embedder currently uses its `MODEL_NAME` constant. |
 | `CHROMA_DB_PATH` | `data/chroma_db` | Defined in config; the vector-store module currently uses this project-relative path directly. |
-| `TOP_K` | `5` | Defined in config; not used by the current pipeline. |
-| `OLLAMA_MODEL` | `llama3` | Defined in config; not used by the current pipeline. |
+| `TOP_K` | `5` | Number of documents retrieved for each query. |
+| `OLLAMA_MODEL` | `llama3` | Ollama model used by `ChatOllama`. |
 
 ## Running the Project
 
@@ -144,9 +162,11 @@ python -m backend.preprocessor
 python -m backend.document_generator
 python -m backend.embedder
 python -m backend.vector_store
+python -m backend.retriever
+python -m backend.rag
 ```
 
-The embedder command reports the embedding summary without saving vectors. The vector-store command generates embeddings again and persists them in ChromaDB.
+The embedder command reports the embedding summary without saving vectors. The vector-store command generates embeddings again and persists them in ChromaDB. The retriever displays top matches; the RAG command prompts for a question and prints a context-grounded answer.
 
 ## Data Collection
 
@@ -158,7 +178,9 @@ The embedder command reports the embedding summary without saving vectors. The v
 
 ## Knowledge Document Generation
 
-`backend/document_generator.py` merges Pokémon and species rows by ID and creates one JSON document per Pokémon. It also creates one document per move and evolution chain. The files are written to `data/documents/` with an ID, resource type, title, natural-language content, and metadata.
+`backend/document_generator.py` merges Pokémon and species rows by ID and creates six focused JSON documents per Pokémon: overview, types, abilities, base stats, physical information, and learnable moves. Each title and content block is grouped under the Pokémon name, with descriptive IDs such as `pokemon_pikachu_types`. Normal and hidden abilities are read from the corresponding raw Pokémon JSON because the processed CSV does not retain the hidden-ability flag. Moves and evolution chains remain unchanged.
+
+Separating fields into smaller documents helps semantic search return the relevant topic instead of a Pokémon’s entire move list and profile. This keeps irrelevant text out of retrieved results and reduces the context that a future answer-generation stage would need to consume.
 
 ## Embedding Generation
 
@@ -168,29 +190,57 @@ The embedder command reports the embedding summary without saving vectors. The v
 
 `backend/vector_store.py` uses ChromaDB’s `PersistentClient` at `data/chroma_db/` and creates or opens the `pokemon_knowledge` collection. It checks IDs before insertion and skips records already in the collection. List-valued metadata is converted to comma-separated text for storage.
 
+## Semantic Retrieval
+
+`backend/retriever.py` embeds a user query with the cached Sentence Transformer model, searches the persistent ChromaDB collection, and returns the top `k` matches with content, metadata, and a similarity score.
+
+```text
+User Query
+	↓
+Query Embedding
+	↓
+ChromaDB Similarity Search
+	↓
+Top-K Relevant Documents
+```
+
+Run an interactive query from the project root with `python -m backend.retriever`. The default result count is `TOP_K` (5). ChromaDB uses L2 distance for this collection; the returned score is `1 / (1 + distance)`, so higher scores indicate closer results.
+
+## RAG Pipeline
+
+`backend/rag.py` retrieves the configured top five documents, builds a concise prompt from their titles and content, and sends it to `ChatOllama` through LangChain. The model is instructed to answer only from that context; when retrieval is empty, the pipeline returns `I couldn't find that information in the knowledge base.`
+
+```text
+User → Retriever → Prompt → LangChain → Ollama → Answer
+```
+
+Run the interactive pipeline from the project root with `python -m backend.rag`. Retrieval scores and document details are hidden unless `DEBUG` is enabled in `backend/rag.py`.
+
 ## Current Project Workflow
 
 1. Collect Generation I resources from PokéAPI.
 2. Convert raw JSON into four processed CSV datasets.
-3. Generate Pokémon, move, and evolution-chain knowledge documents.
+3. Generate six focused knowledge documents per Pokémon, plus move and evolution-chain documents.
 4. Generate document-content embeddings.
 5. Store the vectors and associated records in the persistent collection.
+6. Embed a user query, search the collection, and return the top-k documents.
+7. Build a context-only prompt, send it to Ollama through LangChain, and return the answer.
 
 ## Example Project Output
 
-The current local collection contains 821 records. A first indexing run for the current datasets reports:
+Indexing the current datasets into a clean collection produces this summary:
 
 ```text
 Collection: pokemon_knowledge
-Pokemon Documents: 151
+Pokemon Documents: 906
 Move Documents: 592
 Evolution Documents: 78
-Total Indexed: 821
-Collection Count: 821
+Total Indexed: 1576
+Collection Count: 1576
 Indexing Complete.
 ```
 
-On a later run, `Total Indexed` may be zero because existing IDs are skipped; `Collection Count` reports the stored total.
+The vector-store stage only adds missing IDs, so it does not remove records from an older collection. The current local collection contains 1,576 records. If rebuilding after a document-format change, recreate the derived `data/chroma_db/` collection; do not delete the raw JSON, CSV, or knowledge-document source files. On later runs, existing IDs are skipped and `Collection Count` reports the stored total.
 
 ## Project Statistics
 
@@ -202,23 +252,21 @@ The following snapshot was calculated from the current local raw files, CSVs, kn
 | Dataset | Species downloaded | 151 |
 | Dataset | Unique moves | 592 |
 | Dataset | Evolution chains | 78 |
-| Knowledge base | Pokémon documents | 151 |
+| Knowledge base | Pokémon documents | 906 |
 | Knowledge base | Move documents | 592 |
 | Knowledge base | Evolution documents | 78 |
-| Knowledge base | Total knowledge documents | 821 |
+| Knowledge base | Total knowledge documents | 1,576 |
 | Embeddings | Model | `all-MiniLM-L6-v2` |
 | Embeddings | Dimension | 384 |
 | Vector store | Collection | `pokemon_knowledge` |
-| Vector store | Total indexed documents | 821 |
-| Repository | Python source files | 12 |
-| Repository | Backend modules | 11 |
-| Repository | Approximate Python source lines | 1,151 |
-| Repository | Implemented project phases | 6 |
+| Vector store | Current local indexed documents | 1,576 |
+| Repository | Python source files | 13 |
+| Repository | Backend modules | 12 |
+| Repository | Approximate Python source lines | 1,574 |
+| Repository | Implemented project phases | 8 |
 
 ## Future Improvements
 
-- Add a question-time similarity search workflow over the stored collection.
-- Connect generated context to an Ollama chat model through LangChain.
 - Expand the minimal FastAPI application beyond its current root and health endpoints.
 - Build a Gradio interface for interacting with the project.
 - Implement and connect the Pokémon recommendation module.
