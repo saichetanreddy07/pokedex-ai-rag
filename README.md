@@ -50,6 +50,19 @@ root with:
 python backend/preprocessor.py
 ```
 
+## Knowledge Document Generation
+
+The knowledge-document stage transforms the processed CSV datasets into
+searchable documents:
+
+```text
+Raw JSON -> Processed CSV -> Knowledge Documents
+```
+
+Run it from the project root with `python -m backend.document_generator`.
+The generated JSON files in `data/documents/` are ready for the later
+embedding phase.
+
 ## Tech Stack
 
 - Python 3.12
@@ -70,6 +83,7 @@ pokedex-ai-rag/
 │   ├── config.py
 │   ├── data_loader.py
 │   ├── preprocessor.py
+    │   ├── document_generator.py
 │   ├── embeddings.py
 │   ├── retriever.py
 │   ├── llm.py

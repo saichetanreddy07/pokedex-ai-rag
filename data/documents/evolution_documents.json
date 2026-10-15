@@ -1,0 +1,704 @@
+[
+  {
+    "id": "evolution-chain-1",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 1",
+    "content": "Evolution chain 1 begins with bulbasaur. The next stage includes ivysaur. A further evolution can become venusaur.",
+    "metadata": {
+      "chain_id": "1"
+    }
+  },
+  {
+    "id": "evolution-chain-10",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 10",
+    "content": "Evolution chain 10 begins with pichu. The next stage includes pikachu. A further evolution can become raichu.",
+    "metadata": {
+      "chain_id": "10"
+    }
+  },
+  {
+    "id": "evolution-chain-11",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 11",
+    "content": "Evolution chain 11 begins with sandshrew. The next stage includes sandslash.",
+    "metadata": {
+      "chain_id": "11"
+    }
+  },
+  {
+    "id": "evolution-chain-12",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 12",
+    "content": "Evolution chain 12 begins with nidoran-f. The next stage includes nidorina. A further evolution can become nidoqueen.",
+    "metadata": {
+      "chain_id": "12"
+    }
+  },
+  {
+    "id": "evolution-chain-13",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 13",
+    "content": "Evolution chain 13 begins with nidoran-m. The next stage includes nidorino. A further evolution can become nidoking.",
+    "metadata": {
+      "chain_id": "13"
+    }
+  },
+  {
+    "id": "evolution-chain-14",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 14",
+    "content": "Evolution chain 14 begins with cleffa. The next stage includes clefairy. A further evolution can become clefable.",
+    "metadata": {
+      "chain_id": "14"
+    }
+  },
+  {
+    "id": "evolution-chain-15",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 15",
+    "content": "Evolution chain 15 begins with vulpix. The next stage includes ninetales.",
+    "metadata": {
+      "chain_id": "15"
+    }
+  },
+  {
+    "id": "evolution-chain-16",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 16",
+    "content": "Evolution chain 16 begins with igglybuff. The next stage includes jigglypuff. A further evolution can become wigglytuff.",
+    "metadata": {
+      "chain_id": "16"
+    }
+  },
+  {
+    "id": "evolution-chain-17",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 17",
+    "content": "Evolution chain 17 begins with zubat. The next stage includes golbat. A further evolution can become crobat.",
+    "metadata": {
+      "chain_id": "17"
+    }
+  },
+  {
+    "id": "evolution-chain-18",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 18",
+    "content": "Evolution chain 18 begins with oddish. The next stage includes gloom. A further evolution can become vileplume, bellossom.",
+    "metadata": {
+      "chain_id": "18"
+    }
+  },
+  {
+    "id": "evolution-chain-19",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 19",
+    "content": "Evolution chain 19 begins with paras. The next stage includes parasect.",
+    "metadata": {
+      "chain_id": "19"
+    }
+  },
+  {
+    "id": "evolution-chain-2",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 2",
+    "content": "Evolution chain 2 begins with charmander. The next stage includes charmeleon. A further evolution can become charizard.",
+    "metadata": {
+      "chain_id": "2"
+    }
+  },
+  {
+    "id": "evolution-chain-20",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 20",
+    "content": "Evolution chain 20 begins with venonat. The next stage includes venomoth.",
+    "metadata": {
+      "chain_id": "20"
+    }
+  },
+  {
+    "id": "evolution-chain-21",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 21",
+    "content": "Evolution chain 21 begins with diglett. The next stage includes dugtrio.",
+    "metadata": {
+      "chain_id": "21"
+    }
+  },
+  {
+    "id": "evolution-chain-22",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 22",
+    "content": "Evolution chain 22 begins with meowth. The next stage includes persian, perrserker.",
+    "metadata": {
+      "chain_id": "22"
+    }
+  },
+  {
+    "id": "evolution-chain-23",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 23",
+    "content": "Evolution chain 23 begins with psyduck. The next stage includes golduck.",
+    "metadata": {
+      "chain_id": "23"
+    }
+  },
+  {
+    "id": "evolution-chain-24",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 24",
+    "content": "Evolution chain 24 begins with mankey. The next stage includes primeape. A further evolution can become annihilape.",
+    "metadata": {
+      "chain_id": "24"
+    }
+  },
+  {
+    "id": "evolution-chain-25",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 25",
+    "content": "Evolution chain 25 begins with growlithe. The next stage includes arcanine.",
+    "metadata": {
+      "chain_id": "25"
+    }
+  },
+  {
+    "id": "evolution-chain-26",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 26",
+    "content": "Evolution chain 26 begins with poliwag. The next stage includes poliwhirl. A further evolution can become poliwrath, politoed.",
+    "metadata": {
+      "chain_id": "26"
+    }
+  },
+  {
+    "id": "evolution-chain-27",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 27",
+    "content": "Evolution chain 27 begins with abra. The next stage includes kadabra. A further evolution can become alakazam.",
+    "metadata": {
+      "chain_id": "27"
+    }
+  },
+  {
+    "id": "evolution-chain-28",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 28",
+    "content": "Evolution chain 28 begins with machop. The next stage includes machoke. A further evolution can become machamp.",
+    "metadata": {
+      "chain_id": "28"
+    }
+  },
+  {
+    "id": "evolution-chain-29",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 29",
+    "content": "Evolution chain 29 begins with bellsprout. The next stage includes weepinbell. A further evolution can become victreebel.",
+    "metadata": {
+      "chain_id": "29"
+    }
+  },
+  {
+    "id": "evolution-chain-3",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 3",
+    "content": "Evolution chain 3 begins with squirtle. The next stage includes wartortle. A further evolution can become blastoise.",
+    "metadata": {
+      "chain_id": "3"
+    }
+  },
+  {
+    "id": "evolution-chain-30",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 30",
+    "content": "Evolution chain 30 begins with tentacool. The next stage includes tentacruel.",
+    "metadata": {
+      "chain_id": "30"
+    }
+  },
+  {
+    "id": "evolution-chain-31",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 31",
+    "content": "Evolution chain 31 begins with geodude. The next stage includes graveler. A further evolution can become golem.",
+    "metadata": {
+      "chain_id": "31"
+    }
+  },
+  {
+    "id": "evolution-chain-32",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 32",
+    "content": "Evolution chain 32 begins with ponyta. The next stage includes rapidash.",
+    "metadata": {
+      "chain_id": "32"
+    }
+  },
+  {
+    "id": "evolution-chain-33",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 33",
+    "content": "Evolution chain 33 begins with slowpoke. The next stage includes slowbro, slowking.",
+    "metadata": {
+      "chain_id": "33"
+    }
+  },
+  {
+    "id": "evolution-chain-34",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 34",
+    "content": "Evolution chain 34 begins with magnemite. The next stage includes magneton. A further evolution can become magnezone.",
+    "metadata": {
+      "chain_id": "34"
+    }
+  },
+  {
+    "id": "evolution-chain-35",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 35",
+    "content": "Evolution chain 35 begins with farfetchd. The next stage includes sirfetchd.",
+    "metadata": {
+      "chain_id": "35"
+    }
+  },
+  {
+    "id": "evolution-chain-36",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 36",
+    "content": "Evolution chain 36 begins with doduo. The next stage includes dodrio.",
+    "metadata": {
+      "chain_id": "36"
+    }
+  },
+  {
+    "id": "evolution-chain-37",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 37",
+    "content": "Evolution chain 37 begins with seel. The next stage includes dewgong.",
+    "metadata": {
+      "chain_id": "37"
+    }
+  },
+  {
+    "id": "evolution-chain-38",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 38",
+    "content": "Evolution chain 38 begins with grimer. The next stage includes muk.",
+    "metadata": {
+      "chain_id": "38"
+    }
+  },
+  {
+    "id": "evolution-chain-39",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 39",
+    "content": "Evolution chain 39 begins with shellder. The next stage includes cloyster.",
+    "metadata": {
+      "chain_id": "39"
+    }
+  },
+  {
+    "id": "evolution-chain-4",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 4",
+    "content": "Evolution chain 4 begins with caterpie. The next stage includes metapod. A further evolution can become butterfree.",
+    "metadata": {
+      "chain_id": "4"
+    }
+  },
+  {
+    "id": "evolution-chain-40",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 40",
+    "content": "Evolution chain 40 begins with gastly. The next stage includes haunter. A further evolution can become gengar.",
+    "metadata": {
+      "chain_id": "40"
+    }
+  },
+  {
+    "id": "evolution-chain-41",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 41",
+    "content": "Evolution chain 41 begins with onix. The next stage includes steelix.",
+    "metadata": {
+      "chain_id": "41"
+    }
+  },
+  {
+    "id": "evolution-chain-42",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 42",
+    "content": "Evolution chain 42 begins with drowzee. The next stage includes hypno.",
+    "metadata": {
+      "chain_id": "42"
+    }
+  },
+  {
+    "id": "evolution-chain-43",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 43",
+    "content": "Evolution chain 43 begins with krabby. The next stage includes kingler.",
+    "metadata": {
+      "chain_id": "43"
+    }
+  },
+  {
+    "id": "evolution-chain-44",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 44",
+    "content": "Evolution chain 44 begins with voltorb. The next stage includes electrode.",
+    "metadata": {
+      "chain_id": "44"
+    }
+  },
+  {
+    "id": "evolution-chain-45",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 45",
+    "content": "Evolution chain 45 begins with exeggcute. The next stage includes exeggutor.",
+    "metadata": {
+      "chain_id": "45"
+    }
+  },
+  {
+    "id": "evolution-chain-46",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 46",
+    "content": "Evolution chain 46 begins with cubone. The next stage includes marowak.",
+    "metadata": {
+      "chain_id": "46"
+    }
+  },
+  {
+    "id": "evolution-chain-47",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 47",
+    "content": "Evolution chain 47 begins with tyrogue. The next stage includes hitmonlee, hitmonchan, hitmontop.",
+    "metadata": {
+      "chain_id": "47"
+    }
+  },
+  {
+    "id": "evolution-chain-48",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 48",
+    "content": "Evolution chain 48 begins with lickitung. The next stage includes lickilicky.",
+    "metadata": {
+      "chain_id": "48"
+    }
+  },
+  {
+    "id": "evolution-chain-49",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 49",
+    "content": "Evolution chain 49 begins with koffing. The next stage includes weezing.",
+    "metadata": {
+      "chain_id": "49"
+    }
+  },
+  {
+    "id": "evolution-chain-5",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 5",
+    "content": "Evolution chain 5 begins with weedle. The next stage includes kakuna. A further evolution can become beedrill.",
+    "metadata": {
+      "chain_id": "5"
+    }
+  },
+  {
+    "id": "evolution-chain-50",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 50",
+    "content": "Evolution chain 50 begins with rhyhorn. The next stage includes rhydon. A further evolution can become rhyperior.",
+    "metadata": {
+      "chain_id": "50"
+    }
+  },
+  {
+    "id": "evolution-chain-51",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 51",
+    "content": "Evolution chain 51 begins with happiny. The next stage includes chansey. A further evolution can become blissey.",
+    "metadata": {
+      "chain_id": "51"
+    }
+  },
+  {
+    "id": "evolution-chain-52",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 52",
+    "content": "Evolution chain 52 begins with tangela. The next stage includes tangrowth.",
+    "metadata": {
+      "chain_id": "52"
+    }
+  },
+  {
+    "id": "evolution-chain-53",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 53",
+    "content": "Evolution chain 53 begins with kangaskhan.",
+    "metadata": {
+      "chain_id": "53"
+    }
+  },
+  {
+    "id": "evolution-chain-54",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 54",
+    "content": "Evolution chain 54 begins with horsea. The next stage includes seadra. A further evolution can become kingdra.",
+    "metadata": {
+      "chain_id": "54"
+    }
+  },
+  {
+    "id": "evolution-chain-55",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 55",
+    "content": "Evolution chain 55 begins with goldeen. The next stage includes seaking.",
+    "metadata": {
+      "chain_id": "55"
+    }
+  },
+  {
+    "id": "evolution-chain-56",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 56",
+    "content": "Evolution chain 56 begins with staryu. The next stage includes starmie.",
+    "metadata": {
+      "chain_id": "56"
+    }
+  },
+  {
+    "id": "evolution-chain-57",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 57",
+    "content": "Evolution chain 57 begins with mime-jr. The next stage includes mr-mime. A further evolution can become mr-rime.",
+    "metadata": {
+      "chain_id": "57"
+    }
+  },
+  {
+    "id": "evolution-chain-58",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 58",
+    "content": "Evolution chain 58 begins with scyther. The next stage includes scizor, kleavor.",
+    "metadata": {
+      "chain_id": "58"
+    }
+  },
+  {
+    "id": "evolution-chain-59",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 59",
+    "content": "Evolution chain 59 begins with smoochum. The next stage includes jynx.",
+    "metadata": {
+      "chain_id": "59"
+    }
+  },
+  {
+    "id": "evolution-chain-6",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 6",
+    "content": "Evolution chain 6 begins with pidgey. The next stage includes pidgeotto. A further evolution can become pidgeot.",
+    "metadata": {
+      "chain_id": "6"
+    }
+  },
+  {
+    "id": "evolution-chain-60",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 60",
+    "content": "Evolution chain 60 begins with elekid. The next stage includes electabuzz. A further evolution can become electivire.",
+    "metadata": {
+      "chain_id": "60"
+    }
+  },
+  {
+    "id": "evolution-chain-61",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 61",
+    "content": "Evolution chain 61 begins with magby. The next stage includes magmar. A further evolution can become magmortar.",
+    "metadata": {
+      "chain_id": "61"
+    }
+  },
+  {
+    "id": "evolution-chain-62",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 62",
+    "content": "Evolution chain 62 begins with pinsir.",
+    "metadata": {
+      "chain_id": "62"
+    }
+  },
+  {
+    "id": "evolution-chain-63",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 63",
+    "content": "Evolution chain 63 begins with tauros.",
+    "metadata": {
+      "chain_id": "63"
+    }
+  },
+  {
+    "id": "evolution-chain-64",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 64",
+    "content": "Evolution chain 64 begins with magikarp. The next stage includes gyarados.",
+    "metadata": {
+      "chain_id": "64"
+    }
+  },
+  {
+    "id": "evolution-chain-65",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 65",
+    "content": "Evolution chain 65 begins with lapras.",
+    "metadata": {
+      "chain_id": "65"
+    }
+  },
+  {
+    "id": "evolution-chain-66",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 66",
+    "content": "Evolution chain 66 begins with ditto.",
+    "metadata": {
+      "chain_id": "66"
+    }
+  },
+  {
+    "id": "evolution-chain-67",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 67",
+    "content": "Evolution chain 67 begins with eevee. The next stage includes vaporeon, jolteon, flareon, espeon, umbreon, leafeon, glaceon, sylveon.",
+    "metadata": {
+      "chain_id": "67"
+    }
+  },
+  {
+    "id": "evolution-chain-68",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 68",
+    "content": "Evolution chain 68 begins with porygon. The next stage includes porygon2. A further evolution can become porygon-z.",
+    "metadata": {
+      "chain_id": "68"
+    }
+  },
+  {
+    "id": "evolution-chain-69",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 69",
+    "content": "Evolution chain 69 begins with omanyte. The next stage includes omastar.",
+    "metadata": {
+      "chain_id": "69"
+    }
+  },
+  {
+    "id": "evolution-chain-7",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 7",
+    "content": "Evolution chain 7 begins with rattata. The next stage includes raticate.",
+    "metadata": {
+      "chain_id": "7"
+    }
+  },
+  {
+    "id": "evolution-chain-70",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 70",
+    "content": "Evolution chain 70 begins with kabuto. The next stage includes kabutops.",
+    "metadata": {
+      "chain_id": "70"
+    }
+  },
+  {
+    "id": "evolution-chain-71",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 71",
+    "content": "Evolution chain 71 begins with aerodactyl.",
+    "metadata": {
+      "chain_id": "71"
+    }
+  },
+  {
+    "id": "evolution-chain-72",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 72",
+    "content": "Evolution chain 72 begins with munchlax. The next stage includes snorlax.",
+    "metadata": {
+      "chain_id": "72"
+    }
+  },
+  {
+    "id": "evolution-chain-73",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 73",
+    "content": "Evolution chain 73 begins with articuno.",
+    "metadata": {
+      "chain_id": "73"
+    }
+  },
+  {
+    "id": "evolution-chain-74",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 74",
+    "content": "Evolution chain 74 begins with zapdos.",
+    "metadata": {
+      "chain_id": "74"
+    }
+  },
+  {
+    "id": "evolution-chain-75",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 75",
+    "content": "Evolution chain 75 begins with moltres.",
+    "metadata": {
+      "chain_id": "75"
+    }
+  },
+  {
+    "id": "evolution-chain-76",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 76",
+    "content": "Evolution chain 76 begins with dratini. The next stage includes dragonair. A further evolution can become dragonite.",
+    "metadata": {
+      "chain_id": "76"
+    }
+  },
+  {
+    "id": "evolution-chain-77",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 77",
+    "content": "Evolution chain 77 begins with mewtwo.",
+    "metadata": {
+      "chain_id": "77"
+    }
+  },
+  {
+    "id": "evolution-chain-78",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 78",
+    "content": "Evolution chain 78 begins with mew.",
+    "metadata": {
+      "chain_id": "78"
+    }
+  },
+  {
+    "id": "evolution-chain-8",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 8",
+    "content": "Evolution chain 8 begins with spearow. The next stage includes fearow.",
+    "metadata": {
+      "chain_id": "8"
+    }
+  },
+  {
+    "id": "evolution-chain-9",
+    "resource": "evolution_chain",
+    "title": "Evolution Chain 9",
+    "content": "Evolution chain 9 begins with ekans. The next stage includes arbok.",
+    "metadata": {
+      "chain_id": "9"
+    }
+  }
+]
