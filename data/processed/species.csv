@@ -1,0 +1,152 @@
+id,name,generation,habitat,color,shape,is_legendary,is_mythical,capture_rate,base_happiness,growth_rate,description,evolution_chain_id
+100,voltorb,generation-i,urban,red,ball,False,False,190,70,medium,"Usually found in power plants. Easily mistaken for a POKé BALL, they have zapped many people.",44
+101,electrode,generation-i,urban,red,ball,False,False,60,70,medium,It stores electric energy under very high pressure. It often explodes with little or no provocation.,44
+102,exeggcute,generation-i,forest,pink,heads,False,False,90,70,slow,"Often mistaken for eggs. When disturbed, they quickly gather and attack in swarms.",45
+103,exeggutor,generation-i,forest,yellow,legs,False,False,45,70,slow,"Legend has it that on rare occasions, one of its heads will drop off and continue on as an EXEGGCUTE.",45
+104,cubone,generation-i,mountain,brown,upright,False,False,190,70,medium,"Because it never removes its skull helmet, no one has ever seen this POKéMON's real face.",46
+105,marowak,generation-i,mountain,brown,upright,False,False,75,70,medium,The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to KO targets.,46
+106,hitmonlee,generation-i,urban,brown,humanoid,False,False,45,70,medium,"When in a hurry, its legs lengthen progressively. It runs smoothly with extra long, loping strides.",47
+107,hitmonchan,generation-i,urban,brown,humanoid,False,False,45,70,medium,"While apparently doing nothing, it fires punches in lightning fast volleys that are impossible to see.",47
+108,lickitung,generation-i,grassland,pink,upright,False,False,45,70,medium,Its tongue can be extended like a chameleon's. It leaves a tingling sensation when it licks enemies.,48
+109,koffing,generation-i,urban,purple,ball,False,False,190,70,medium,"Because it stores several kinds of toxic gases in its body, it is prone to exploding without warning.",49
+10,caterpie,generation-i,forest,green,armor,False,False,255,70,medium,Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.,4
+110,weezing,generation-i,urban,purple,heads,False,False,60,70,medium,"Where two kinds of poison gases meet, 2 KOFFINGs can fuse into a WEEZING over many years.",49
+111,rhyhorn,generation-i,rough-terrain,gray,quadruped,False,False,120,70,slow,Its massive bones are 1000 times harder than human bones. It can easily knock a trailer flying.,50
+112,rhydon,generation-i,rough-terrain,gray,upright,False,False,60,70,slow,"Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees.",50
+113,chansey,generation-i,urban,pink,upright,False,False,30,140,fast,A rare and elusive POKéMON that is said to bring happiness to those who manage to get it.,51
+114,tangela,generation-i,grassland,blue,legs,False,False,45,70,medium,The whole body is swathed with wide vines that are similar to sea­ weed. Its vines shake as it walks.,52
+115,kangaskhan,generation-i,grassland,brown,upright,False,False,45,70,medium,The infant rarely ventures out of its mother's protective pouch until it is 3 years old.,53
+116,horsea,generation-i,sea,blue,blob,False,False,225,70,medium,Known to shoot down flying bugs with precision blasts of ink from the surface of the water.,54
+117,seadra,generation-i,sea,blue,blob,False,False,75,70,medium,Capable of swim­ ming backwards by rapidly flapping its wing-like pectoral fins and stout tail.,54
+118,goldeen,generation-i,waters-edge,red,fish,False,False,225,70,medium,"Its tail fin billows like an elegant ballroom dress, giving it the nickname of the Water Queen.",55
+119,seaking,generation-i,waters-edge,red,fish,False,False,60,70,medium,"In the autumn spawning season, they can be seen swimming power­ fully up rivers and creeks.",55
+11,metapod,generation-i,forest,green,squiggle,False,False,120,70,medium,"This POKéMON is vulnerable to attack while its shell is soft, exposing its weak and tender body.",4
+120,staryu,generation-i,sea,brown,blob,False,False,225,70,slow,An enigmatic POKéMON that can effortlessly regenerate any appendage it loses in battle.,56
+121,starmie,generation-i,sea,purple,blob,False,False,60,70,slow,Its central core glows with the seven colors of the rainbow. Some people value the core as a gem.,56
+122,mr-mime,generation-i,urban,pink,humanoid,False,False,45,70,medium,"If interrupted while it is miming, it will slap around the offender with its broad hands.",57
+123,scyther,generation-i,grassland,green,bug-wings,False,False,45,70,medium,"With ninja-like agility and speed, it can create the illusion that there is more than one.",58
+124,jynx,generation-i,urban,red,humanoid,False,False,45,70,medium,It seductively wiggles its hips as it walks. It can cause people to dance in unison with it.,59
+125,electabuzz,generation-i,grassland,yellow,upright,False,False,45,70,medium,"Normally found near power plants, they can wander away and cause major blackouts in cities.",60
+126,magmar,generation-i,mountain,red,upright,False,False,45,70,medium,Its body always burns with an orange glow that enables it to hide perfectly among flames.,61
+127,pinsir,generation-i,forest,brown,humanoid,False,False,45,70,slow,"If it fails to crush the victim in its pincers, it will swing it around and toss it hard.",62
+128,tauros,generation-i,grassland,brown,quadruped,False,False,45,70,slow,"When it targets an enemy, it charges furiously while whipping its body with its long tails.",63
+129,magikarp,generation-i,waters-edge,red,fish,False,False,255,70,slow,"In the distant past, it was somewhat stronger than the horribly weak descendants that exist today.",64
+12,butterfree,generation-i,forest,white,bug-wings,False,False,45,70,medium,"In battle, it flaps its wings at high speed to release highly toxic dust into the air.",4
+130,gyarados,generation-i,waters-edge,blue,squiggle,False,False,45,70,slow,"Rarely seen in the wild. Huge and vicious, it is capable of destroying entire cities in a rage.",64
+131,lapras,generation-i,sea,blue,fish,False,False,45,70,slow,A POKéMON that has been over­ hunted almost to extinction. It can ferry people across the water.,65
+132,ditto,generation-i,urban,purple,ball,False,False,35,70,medium,Capable of copying an enemy's genetic code to instantly transform itself into a duplicate of the enemy.,66
+133,eevee,generation-i,urban,brown,quadruped,False,False,45,70,medium,Its genetic code is irregular. It may mutate if it is exposed to radiation from element STONEs.,67
+134,vaporeon,generation-i,urban,blue,quadruped,False,False,45,70,medium,Lives close to water. Its long tail is ridged with a fin which is often mistaken for a mermaid's.,67
+135,jolteon,generation-i,urban,yellow,quadruped,False,False,45,70,medium,It accumulates negative ions in the atmosphere to blast out 10000- volt lightning bolts.,67
+136,flareon,generation-i,urban,red,quadruped,False,False,45,70,medium,"When storing thermal energy in its body, its temperature could soar to over 1600 degrees.",67
+137,porygon,generation-i,urban,pink,legs,False,False,45,70,medium,A POKéMON that consists entirely of programming code. Capable of moving freely in cyberspace.,68
+138,omanyte,generation-i,sea,blue,tentacles,False,False,45,70,medium,"Although long extinct, in rare cases, it can be genetically resurrected from fossils.",69
+139,omastar,generation-i,sea,blue,tentacles,False,False,45,70,medium,A prehistoric POKéMON that died out when its heavy shell made it impossible to catch prey.,69
+13,weedle,generation-i,forest,brown,armor,False,False,255,70,medium,"Often found in forests, eating leaves. It has a sharp venomous stinger on its head.",5
+140,kabuto,generation-i,sea,brown,armor,False,False,45,70,medium,A POKéMON that was resurrected from a fossil found in what was once the ocean floor eons ago.,70
+141,kabutops,generation-i,sea,brown,upright,False,False,45,70,medium,Its sleek shape is perfect for swim­ ming. It slashes prey with its claws and drains the body fluids.,70
+142,aerodactyl,generation-i,mountain,purple,wings,False,False,45,70,slow,"A ferocious, pre­ historic POKéMON that goes for the enemy's throat with its serrated saw-like fangs.",71
+143,snorlax,generation-i,mountain,black,humanoid,False,False,25,70,slow,"Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful.",72
+144,articuno,generation-i,rare,blue,wings,True,False,3,35,slow,A legendary bird POKéMON that is said to appear to doomed people who are lost in icy mountains.,73
+145,zapdos,generation-i,rare,yellow,wings,True,False,3,35,slow,A legendary bird POKéMON that is said to appear from clouds while dropping enormous lightning bolts.,74
+146,moltres,generation-i,rare,yellow,wings,True,False,3,35,slow,Known as the legendary bird of fire. Every flap of its wings creates a dazzling flash of flames.,75
+147,dratini,generation-i,waters-edge,blue,squiggle,False,False,45,35,slow,Long considered a mythical POKéMON until recently when a small colony was found living underwater.,76
+148,dragonair,generation-i,waters-edge,blue,squiggle,False,False,45,35,slow,A mystical POKéMON that exudes a gentle aura. Has the ability to change climate conditions.,76
+149,dragonite,generation-i,waters-edge,brown,upright,False,False,45,35,slow,An extremely rarely seen marine POKéMON. Its intelligence is said to match that of humans.,76
+14,kakuna,generation-i,forest,yellow,squiggle,False,False,120,70,medium,"Almost incapable of moving, this POKéMON can only harden its shell to protect itself from predators.",5
+150,mewtwo,generation-i,rare,purple,upright,True,False,3,0,slow,It was created by a scientist after years of horrific gene splicing and DNA engineering experiments.,77
+151,mew,generation-i,rare,pink,upright,False,True,45,100,medium-slow,So rare that it is still said to be a mirage by many experts. Only a few people have seen it worldwide.,78
+15,beedrill,generation-i,forest,yellow,bug-wings,False,False,45,70,medium,Flies at high speed and attacks using its large venomous stingers on its forelegs and tail.,5
+16,pidgey,generation-i,forest,brown,wings,False,False,255,70,medium-slow,A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand.,6
+17,pidgeotto,generation-i,forest,brown,wings,False,False,120,70,medium-slow,"Very protective of its sprawling territorial area, this POKéMON will fiercely peck at any intruder.",6
+18,pidgeot,generation-i,forest,brown,wings,False,False,45,70,medium-slow,"When hunting, it skims the surface of water at high speed to pick off unwary prey such as MAGIKARP.",6
+19,rattata,generation-i,grassland,purple,quadruped,False,False,255,70,medium,"Bites anything when it attacks. Small and very quick, it is a common sight in many places.",7
+1,bulbasaur,generation-i,grassland,green,quadruped,False,False,45,70,medium-slow,A strange seed was planted on its back at birth. The plant sprouts and grows with this POKéMON.,1
+20,raticate,generation-i,grassland,brown,quadruped,False,False,127,70,medium,It uses its whis­ kers to maintain its balance. It apparently slows down if they are cut off.,7
+21,spearow,generation-i,rough-terrain,brown,wings,False,False,255,70,medium,Eats bugs in grassy areas. It has to flap its short wings at high speed to stay airborne.,8
+22,fearow,generation-i,rough-terrain,brown,wings,False,False,90,70,medium,"With its huge and magnificent wings, it can keep aloft without ever having to land for rest.",8
+23,ekans,generation-i,grassland,purple,squiggle,False,False,255,70,medium,"Moves silently and stealthily. Eats the eggs of birds, such as PIDGEY and SPEAROW, whole.",9
+24,arbok,generation-i,grassland,purple,squiggle,False,False,90,70,medium,It is rumored that the ferocious warning markings on its belly differ from area to area.,9
+25,pikachu,generation-i,forest,yellow,quadruped,False,False,190,70,medium,"When several of these POKéMON gather, their electricity could build and cause lightning storms.",10
+26,raichu,generation-i,forest,yellow,upright,False,False,75,70,medium,Its long tail serves as a ground to protect itself from its own high voltage power.,10
+27,sandshrew,generation-i,rough-terrain,yellow,upright,False,False,255,70,medium,Burrows deep underground in arid locations far from water. It only emerges to hunt for food.,11
+28,sandslash,generation-i,rough-terrain,yellow,upright,False,False,90,70,medium,Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape.,11
+29,nidoran-f,generation-i,grassland,blue,quadruped,False,False,235,70,medium-slow,"Although small, its venomous barbs render this POKéMON dangerous. The female has smaller horns.",12
+2,ivysaur,generation-i,grassland,green,quadruped,False,False,45,70,medium-slow,"When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.",1
+30,nidorina,generation-i,grassland,blue,quadruped,False,False,120,70,medium-slow,The female's horn develops slowly. Prefers physical attacks such as clawing and biting.,12
+31,nidoqueen,generation-i,grassland,blue,upright,False,False,45,70,medium-slow,Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves.,12
+32,nidoran-m,generation-i,grassland,purple,quadruped,False,False,235,70,medium-slow,"Stiffens its ears to sense danger. The larger its horns, the more powerful its secreted venom.",13
+33,nidorino,generation-i,grassland,purple,quadruped,False,False,120,70,medium-slow,An aggressive POKéMON that is quick to attack. The horn on its head secretes a powerful venom.,13
+34,nidoking,generation-i,grassland,purple,upright,False,False,45,70,medium-slow,"It uses its powerful tail in battle to smash, constrict, then break the prey's bones.",13
+35,clefairy,generation-i,mountain,pink,upright,False,False,150,140,fast,Its magical and cute appeal has many admirers. It is rare and found only in certain areas.,14
+36,clefable,generation-i,mountain,pink,upright,False,False,25,140,fast,A timid fairy POKéMON that is rarely seen. It will run and hide the moment it senses people.,14
+37,vulpix,generation-i,grassland,brown,quadruped,False,False,190,70,medium,"At the time of birth, it has just one tail. The tail splits from its tip as it grows older.",15
+38,ninetales,generation-i,grassland,yellow,quadruped,False,False,75,70,medium,Very smart and very vengeful. Grabbing one of its many tails could result in a 1000-year curse.,15
+39,jigglypuff,generation-i,grassland,pink,humanoid,False,False,170,70,fast,"When its huge eyes light up, it sings a mysteriously soothing melody that lulls its enemies to sleep.",16
+3,venusaur,generation-i,grassland,green,quadruped,False,False,45,70,medium-slow,The plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.,1
+40,wigglytuff,generation-i,grassland,pink,humanoid,False,False,50,70,fast,"The body is soft and rubbery. When angered, it will suck in air and inflate itself to an enormous size.",16
+41,zubat,generation-i,cave,purple,wings,False,False,255,70,medium,Forms colonies in perpetually dark places. Uses ultrasonic waves to identify and approach targets.,17
+42,golbat,generation-i,cave,purple,wings,False,False,90,70,medium,"Once it strikes, it will not stop draining energy from the victim even if it gets too heavy to fly.",17
+43,oddish,generation-i,grassland,blue,legs,False,False,255,70,medium-slow,"During the day, it keeps its face buried in the ground. At night, it wanders around sowing its seeds.",18
+44,gloom,generation-i,grassland,blue,humanoid,False,False,120,70,medium-slow,The fluid that oozes from its mouth isn't drool. It is a nectar that is used to attract prey.,18
+45,vileplume,generation-i,grassland,red,humanoid,False,False,45,70,medium-slow,"The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up.",18
+46,paras,generation-i,forest,red,armor,False,False,190,70,medium,Burrows to suck tree roots. The mushrooms on its back grow by draw­ ing nutrients from the bug host.,19
+47,parasect,generation-i,forest,red,armor,False,False,75,70,medium,A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places.,19
+48,venonat,generation-i,forest,purple,humanoid,False,False,190,70,medium,Lives in the shadows of tall trees where it eats insects. It is attracted by light at night.,20
+49,venomoth,generation-i,forest,purple,bug-wings,False,False,75,70,medium,The dust-like scales covering its wings are color coded to indicate the kinds of poison it has.,20
+4,charmander,generation-i,mountain,red,upright,False,False,45,70,medium-slow,"Obviously prefers hot places. When it rains, steam is said to spout from the tip of its tail.",2
+50,diglett,generation-i,cave,brown,blob,False,False,255,70,medium,Lives about one yard underground where it feeds on plant roots. It sometimes appears above ground.,21
+51,dugtrio,generation-i,cave,brown,heads,False,False,50,70,medium,A team of DIGLETT triplets. It triggers huge earthquakes by burrowing 60 miles underground.,21
+52,meowth,generation-i,urban,yellow,quadruped,False,False,255,70,medium,Adores circular objects. Wanders the streets on a nightly basis to look for dropped loose change.,22
+53,persian,generation-i,urban,yellow,quadruped,False,False,90,70,medium,"Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness.",22
+54,psyduck,generation-i,waters-edge,yellow,upright,False,False,190,70,medium,"While lulling its enemies with its vacant look, this wily POKéMON will use psychokinetic powers.",23
+55,golduck,generation-i,waters-edge,blue,upright,False,False,75,70,medium,"Often seen swim­ ming elegantly by lake shores. It is often mistaken for the Japanese monster, Kappa.",23
+56,mankey,generation-i,mountain,brown,upright,False,False,190,70,medium,Extremely quick to anger. It could be docile one moment then thrashing away the next instant.,24
+57,primeape,generation-i,mountain,brown,upright,False,False,75,70,medium,Always furious and tenacious to boot. It will not abandon chasing its quarry until it is caught.,24
+58,growlithe,generation-i,grassland,brown,quadruped,False,False,190,70,slow,Very protective of its territory. It will bark and bite to repel intruders from its space.,25
+59,arcanine,generation-i,grassland,brown,quadruped,False,False,75,70,slow,A POKéMON that has been admired since the past for its beauty. It runs agilely as if on wings.,25
+5,charmeleon,generation-i,mountain,red,upright,False,False,45,70,medium-slow,"When it swings its burning tail, it elevates the temperature to unbearably high levels.",2
+60,poliwag,generation-i,waters-edge,blue,legs,False,False,255,70,medium-slow,Its newly grown legs prevent it from running. It appears to prefer swimming than trying to stand.,26
+61,poliwhirl,generation-i,waters-edge,blue,humanoid,False,False,120,70,medium-slow,"Capable of living in or out of water. When out of water, it sweats to keep its body slimy.",26
+62,poliwrath,generation-i,waters-edge,blue,humanoid,False,False,45,70,medium-slow,An adept swimmer at both the front crawl and breast stroke. Easily overtakes the best human swimmers.,26
+63,abra,generation-i,urban,brown,upright,False,False,200,70,medium-slow,"Using its ability to read minds, it will identify impending danger and TELEPORT to safety.",27
+64,kadabra,generation-i,urban,brown,upright,False,False,100,70,medium-slow,It emits special alpha waves from its body that induce headaches just by being close by.,27
+65,alakazam,generation-i,urban,brown,humanoid,False,False,50,70,medium-slow,"Its brain can out­ perform a super­ computer. Its intelligence quotient is said to be 5,000.",27
+66,machop,generation-i,mountain,gray,upright,False,False,180,70,medium-slow,Loves to build its muscles. It trains in all styles of martial arts to become even stronger.,28
+67,machoke,generation-i,mountain,gray,humanoid,False,False,90,70,medium-slow,"Its muscular body is so powerful, it must wear a power save belt to be able to regulate its motions.",28
+68,machamp,generation-i,mountain,gray,humanoid,False,False,45,70,medium-slow,"Using its heavy muscles, it throws powerful punches that can send the victim clear over the horizon.",28
+69,bellsprout,generation-i,forest,green,humanoid,False,False,255,70,medium-slow,A carnivorous POKéMON that traps and eats bugs. It uses its root feet to soak up needed moisture.,29
+6,charizard,generation-i,mountain,red,upright,False,False,45,70,medium-slow,Spits fire that is hot enough to melt boulders. Known to cause forest fires unintentionally.,2
+70,weepinbell,generation-i,forest,green,blob,False,False,120,70,medium-slow,It spits out POISONPOWDER to immobilize the enemy and then finishes it with a spray of ACID.,29
+71,victreebel,generation-i,forest,green,blob,False,False,45,70,medium-slow,"Said to live in huge colonies deep in jungles, although no one has ever returned from there.",29
+72,tentacool,generation-i,sea,blue,tentacles,False,False,190,70,slow,Drifts in shallow seas. Anglers who hook them by accident are often punished by its stinging acid.,30
+73,tentacruel,generation-i,sea,blue,tentacles,False,False,60,70,slow,"The tentacles are normally kept short. On hunts, they are extended to ensnare and immobilize prey.",30
+74,geodude,generation-i,mountain,brown,arms,False,False,255,70,medium-slow,"Found in fields and mountains. Mistaking them for boulders, people often step or trip on them.",31
+75,graveler,generation-i,mountain,brown,humanoid,False,False,120,70,medium-slow,Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction.,31
+76,golem,generation-i,mountain,brown,humanoid,False,False,45,70,medium-slow,Its boulder-like body is extremely hard. It can easily withstand dynamite blasts without damage.,31
+77,ponyta,generation-i,grassland,yellow,quadruped,False,False,190,70,medium,Its hooves are 10 times harder than diamonds. It can trample anything completely flat in little time.,32
+78,rapidash,generation-i,grassland,yellow,quadruped,False,False,60,70,medium,"Very competitive, this POKéMON will chase anything that moves fast in the hopes of racing it.",32
+79,slowpoke,generation-i,waters-edge,pink,quadruped,False,False,190,70,medium,Incredibly slow and dopey. It takes 5 seconds for it to feel pain when under attack.,33
+7,squirtle,generation-i,waters-edge,blue,upright,False,False,45,70,medium-slow,"After birth, its back swells and hardens into a shell. Powerfully sprays foam from its mouth.",3
+80,slowbro,generation-i,waters-edge,pink,upright,False,False,75,70,medium,The SHELLDER that is latched onto SLOWPOKE's tail is said to feed on the host's left over scraps.,33
+81,magnemite,generation-i,rough-terrain,gray,arms,False,False,190,70,medium,Uses anti-gravity to stay suspended. Appears without warning and uses THUNDER WAVE and similar moves.,34
+82,magneton,generation-i,rough-terrain,gray,heads,False,False,60,70,medium,Formed by several MAGNEMITEs linked together. They frequently appear when sunspots flare up.,34
+83,farfetchd,generation-i,grassland,brown,wings,False,False,45,70,medium,The sprig of green onions it holds is its weapon. It is used much like a metal sword.,35
+84,doduo,generation-i,grassland,brown,legs,False,False,190,70,medium,A bird that makes up for its poor flying with its fast foot speed. Leaves giant footprints.,36
+85,dodrio,generation-i,grassland,brown,legs,False,False,45,70,medium,"Uses its three brains to execute complex plans. While two heads sleep, one head stays awake.",36
+86,seel,generation-i,sea,white,fish,False,False,190,70,medium,The protruding horn on its head is very hard. It is used for bashing through thick ice.,37
+87,dewgong,generation-i,sea,white,fish,False,False,75,70,medium,Stores thermal energy in its body. Swims at a steady 8 knots even in intensely cold waters.,37
+88,grimer,generation-i,urban,purple,arms,False,False,190,70,medium,Appears in filthy areas. Thrives by sucking up polluted sludge that is pumped out of factories.,38
+89,muk,generation-i,urban,purple,arms,False,False,75,70,medium,"Thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",38
+8,wartortle,generation-i,waters-edge,blue,upright,False,False,45,70,medium-slow,"Often hides in water to stalk unwary prey. For swimming fast, it moves its ears to maintain balance.",3
+90,shellder,generation-i,sea,purple,ball,False,False,190,70,slow,Its hard shell repels any kind of attack. It is vulnerable only when its shell is open.,39
+91,cloyster,generation-i,sea,purple,ball,False,False,60,70,slow,"When attacked, it launches its horns in quick volleys. Its innards have never been seen.",39
+92,gastly,generation-i,cave,purple,ball,False,False,190,70,medium-slow,"Almost invisible, this gaseous POKéMON cloaks the target and puts it to sleep without notice.",40
+93,haunter,generation-i,cave,purple,arms,False,False,90,70,medium-slow,"Because of its ability to slip through block walls, it is said to be from an­ other dimension.",40
+94,gengar,generation-i,cave,purple,upright,False,False,45,70,medium-slow,"Under a full moon, this POKéMON likes to mimic the shadows of people and laugh at their fright.",40
+95,onix,generation-i,cave,gray,squiggle,False,False,45,70,medium,"As it grows, the stone portions of its body harden to become similar to a diamond, but colored black.",41
+96,drowzee,generation-i,grassland,yellow,humanoid,False,False,190,70,medium,Puts enemies to sleep then eats their dreams. Occasionally gets sick from eating bad dreams.,42
+97,hypno,generation-i,grassland,yellow,humanoid,False,False,75,70,medium,"When it locks eyes with an enemy, it will use a mix of PSI moves such as HYPNOSIS and CONFUSION.",42
+98,krabby,generation-i,waters-edge,red,armor,False,False,225,70,medium,"Its pincers are not only powerful weapons, they are used for balance when walking sideways.",43
+99,kingler,generation-i,waters-edge,red,armor,False,False,60,70,medium,"The large pincer has 10000 hp of crushing power. However, its huge size makes it unwieldy to use.",43
+9,blastoise,generation-i,waters-edge,blue,upright,False,False,45,70,medium-slow,A brutal POKéMON with pressurized water jets on its shell. They are used for high speed tackles.,3

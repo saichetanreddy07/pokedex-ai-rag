@@ -6,6 +6,49 @@ A Pokémon knowledge assistant project built as a beginner-friendly foundation f
 
 ### FastAPI foundation
 ### Environment-based configuration
+### Resumable PokéAPI data collection
+
+## Data Collection
+
+The downloader starts with PokéAPI's Generation endpoint. Set `TARGET_GENERATION`
+in `.env` to choose a generation; it defaults to Generation I. The generation
+response determines which species are processed, so the Pokémon IDs are not
+maintained as a hardcoded list.
+
+For those species, the pipeline:
+
+- Downloads **Pokémon species** data, including species information such as
+	flavor text and habitat.
+- Downloads the corresponding **Pokémon** data, including names, types, and
+	base stats.
+- Collects move references from those Pokémon and downloads only the referenced
+	**moves**, including type, power, and accuracy.
+- Collects evolution chain references from those species and downloads only
+	the referenced **evolution chains**.
+
+This generation-scoped approach avoids unrelated resources and unnecessary
+alternate Pokémon forms.
+
+Each response is stored as an individual JSON file:
+
+```text
+data/raw/
+├── pokemon/
+├── species/
+├── moves/
+└── evolution_chains/
+```
+
+## Data Preprocessing
+
+Raw JSON downloaded from the PokéAPI is transformed into clean, structured CSV
+datasets in `data/processed/`. These CSV files will be used for later document
+generation and embedding steps. Run the preprocessing pipeline from the project
+root with:
+
+```powershell
+python backend/preprocessor.py
+```
 
 ## Tech Stack
 
@@ -26,6 +69,7 @@ pokedex-ai-rag/
 │   ├── app.py
 │   ├── config.py
 │   ├── data_loader.py
+│   ├── preprocessor.py
 │   ├── embeddings.py
 │   ├── retriever.py
 │   ├── llm.py
@@ -53,6 +97,14 @@ Copy-Item .env.example .env
 ```
 
 ## Usage
+
+Run the data downloader from the project root:
+
+```powershell
+python -m backend.data_loader
+```
+
+Existing files are skipped so interrupted downloads can be resumed.
 
 Start the API from the project root:
 
