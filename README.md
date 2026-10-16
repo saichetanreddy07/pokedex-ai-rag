@@ -12,11 +12,7 @@ The project demonstrates a manually implemented RAG path: retrieval, context sel
 
 ## Demo
 
-| Gradio chat | RAG demo | Architecture diagram |
-| --- | --- | --- |
-| _Screenshot placeholder — add `docs/images/gradio-chat.png`._ | _GIF placeholder — add `docs/images/rag-flow.gif`._ | _Placeholder — export the Mermaid diagram below to `docs/images/architecture.png` if a static image is preferred._ |
-
-<!-- Replace the placeholders with captures from the running application. -->
+Explore the [application screenshots](#application-preview), [RAG workflow](#rag-workflow), and [system architecture](#system-architecture) below.
 
 ## Features
 
@@ -33,6 +29,63 @@ The project demonstrates a manually implemented RAG path: retrieval, context sel
 - **Team analyzer:** reports role gaps, weaknesses and resistances, repeated weaknesses, physical/special balance, heuristic rating, and replacement candidates.
 - **LLM explanations:** asks Ollama to explain selected Pokémon and team analysis. If Ollama is unavailable, the feature returns rule-based explanations derived from the structured records.
 - **Resumable data downloads:** retries failed PokéAPI requests and skips existing valid raw JSON files.
+
+## 📸 Application Preview
+
+### 💬 PokéDex AI Chatbot
+
+<div align="center">
+  <img src="images/UI/pokedex_ai.png" alt="PokéDex AI conversational chatbot" width="90%">
+</div>
+
+Ask Pokémon questions in natural language through the conversational chatbot. The RAG pipeline retrieves relevant knowledge and uses Phi-3 through Ollama to produce grounded responses.
+
+---
+
+### ⭐ Pokémon Recommendation System
+
+<div align="center">
+  <img src="images/UI/pokemon_recommender.png" alt="Pokémon recommendation interface" width="90%">
+</div>
+
+Get personalized, type-aware Pokémon suggestions with natural-language reasons. Recommendation candidates are selected from structured Pokémon data; Phi-3 can provide AI-generated explanations, with rule-based explanations available as a fallback.
+
+---
+
+### 🛡️ Team Builder
+
+<div align="center">
+  <img src="images/UI/team_builder.png" alt="Pokémon team builder interface" width="90%">
+</div>
+
+Build six-member teams with role, offensive coverage, and defensive coverage summaries. Selection uses structured rules and Pokémon data, with Phi-3 used to explain the choices when available.
+
+---
+
+### 📊 Team Analyzer
+
+<div align="center">
+  <img src="images/UI/team_analyzer.png" alt="Pokémon team analyzer interface" width="90%">
+</div>
+
+Analyze an existing team’s roles, type weaknesses, resistances, and coverage. The report also highlights improvement opportunities and suggested replacements.
+
+## 🧠 RAG Workflow
+
+<div align="center">
+  <img src="images/rag_flow.png" alt="PokéDex AI retrieval-augmented generation workflow" width="90%">
+</div>
+
+The question-answering path processes a query through these stages:
+
+1. **User query** enters through the Gradio chatbot.
+2. **Query understanding** detects Pokémon names, document intent, and generation.
+3. **Metadata filtering** narrows ChromaDB candidates when the indexed metadata supports the filter.
+4. **Semantic search** embeds the query with SentenceTransformers (`all-MiniLM-L6-v2`).
+5. **ChromaDB retrieval** returns the top matching documents; an empty filtered search falls back to unfiltered semantic search.
+6. **Context augmentation** adds the retrieved document content to the manually constructed prompt.
+7. **Phi-3 generation via Ollama** produces an answer from the supplied context.
+8. **Grounded natural-language response** returns through FastAPI to the Gradio interface.
 
 ## Project Statistics
 
@@ -66,6 +119,14 @@ Counts below are calculated from the current processed CSVs, generated JSON docu
 The six Pokémon profile types are overview, types, abilities, stats, physical, and learnable moves; move records and evolution chains are separate document types. Collection counts are measured from the existing local ChromaDB database, not inferred from CSV totals.
 
 ## System Architecture
+
+<div align="center">
+  <img src="images/architecture.png" alt="PokéDex AI system architecture" width="90%">
+</div>
+
+The indexing pipeline runs from **PokéAPI data sources** through the data loader, preprocessing, document generation and knowledge chunking, then embedding generation with **SentenceTransformers (`all-MiniLM-L6-v2`)** into the **ChromaDB** vector store. The request path uses the retriever, metadata-aware filtering, and prompt builder.
+
+**FastAPI** orchestrates the backend and calls **Phi-3** served by **Ollama** for RAG answers. **Gradio** is the user interface and sends requests to FastAPI. The Recommendation Engine, Team Builder, and Team Analyzer use structured Pokémon data independently of semantic retrieval; Phi-3 may explain their results.
 
 ```mermaid
 flowchart LR
@@ -150,6 +211,10 @@ pokedex-ai-rag/
 │   ├── processed/              # Pokémon, species, move, and chain CSVs
 │   ├── documents/              # Generated searchable document JSON
 │   └── chroma_db/              # Local persistent index (Git-ignored)
+├── images/
+│   ├── rag_flow.png
+│   ├── architecture.png
+│   └── UI/                     # Application screenshots used below
 ├── .env.example
 ├── requirements.txt
 └── README.md
