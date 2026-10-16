@@ -10,9 +10,9 @@ from backend.embedder import (
 	load_documents,
 	load_embedding_model,
 )
+from backend.config import CHROMA_DB_PATH
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
-DATABASE_DIR = PROJECT_ROOT / "data" / "chroma_db"
+DATABASE_DIR = Path(CHROMA_DB_PATH)
 COLLECTION_NAME = "pokemon_knowledge"
 
 

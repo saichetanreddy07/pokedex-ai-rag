@@ -16,6 +16,7 @@ The current implementation covers data preparation, persistent vector indexing, 
 - Top-K semantic retrieval from a user query against the persistent collection.
 - Concise answers generated with LangChain `ChatOllama` using retrieved context only.
 - FastAPI endpoints for health checks and RAG questions.
+- Gradio chat interface with conversation history and example questions.
 
 ## Tech Stack
 
@@ -27,6 +28,7 @@ The current implementation covers data preparation, persistent vector indexing, 
 - LangChain `ChatOllama`
 - Ollama
 - FastAPI
+- Gradio
 - python-dotenv
 
 ## Project Architecture
@@ -111,9 +113,9 @@ pokedex-ai-rag/
 	└── chroma_db/
 ```
 
-The files `recommender.py` and `frontend/app.py` are present as placeholders.
-`backend/app.py` currently exposes only welcome and health endpoints; it is
-separate from the command-line RAG workflow.
+`backend/recommender.py` is present as a placeholder. `backend/app.py` exposes
+only welcome and health endpoints; it is separate from the RAG API in
+`backend/api.py` and the Gradio interface in `frontend/app.py`.
 
 ## Data Pipeline
 
@@ -141,7 +143,7 @@ Copy-Item .env.example .env
 
 Edit `TARGET_GENERATION` to select the generation for data collection. The other environment settings and their current usage are listed below.
 
-Ollama must be running with the model named by `OLLAMA_MODEL` available locally. With the default setting, download it with `ollama pull llama3`.
+Ollama must be running with the model named by `OLLAMA_MODEL` available locally. The default is `phi3:latest`; download it with `ollama pull phi3` if needed. The default Ollama endpoint is `http://127.0.0.1:11434`.
 
 ## Environment Variables
 
@@ -151,10 +153,11 @@ Ollama must be running with the model named by `OLLAMA_MODEL` available locally.
 | `POKEAPI_BASE_URL` | `https://pokeapi.co/api/v2` | Base URL used for API requests. |
 | `POKEAPI_TIMEOUT` | `10` | Request timeout in seconds. |
 | `POKEAPI_MAX_RETRIES` | `3` | Maximum attempts for a failed API request. |
-| `EMBEDDING_MODEL` | `all-MiniLM-L6-v2` | Defined in config; the embedder currently uses its `MODEL_NAME` constant. |
-| `CHROMA_DB_PATH` | `data/chroma_db` | Defined in config; the vector-store module currently uses this project-relative path directly. |
+| `EMBEDDING_MODEL` | `all-MiniLM-L6-v2` | Sentence Transformer model used to embed documents and queries. |
+| `CHROMA_DB_PATH` | `data/chroma_db` | Persistent ChromaDB directory; relative paths are resolved from the project root. |
 | `TOP_K` | `5` | Number of documents retrieved for each query. |
-| `OLLAMA_MODEL` | `llama3` | Ollama model used by `ChatOllama`. |
+| `OLLAMA_MODEL` | `phi3:latest` | Ollama model used by `ChatOllama`. |
+| `OLLAMA_BASE_URL` | `http://127.0.0.1:11434` | Ollama server URL used by `ChatOllama`. |
 
 ## Running the Project
 
@@ -251,6 +254,35 @@ uvicorn backend.api:app --reload
 
 Blank questions receive HTTP `422`. The interactive Swagger UI is available at `http://127.0.0.1:8000/docs`.
 
+## Gradio Chat UI
+
+Start the API and chat interface in separate terminals from the project root.
+
+Terminal 1, FastAPI:
+
+```powershell
+uvicorn backend.api:app --reload
+```
+
+Terminal 2, Gradio:
+
+```powershell
+python frontend/app.py
+```
+
+Gradio opens the browser automatically. The interface sends questions to FastAPI's `/ask` endpoint and displays only the returned answer.
+
+Example questions:
+
+- What type is Pikachu?
+- What abilities does Charizard have?
+- How does Eevee evolve?
+- What moves can Snorlax learn?
+
+### Screenshot
+
+> Screenshot placeholder: capture the running Gradio chat interface here.
+
 ## Current Project Workflow
 
 1. Collect Generation I resources from PokéAPI.
@@ -261,6 +293,7 @@ Blank questions receive HTTP `422`. The interactive Swagger UI is available at `
 6. Embed a user query, search the collection, and return the top-k documents.
 7. Build a context-only prompt, send it to Ollama through LangChain, and return the answer.
 8. Expose the RAG pipeline through the FastAPI `/ask` endpoint.
+9. Provide the RAG question workflow through the Gradio chat UI.
 
 ## Example Project Output
 
@@ -298,13 +331,12 @@ The following snapshot was calculated from the current local raw files, CSVs, kn
 | Vector store | Current local indexed documents | 1,576 |
 | Repository | Python source files | 15 |
 | Repository | Backend modules | 14 |
-| Repository | Approximate Python source lines | 1,635 |
-| Repository | Implemented project phases | 9 |
+| Repository | Approximate Python source lines | 2,023 |
+| Repository | Implemented project phases | 10 |
 
 ## Future Improvements
 
 - Expand the minimal FastAPI application beyond its current root and health endpoints.
-- Build a Gradio interface for interacting with the project.
 - Implement and connect the Pokémon recommendation module.
 
 ## License

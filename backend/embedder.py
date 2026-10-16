@@ -6,10 +6,11 @@ from pathlib import Path
 from typing import Any
 
 from sentence_transformers import SentenceTransformer
+from backend.config import EMBEDDING_MODEL
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DOCUMENTS_DIR = PROJECT_ROOT / "data" / "documents"
-MODEL_NAME = "all-MiniLM-L6-v2"
+MODEL_NAME = EMBEDDING_MODEL
 BATCH_SIZE = 32
 DOCUMENT_FILES = {
 	"pokemon": "pokemon_documents.json",

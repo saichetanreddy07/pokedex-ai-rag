@@ -4,13 +4,17 @@ from functools import lru_cache
 
 from langchain_ollama import ChatOllama
 
-from backend.config import OLLAMA_MODEL
+from backend.config import OLLAMA_BASE_URL, OLLAMA_MODEL
 
 
 @lru_cache(maxsize=1)
 def load_chat_model() -> ChatOllama:
 	"""Create and cache the ChatOllama model instance."""
-	return ChatOllama(model=OLLAMA_MODEL, temperature=0)
+	return ChatOllama(
+		model=OLLAMA_MODEL,
+		base_url=OLLAMA_BASE_URL,
+		temperature=0,
+	)
 
 
 def generate_answer(prompt: str) -> str:
