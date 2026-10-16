@@ -6,6 +6,8 @@ import chromadb
 
 from backend.config import TOP_K
 from backend.embedder import load_embedding_model
+from backend.metadata_router import build_metadata_filter
+from backend.query_parser import parse_query
 from backend.vector_store import get_client, get_collection as open_collection
 
 
@@ -49,13 +51,34 @@ def retrieve_documents(
 	if collection_count == 0:
 		return []
 
-	query_vector = embed_query(query)
+	cleaned_query = query.strip()
+	if not cleaned_query:
+		raise ValueError("Query cannot be empty.")
+	parsed_query = parse_query(cleaned_query)
+	query_vector = embed_query(cleaned_query)
 	result_count = min(k, collection_count)
-	matches = collection.query(
-		query_embeddings=[query_vector],
-		n_results=result_count,
-		include=["documents", "metadatas", "distances"],
-	)
+	metadata_filter = build_metadata_filter(parsed_query)
+	if metadata_filter:
+		filtered_matches = collection.query(
+			query_embeddings=[query_vector],
+			n_results=result_count,
+			where=metadata_filter,
+			include=["documents", "metadatas", "distances"],
+		)
+		if filtered_matches.get("ids") and filtered_matches["ids"][0]:
+			matches = filtered_matches
+		else:
+			matches = collection.query(
+				query_embeddings=[query_vector],
+				n_results=result_count,
+				include=["documents", "metadatas", "distances"],
+			)
+	else:
+		matches = collection.query(
+			query_embeddings=[query_vector],
+			n_results=result_count,
+			include=["documents", "metadatas", "distances"],
+		)
 
 	ids = matches["ids"][0]
 	documents = matches["documents"][0]

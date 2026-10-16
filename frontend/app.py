@@ -102,34 +102,6 @@ body, .gradio-container {
     padding: 24px 20px 18px;
 }
 
-#dex-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 18px;
-    margin: 0 0 18px;
-    padding: 18px 22px;
-    border: 1px solid var(--dex-line);
-    border-top: 4px solid var(--dex-red);
-    border-radius: 8px;
-    background: var(--dex-surface);
-    box-shadow: 0 5px 18px rgba(25, 40, 61, 0.05);
-}
-
-#dex-title {
-    margin: 0;
-    color: var(--dex-ink);
-    font-size: 30px;
-    font-weight: 800;
-    line-height: 1.1;
-}
-
-#dex-subtitle {
-    margin: 6px 0 0;
-    color: var(--dex-muted);
-    font-size: 15px;
-}
-
 #backend-status {
     flex: 0 0 auto;
 }
@@ -248,15 +220,6 @@ body, .gradio-container {
         padding: 12px 8px;
     }
 
-    #dex-header {
-        align-items: flex-start;
-        padding: 15px;
-    }
-
-    #dex-title {
-        font-size: 25px;
-    }
-
     #chat-panel {
         padding: 7px;
     }
@@ -306,41 +269,61 @@ html, body, .gradio-container {
 	padding: 18px 22px 24px;
 }
 
-#dex-header {
+/* Header-only reset: keep Gradio's HTML wrapper transparent and unframed. */
+#dex-header,
+#dex-header > div,
+#dex-header .html-container {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0 !important;
+	border: 0 !important;
+	border-radius: 0 !important;
+	background: transparent !important;
+	box-shadow: none !important;
+}
+
+/* Center the brand as one responsive group without adding a header card. */
+.dex-header-content {
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	gap: 14px;
-	margin: 0 0 18px;
-	padding: 2px 0 14px;
-	border-bottom: 1px solid var(--dex-line);
+	width: 100%;
+	margin: 0 auto 22px;
+	text-align: left;
 }
 
-#dex-mark {
+.dex-header-mark {
 	display: grid;
-	width: 42px;
-	height: 42px;
+	width: 44px;
+	height: 44px;
 	flex: 0 0 auto;
 	place-items: center;
-	border: 1px solid rgba(87, 167, 255, .35);
-	border-radius: 13px;
+	border-radius: 14px;
 	background: linear-gradient(145deg, #1c3963, #13233a);
 	color: var(--dex-blue-bright);
-	font-size: 23px;
-	box-shadow: 0 8px 24px rgba(28, 106, 190, .18);
+	font-size: 24px;
+	line-height: 1;
 }
 
-#dex-title {
+.dex-header-copy {
+	min-width: 0;
+}
+
+.dex-header-title {
 	margin: 0;
 	color: var(--dex-text);
-	font-size: 27px;
-	font-weight: 750;
-	line-height: 1.15;
+	font-size: 29px;
+	font-weight: 700;
+	letter-spacing: -0.035em;
+	line-height: 1.12;
 }
 
-#dex-subtitle {
-	margin: 4px 0 0;
+.dex-header-subtitle {
+	margin: 5px 0 0;
 	color: var(--dex-muted);
 	font-size: 14px;
+	line-height: 1.4;
 }
 
 #dex-tagline {
@@ -527,8 +510,24 @@ html, body, .gradio-container {
 }
 
 @media (max-width: 560px) {
-	#dex-title {
-		font-size: 23px;
+	.dex-header-content {
+		gap: 11px;
+		margin-bottom: 18px;
+	}
+
+	.dex-header-mark {
+		width: 38px;
+		height: 38px;
+		border-radius: 12px;
+		font-size: 21px;
+	}
+
+	.dex-header-title {
+		font-size: 24px;
+	}
+
+	.dex-header-subtitle {
+		font-size: 12px;
 	}
 
 	#main-layout {
@@ -538,6 +537,42 @@ html, body, .gradio-container {
 	#send-button {
 		min-width: 72px;
 	}
+}
+
+#feature-tabs {
+	background: transparent !important;
+}
+
+#feature-tabs .tab-nav {
+	border-bottom: 1px solid var(--dex-line) !important;
+}
+
+#feature-tabs .tab-nav button {
+	background: transparent !important;
+	color: var(--dex-muted) !important;
+}
+
+#feature-tabs .tab-nav button.selected {
+	border-color: var(--dex-blue) !important;
+	color: var(--dex-text) !important;
+}
+
+#recommend-query textarea,
+#team-query textarea,
+#team-input textarea {
+	border: 1px solid var(--dex-line) !important;
+	border-radius: 12px !important;
+	background: #111c2e !important;
+	color: var(--dex-text) !important;
+}
+
+#recommend-output,
+#team-output,
+#analysis-output {
+	border: 1px solid var(--dex-line) !important;
+	border-radius: 12px !important;
+	background: var(--dex-panel) !important;
+	color: var(--dex-text) !important;
 }
 """
 
@@ -645,6 +680,154 @@ def _return_example(question: str) -> str:
 	return question
 
 
+def _call_recommendation_api(
+	endpoint: str,
+	payload: dict[str, Any],
+) -> dict[str, Any]:
+	"""Call one recommendation endpoint and return its JSON or error detail."""
+	try:
+		response = requests.post(
+			f"{API_BASE_URL}/{endpoint}",
+			json=payload,
+			timeout=120,
+		)
+		try:
+			result = response.json()
+		except ValueError:
+			result = {}
+		if not response.ok:
+			detail = result.get("detail")
+			return {
+				"error": detail if isinstance(detail, str) else f"Request failed with HTTP {response.status_code}."
+			}
+		if isinstance(result, dict):
+			return result
+		return {"error": "The API returned an invalid response."}
+	except requests.RequestException as error:
+		return {"error": f"Unable to connect to the PokéDex AI backend: {error}"}
+
+
+def _format_error_response(response: dict[str, Any]) -> str | None:
+	"""Return a readable error when an API response contains one."""
+	error = response.get("error")
+	return f"**Request failed:** {error}" if error else None
+
+
+def _format_types(pokemon: dict[str, Any]) -> str:
+	"""Format a Pokémon's types as a slash-separated display string."""
+	types = pokemon.get("types") or []
+	return " / ".join(str(type_name) for type_name in types) or "Unknown"
+
+
+def _format_recommendations(response: dict[str, Any]) -> str:
+	"""Convert structured recommendation data into readable Markdown."""
+	if error := _format_error_response(response):
+		return error
+	items = response.get("recommendations") or []
+	if not items:
+		return "No matching Pokémon were found."
+	sections = ["## Recommended Pokémon"]
+	for index, pokemon in enumerate(items, start=1):
+		sections.append(f"### {index}. {pokemon.get('name', 'Unknown Pokémon')}\n**Type:** {_format_types(pokemon)}")
+		if pokemon.get("role"):
+			sections.append(f"**Role:** {pokemon['role']}")
+		reason = pokemon.get("reason") or "No recommendation reason was provided."
+		sections.append(f"**Reason:**\n{reason}")
+	return "\n\n".join(sections)
+
+
+def _format_team(response: dict[str, Any]) -> str:
+	"""Convert a generated team and its coverage summary into Markdown."""
+	if error := _format_error_response(response):
+		return error
+	team = response.get("team") or []
+	if not team:
+		return "No team could be generated."
+	sections = ["# Recommended Team"]
+	for index, pokemon in enumerate(team, start=1):
+		sections.append(
+			f"{index}. **{pokemon.get('name', 'Unknown Pokémon')}** "
+			f"({_format_types(pokemon)})\n"
+			f"Role: {pokemon.get('role', 'Role not specified')}\n\n"
+			f"Reason:\n{pokemon.get('reason') or 'No selection reason was provided.'}"
+		)
+	analysis = response.get("analysis") or {}
+	sections.append("## Team Summary")
+	for key, label in (("offensive_coverage", "Offensive coverage"), ("defensive_coverage", "Defensive coverage")):
+		values = analysis.get(key) or []
+		sections.append(f"- **{label}:** {', '.join(map(str, values)) or 'Not available'}")
+	for key, label in (("strengths", "Strengths"), ("weaknesses", "Weaknesses")):
+		values = analysis.get(key) or []
+		if not values:
+			values = ["None identified." if key == "weaknesses" else "Not available."]
+		sections.extend([f"- **{label}:**", *[f"  - {value}" for value in values]])
+	return "\n\n".join(sections)
+
+
+def _format_team_analysis(response: dict[str, Any]) -> str:
+	"""Convert structured team analysis into a concise Markdown report."""
+	if error := _format_error_response(response):
+		return error
+	rating = response.get("overall_rating") or {}
+	score = rating.get("score", 0)
+	rating_text = f"{float(score) / 10:.1f} / 10"
+	if rating.get("label"):
+		rating_text += f" ({rating['label']})"
+	sections = ["# Team Analysis", "## Overall Rating", rating_text]
+	team = response.get("team") or []
+	weaknesses = response.get("type_weaknesses") or {}
+	duplicate_weaknesses = response.get("duplicate_weaknesses") or {}
+	resistances = response.get("type_resistances") or {}
+	balance = response.get("offensive_balance") or {}
+	strengths = []
+	if team:
+		type_count = len({kind for pokemon in team for kind in pokemon.get("types", [])})
+		strengths.append(f"The team has {len(team)} Pokémon with {type_count} distinct types.")
+	if balance.get("label"):
+		strengths.append(str(balance["label"]))
+	if resistances:
+		strengths.append("Has resistances or immunities to " + ", ".join(sorted(resistances)) + ".")
+	if response.get("explanation"):
+		strengths.append(str(response["explanation"]))
+	sections.extend(["## Strengths", *[f"- {item}" for item in (strengths or ["No strengths were reported."])]] )
+	weakness_items = [f"{name}: {count} team member(s) are weak to this type." for name, count in weaknesses.items()]
+	sections.extend(["## Weaknesses", *[f"- {item}" for item in (weakness_items or ["No repeated type weaknesses were identified."])]] )
+	improvements = []
+	missing_roles = response.get("missing_roles") or []
+	if missing_roles:
+		improvements.append("Add a Pokémon that fills the missing role(s): " + ", ".join(missing_roles) + ".")
+	if duplicate_weaknesses:
+		improvements.append("Address repeated weaknesses to " + ", ".join(duplicate_weaknesses) + ".")
+	elif weaknesses:
+		improvements.append("Add defensive coverage for " + ", ".join(weaknesses) + ".")
+	sections.extend(["## Suggested Improvements", *[f"- {item}" for item in (improvements or ["No specific improvement was identified."])]] )
+	replacements = response.get("suggested_replacements") or []
+	replacement_lines = [
+		f"**{item.get('name', 'Unknown Pokémon')}** ({_format_types(item)}) — "
+		f"{item.get('reason') or 'Suggested as a team option.'}"
+		for item in replacements
+	]
+	sections.extend(["## Recommended Replacements", *[f"- {item}" for item in (replacement_lines or ["No replacements suggested."])]] )
+	return "\n\n".join(sections)
+
+
+def request_recommendations(query: str, limit: int) -> str:
+	"""Request recommendations and render the response as Markdown."""
+	return _format_recommendations(_call_recommendation_api(
+		"recommend", {"query": query, "limit": int(limit)}
+	))
+
+
+def request_team(query: str) -> str:
+	"""Request a team and render its members and summary as Markdown."""
+	return _format_team(_call_recommendation_api("team", {"query": query}))
+
+
+def request_team_analysis(team: str) -> str:
+	"""Request team analysis and render it as Markdown."""
+	return _format_team_analysis(_call_recommendation_api("analyze-team", {"team": team}))
+
+
 def build_app() -> gr.Blocks:
 	"""Create the PokéDex AI chat interface."""
 	stack_card = """
@@ -659,92 +842,154 @@ def build_app() -> gr.Blocks:
 """
 	with gr.Blocks(title="PokéDex AI") as demo:
 		with gr.Column(elem_id="page-shell"):
+			# Header-only markup: a transparent wrapper contains one centered brand group.
 			gr.HTML(
-				"<header id='dex-header'><div id='dex-mark'>⚡</div>"
-				"<div><h1 id='dex-title'>PokéDex AI</h1>"
-				"<p id='dex-subtitle'>Retrieval-Augmented Generation Assistant</p></div>"
-				"</header>"
+				"<header class='dex-header-content' role='banner'>"
+				"<span class='dex-header-mark' aria-hidden='true'>⚡</span>"
+				"<div class='dex-header-copy'>"
+				"<h1 class='dex-header-title'>PokéDex AI</h1>"
+				"<p class='dex-header-subtitle'>"
+				"Retrieval-Augmented Generation Assistant"
+				"</p></div></header>",
+				elem_id="dex-header",
+				container=False,
+				padding=False,
+				show_label=False,
 			)
-			with gr.Row(elem_id="main-layout"):
-				with gr.Column(scale=3, min_width=460, elem_id="chat-column"):
-					gr.Markdown(
-						"Ask questions about Pokémon, moves, abilities, "
-						"evolutions, and game mechanics.",
-						elem_id="dex-tagline",
-					)
-					chatbot = gr.Chatbot(
-						value=[{"role": "assistant", "content": WELCOME_MESSAGE}],
-						label=None,
-						show_label=False,
-						height=590,
-						layout="bubble",
-						elem_id="chat-window",
-					)
-					with gr.Row():
-						question_box = gr.Textbox(
-							placeholder="Ask about Pokémon...",
-							lines=2,
-							max_lines=5,
-							show_label=False,
-							container=False,
-							elem_id="question-box",
-						)
-						send_button = gr.Button(
-							"Send",
-							variant="primary",
-							elem_id="send-button",
-						)
-					with gr.Row():
-						new_chat_button = gr.Button(
-							"New Chat",
-							variant="secondary",
-							scale=0,
-							elem_id="new-chat-button",
-						)
-
-				with gr.Column(
-					scale=1,
-					min_width=270,
-					elem_id="sidebar",
-				):
-					knowledge_base_card = gr.HTML(
-						value=_knowledge_base_card(True)
-					)
-					with gr.Column(elem_classes="sidebar-card"):
-						gr.Markdown("### Example Questions")
-						for question in EXAMPLE_QUESTIONS:
-							button = gr.Button(
-								f"• {question}",
-								elem_classes="example-button",
+			with gr.Tabs(elem_id="feature-tabs"):
+				with gr.Tab("Ask Pokémon"):
+					with gr.Row(elem_id="main-layout"):
+						with gr.Column(scale=3, min_width=460, elem_id="chat-column"):
+							gr.Markdown(
+								"Ask questions about Pokémon, moves, abilities, "
+								"evolutions, and game mechanics.",
+								elem_id="dex-tagline",
 							)
-							button.click(
-								fn=partial(_return_example, question),
-								inputs=None,
-								outputs=question_box,
-								show_progress="hidden",
+							chatbot = gr.Chatbot(
+								value=[{"role": "assistant", "content": WELCOME_MESSAGE}],
+								label=None,
+								show_label=False,
+								height=590,
+								layout="bubble",
+								elem_id="chat-window",
 							)
-					gr.HTML(stack_card)
+							with gr.Row():
+								question_box = gr.Textbox(
+									placeholder="Ask about Pokémon...",
+									lines=2,
+									max_lines=5,
+									show_label=False,
+									container=False,
+									elem_id="question-box",
+								)
+								send_button = gr.Button(
+									"Send",
+									variant="primary",
+									elem_id="send-button",
+								)
+							with gr.Row():
+								new_chat_button = gr.Button(
+									"New Chat",
+									variant="secondary",
+									scale=0,
+									elem_id="new-chat-button",
+								)
 
-		send_outputs = [chatbot, question_box, knowledge_base_card]
-		send_event_options = {"show_progress": "minimal"}
-		send_button.click(
-			fn=submit_question,
-			inputs=[question_box, chatbot],
-			outputs=send_outputs,
-			**send_event_options,
-		)
-		question_box.submit(
-			fn=submit_question,
-			inputs=[question_box, chatbot],
-			outputs=send_outputs,
-			**send_event_options,
-		)
-		new_chat_button.click(
-			fn=reset_chat,
-			inputs=None,
-			outputs=send_outputs,
-			show_progress="hidden",
-		)
+						with gr.Column(
+							scale=1,
+							min_width=270,
+							elem_id="sidebar",
+						):
+							knowledge_base_card = gr.HTML(
+								value=_knowledge_base_card(True)
+							)
+							with gr.Column(elem_classes="sidebar-card"):
+								gr.Markdown("### Example Questions")
+								for question in EXAMPLE_QUESTIONS:
+									button = gr.Button(
+										f"• {question}",
+										elem_classes="example-button",
+									)
+									button.click(
+										fn=partial(_return_example, question),
+										inputs=None,
+										outputs=question_box,
+										show_progress="hidden",
+									)
+							gr.HTML(stack_card)
+
+				with gr.Tab("Recommend Pokémon"):
+					gr.Markdown("Filter and rank Pokémon using types, stats, abilities, and species data.")
+					recommend_query = gr.Textbox(
+						label="Recommendation request",
+						placeholder="Recommend a fast Electric Pokémon",
+						lines=2,
+						elem_id="recommend-query",
+					)
+					recommend_limit = gr.Slider(
+						minimum=1, maximum=10, value=5, step=1,
+						label="Number of recommendations",
+					)
+					recommend_button = gr.Button("Recommend Pokémon", variant="primary")
+					recommend_output = gr.Markdown(elem_id="recommend-output")
+					recommend_button.click(
+						fn=request_recommendations,
+						inputs=[recommend_query, recommend_limit],
+						outputs=recommend_output,
+					)
+
+				with gr.Tab("Team Builder"):
+					gr.Markdown("Build a six-Pokémon team from the selected generation's structured dataset.")
+					team_query = gr.Textbox(
+						label="Team request",
+						placeholder="Build a balanced Generation I team without legendary Pokémon",
+						lines=2,
+						elem_id="team-query",
+					)
+					team_button = gr.Button("Build Team", variant="primary")
+					team_output = gr.Markdown(elem_id="team-output")
+					team_button.click(
+						fn=request_team,
+						inputs=team_query,
+						outputs=team_output,
+					)
+
+				with gr.Tab("Team Analyzer"):
+					gr.Markdown("Paste one Pokémon name per line or separate names with commas (up to six).")
+					team_input = gr.Textbox(
+						label="Your team",
+						placeholder="Charizard\nLapras\nJolteon\nSnorlax\nGengar\nExeggutor",
+						lines=8,
+						elem_id="team-input",
+					)
+					analysis_button = gr.Button("Analyze Team", variant="primary")
+					analysis_output = gr.Markdown(elem_id="analysis-output")
+					analysis_button.click(
+						fn=request_team_analysis,
+						inputs=team_input,
+						outputs=analysis_output,
+					)
+
+			send_outputs = [chatbot, question_box, knowledge_base_card]
+			send_event_options = {"show_progress": "minimal"}
+			send_button.click(
+				fn=submit_question,
+				inputs=[question_box, chatbot],
+				outputs=send_outputs,
+				**send_event_options,
+			)
+			question_box.submit(
+				fn=submit_question,
+				inputs=[question_box, chatbot],
+				outputs=send_outputs,
+				**send_event_options,
+			)
+			new_chat_button.click(
+				fn=reset_chat,
+				inputs=None,
+				outputs=send_outputs,
+				show_progress="hidden",
+			)
 
 	return demo
 
